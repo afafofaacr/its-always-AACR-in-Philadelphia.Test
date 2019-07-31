@@ -1,0 +1,33 @@
+[11272:10060:0731/143942.753:WARNING:chrome_command_line_pref_store.cc(122)] Additional command-line proxy switches specified when --no-proxy-server was also specified.
+[11272:10060:0731/143942.764:WARNING:chrome_command_line_pref_store.cc(122)] Additional command-line proxy switches specified when --no-proxy-server was also specified.
+[11272:10060:0731/143942.872:WARNING:chrome_command_line_pref_store.cc(122)] Additional command-line proxy switches specified when --no-proxy-server was also specified.
+[11272:3764:0731/143943.686:WARNING:leveldb_database.cc(106)] Unable to open C:\Users\laura.perry\OneDrive - American Association for Cancer Res\Documents\GitHub\its-always-AACR-in-Philadelphia.Test\.chromeProfiles\profile0\Default\shared_proto_db: Invalid argument: C:\Users\laura.perry\OneDrive - American Association for Cancer Res\Documents\GitHub\its-always-AACR-in-Philadelphia.Test\.chromeProfiles\profile0\Default\shared_proto_db: does not exist (create_if_missing is false)
+[11272:10060:0731/143944.268:INFO:CONSOLE(950)] "Got platform info.  os: win", source: chrome-extension://phpjcfplfejpaodinhlolbgibdabfkhe/BS.js (950)
+[11272:10060:0731/143944.271:INFO:CONSOLE(972)] "Got first tab: ", source: chrome-extension://phpjcfplfejpaodinhlolbgibdabfkhe/BS.js (972)
+[11272:10060:0731/143944.271:INFO:CONSOLE(974)] "Refreshing first tab ...", source: chrome-extension://phpjcfplfejpaodinhlolbgibdabfkhe/BS.js (974)
+[11272:10060:0731/143945.342:INFO:CONSOLE(1561)] "INIT    === Start of processExistingTabs.  refresh: false", source: chrome-extension://phpjcfplfejpaodinhlolbgibdabfkhe/BS.js (1561)
+[11272:10060:0731/143945.343:INFO:CONSOLE(1561)] "INIT    === Start of processExistingTabs.  refresh: true", source: chrome-extension://phpjcfplfejpaodinhlolbgibdabfkhe/BS.js (1561)
+[11272:10060:0731/143945.357:INFO:CONSOLE(1563)] "INIT    === chrome.tabs.query result.  tabs.length: 1", source: chrome-extension://phpjcfplfejpaodinhlolbgibdabfkhe/BS.js (1563)
+[11272:10060:0731/143945.357:INFO:CONSOLE(1569)] "INIT    === Got pre-exiting tab.  i:  0, tabId: 2, url: file:///C:/Users/LAURA~1.PER/AppData/Local/Temp/ProvarChromeIde3570582710153965965/provarPort=60364&idePort=60388&sessionId=2&subSessionId=2&connectionName=LP_UAT:LP_UAT&devMode=false&showEnhancedXpathEditor=true&dmwAttempt=0&dmwCloseTimeInSec=2000.html, existingTab: undefined", source: chrome-extension://phpjcfplfejpaodinhlolbgibdabfkhe/BS.js (1569)
+[11272:10060:0731/143945.365:INFO:CONSOLE(1577)] "INIT    === Created connectionDetails for new tab", source: chrome-extension://phpjcfplfejpaodinhlolbgibdabfkhe/BS.js (1577)
+[11272:10060:0731/143945.365:INFO:CONSOLE(1581)] "INIT    === Set focused tab.  focusedTabId: 2", source: chrome-extension://phpjcfplfejpaodinhlolbgibdabfkhe/BS.js (1581)
+[11272:10060:0731/143945.365:INFO:CONSOLE(1563)] "INIT    === chrome.tabs.query result.  tabs.length: 1", source: chrome-extension://phpjcfplfejpaodinhlolbgibdabfkhe/BS.js (1563)
+[11272:10060:0731/143945.365:INFO:CONSOLE(1569)] "INIT    === Got pre-exiting tab.  i:  0, tabId: 2, url: file:///C:/Users/LAURA~1.PER/AppData/Local/Temp/ProvarChromeIde3570582710153965965/provarPort=60364&idePort=60388&sessionId=2&subSessionId=2&connectionName=LP_UAT:LP_UAT&devMode=false&showEnhancedXpathEditor=true&dmwAttempt=0&dmwCloseTimeInSec=2000.html, existingTab: [object Object]", source: chrome-extension://phpjcfplfejpaodinhlolbgibdabfkhe/BS.js (1569)
+[11272:10060:0731/143945.421:INFO:CONSOLE(1993)] "PROVAR CLIENT OPEN----->", source: chrome-extension://phpjcfplfejpaodinhlolbgibdabfkhe/BS.js (1993)
+[11272:10060:0731/143945.431:INFO:CONSOLE(1124)] "Sending request to Provar to get strategies", source: chrome-extension://phpjcfplfejpaodinhlolbgibdabfkhe/BS.js (1124)
+[11272:10060:0731/143945.511:INFO:CONSOLE(2042)] "dispatchMessage - resolving response: ", source: chrome-extension://phpjcfplfejpaodinhlolbgibdabfkhe/BS.js (2042)
+[11272:10060:0731/143945.685:INFO:CONSOLE(1738)] "IDE CLIENT OPEN----->", source: chrome-extension://phpjcfplfejpaodinhlolbgibdabfkhe/BS.js (1738)
+[11272:10060:0731/143950.308:INFO:CONSOLE(1561)] "INIT    === Start of processExistingTabs.  refresh: true", source: chrome-extension://phpjcfplfejpaodinhlolbgibdabfkhe/BS.js (1561)
+[11272:10060:0731/143950.309:INFO:CONSOLE(1563)] "INIT    === chrome.tabs.query result.  tabs.length: 1", source: chrome-extension://phpjcfplfejpaodinhlolbgibdabfkhe/BS.js (1563)
+[11272:10060:0731/143950.309:INFO:CONSOLE(1569)] "INIT    === Got pre-exiting tab.  i:  0, tabId: 2, url: https://aacr--uat.lightning.force.com/one/one.app, existingTab: [object Object]", source: chrome-extension://phpjcfplfejpaodinhlolbgibdabfkhe/BS.js (1569)
+[11272:10060:0731/143953.950:INFO:CONSOLE(32)] "[object Object]", source: https://aacr--uat.lightning.force.com/libraries/instrumentation/beaconLib/BeaconLibrary.js (32)
+[11272:10060:0731/144008.144:INFO:CONSOLE(82)] "Synchronous XMLHttpRequest on the main thread is deprecated because of its detrimental effects to the end user's experience. For more help, check https://xhr.spec.whatwg.org/.", source: https://c1.sfdcstatic.com/etc.clientlibs/clientlibs/granite/jquery/granite.min.a6c15d5e8643e4b9e6a6845ada2e7a36.js (82)
+[11272:10060:0731/144008.198:INFO:CONSOLE(660)] "getJSON Failed", source: https://c1.sfdcstatic.com/etc/clientlibs/sfdc-www/clientlibs_sfdc_forms.min.c31842f63c784febec66a19a275b50a1.js (660)
+[11272:10060:0731/144008.885:INFO:CONSOLE(0)] "Error handling response: TypeError: Cannot read property 'sendMessage' of null
+    at IdeSocketClient.send (chrome-extension://phpjcfplfejpaodinhlolbgibdabfkhe/BS.js:570:27)
+    at chrome-extension://phpjcfplfejpaodinhlolbgibdabfkhe/BS.js:1429:38", source: chrome-extension://phpjcfplfejpaodinhlolbgibdabfkhe/_generated_background_page.html (0)
+[11272:10060:0731/144009.127:INFO:CONSOLE(0)] "Error handling response: TypeError: Cannot read property 'sendMessage' of null
+    at IdeSocketClient.send (chrome-extension://phpjcfplfejpaodinhlolbgibdabfkhe/BS.js:570:27)
+    at chrome-extension://phpjcfplfejpaodinhlolbgibdabfkhe/BS.js:1429:38", source: chrome-extension://phpjcfplfejpaodinhlolbgibdabfkhe/_generated_background_page.html (0)
+[11272:10060:0731/144011.686:INFO:CONSOLE(982)] "Tab Closed.  tabId: 2", source: chrome-extension://phpjcfplfejpaodinhlolbgibdabfkhe/BS.js (982)
+[11272:10060:0731/144011.686:INFO:CONSOLE(1464)] "Tab Closed.  tabId: 2", source: chrome-extension://phpjcfplfejpaodinhlolbgibdabfkhe/BS.js (1464)
