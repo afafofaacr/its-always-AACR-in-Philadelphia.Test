@@ -1,0 +1,444 @@
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html class="ext-strict" style="display:none !important;"><head><script src="/static/111213/js/perf/stub.js"></script>
+<title>New User ~ Salesforce - Enterprise Edition</title><link href="/sCSS/46.0/sprites/1562794536000/Theme3/default/gc/zen-componentsCompatible.css" rel="stylesheet" type="text/css"/><link href="/sCSS/46.0/sprites/1562794536000/Theme3/default/gc/elements.css" rel="stylesheet" type="text/css"/><link href="/sCSS/46.0/sprites/1562794536000/Theme3/default/gc/common.css" rel="stylesheet" type="text/css"/><link href="/sCSS/46.0/sprites/1562794536000/Theme3/default/gc/setup.css" rel="stylesheet" type="text/css"/><link href="/sCSS/46.0/sprites/1562794536000/Theme3/default/gc/ChatterFiles.css" rel="stylesheet" type="text/css"/><link href="/sCSS/46.0/sprites/1562794536000/Theme3/default/gc/chatterCore.css" rel="stylesheet" type="text/css"/><link href="/sCSS/46.0/sprites/1562794536000/Theme3/default/gc/chatterExtended.css" rel="stylesheet" type="text/css"/><link href="/sCSS/46.0/sprites/1562794536000/Theme3/default/gc/DedupeCSS.css" rel="stylesheet" type="text/css"/><link href="/sCSS/46.0/sprites/1563511304000/Theme3/gc/dStandard.css" rel="stylesheet" type="text/css"/><link href="/sCSS/46.0/sprites/1563511304000/Theme3/00D7A0000000UdE/0057A0000025EHo/gc/dCustom0.css" rel="stylesheet" type="text/css"/><link href="/sCSS/46.0/sprites/1563511304000/Theme3/00D7A0000000UdE/0057A0000025EHo/gc/dCustom1.css" rel="stylesheet" type="text/css"/><link href="/sCSS/46.0/sprites/1563511304000/Theme3/00D7A0000000UdE/0057A0000025EHo/gc/dCustom2.css" rel="stylesheet" type="text/css"/><link href="/sCSS/46.0/sprites/1562794536000/Theme3/default/gc/extended.css" rel="stylesheet" type="text/css"/><link href="/sCSS/46.0/sprites/1562794536000/Theme3/default/gc/DesktopFrameCommon.css" rel="stylesheet" type="text/css"/><link href="/sCSS/46.0/sprites/1562794536000/Theme3/default/gc/AuraAlohaSetupContentFrame.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript">
+//<![CDATA[
+try{(function(){var w=self,l,d,i,o,n,h,f=['aacr--uat.lightning.force.com'],a=document.createElement('a');if(w&&(l=w.location)&&(o=l.ancestorOrigins)&&(d=w.document)){for(i=0,n=o.length;i<n;i++){h=o[i];if(h){a.href=h;if(l.protocol!==a.protocol||(l.host!==a.host&&d.domain!==a.host&&f.indexOf(a.host)<0))throw "";}}}({f:function(){document.documentElement?document.documentElement.style.display="":(!this.a&&(this.a=10),this.a<1E5&&(window.sfdcRetryShowWindow=this)&&setTimeout("sfdcRetryShowWindow.f()",this.a),this.a*=2)}}.f())})();}catch(e){if(top!==self)top.location=location;else throw e;}//]]></script><script type="text/javascript">
+window.sfdcExternalNavigationWithWarning = function(url) {
+    var target = '/servlet/servlet.ExternalRedirect?url=' + encodeURIComponent(url);
+    blankshield.open(target);
+};</script>
+<script src="/EXT/ext-3.0.0/ext-core.js"></script><script src="/jslibrary/1563548460220/sfdc/main.js"></script><script src="/jslibrary/jslabels/1564725324000/en_US.js"></script><script src="/sforce/one/46.0/api.js"></script><script src="/jslibrary/1560967074220/sfdc/AuraAlohaFrameNavigator.js"></script><script src="/jslibrary/1561744768220/sfdc/Chatter.js"></script><script src="/jslibrary/1553583056220/sfdc/DevContextMenu.js"></script><script src="/jslibrary/1553583056220/sfdc/User.js"></script><script>window.sfdcPage = new EditPage(null);
+UserContext.initialize({"ampm":["AM","PM"],"isAccessibleMode":false,"salesforceURL":"https://aacr--UAT.my.salesforce.com","dateFormat":"M/d/yyyy","language":"en_US","locale":"en_US","dateTimeFormat":"M/d/yyyy h:mm a","isGlobalEventBusPilotEnabled":false,"labelLastModified":"1564725324000","today":"8/2/2019 3:51 PM","userPreferences":[{"index":112,"name":"HideInlineEditSplash","value":false},{"index":114,"name":"OverrideTaskSendNotification","value":false},{"index":115,"name":"DefaultTaskSendNotification","value":false},{"index":119,"name":"HideUserLayoutStdFieldInfo","value":false},{"index":116,"name":"HideRPPWarning","value":false},{"index":87,"name":"HideInlineSchedulingSplash","value":false},{"index":88,"name":"HideCRUCNotification","value":false},{"index":89,"name":"HideNewPLESplash","value":false},{"index":90,"name":"HideNewPLEWarnIE6","value":false},{"index":122,"name":"HideOverrideSharingMessage","value":false},{"index":91,"name":"HideProfileILEWarn","value":false},{"index":93,"name":"HideProfileElvVideo","value":false},{"index":97,"name":"ShowPicklistEditSplash","value":false},{"index":92,"name":"HideDataCategorySplash","value":false},{"index":128,"name":"ShowDealView","value":false},{"index":129,"name":"HideDealViewGuidedTour","value":false},{"index":132,"name":"HideKnowledgeFirstTimeSetupMsg","value":false},{"index":104,"name":"DefaultOffEntityPermsMsg","value":false},{"index":135,"name":"HideNewCsnSplash","value":false},{"index":101,"name":"HideBrowserWarning","value":false},{"index":139,"name":"HideDashboardBuilderGuidedTour","value":false},{"index":140,"name":"HideSchedulingGuidedTour","value":false},{"index":180,"name":"HideReportBuilderGuidedTour","value":false},{"index":183,"name":"HideAssociationQueueCallout","value":false},{"index":194,"name":"HideQTEBanner","value":false},{"index":270,"name":"HideIDEGuidedTour","value":false},{"index":282,"name":"HideQueryToolGuidedTour","value":false},{"index":196,"name":"HideCSIGuidedTour","value":false},{"index":271,"name":"HideFewmetGuidedTour","value":false},{"index":272,"name":"HideEditorGuidedTour","value":false},{"index":205,"name":"HideApexTestGuidedTour","value":false},{"index":206,"name":"HideSetupProfileHeaderTour","value":false},{"index":207,"name":"HideSetupProfileObjectsAndTabsTour","value":false},{"index":213,"name":"DefaultOffArticleTypeEntityPermMsg","value":false},{"index":214,"name":"HideSelfInfluenceGetStarted","value":false},{"index":215,"name":"HideOtherInfluenceGetStarted","value":false},{"index":216,"name":"HideFeedToggleGuidedTour","value":false},{"index":268,"name":"ShowChatterTab178GuidedTour","value":false},{"index":275,"name":"HidePeopleTabDeprecationMsg","value":false},{"index":276,"name":"HideGroupTabDeprecationMsg","value":false},{"index":224,"name":"HideUnifiedSearchGuidedTour","value":false},{"index":226,"name":"ShowDevContextMenu","value":true},{"index":227,"name":"HideWhatRecommenderForActivityQueues","value":false},{"index":228,"name":"HideLiveAgentFirstTimeSetupMsg","value":false},{"index":232,"name":"HideGroupAllowsGuestsMsgOnMemberWidget","value":false},{"index":233,"name":"HideGroupAllowsGuestsMsg","value":false},{"index":234,"name":"HideWhatAreGuestsMsg","value":false},{"index":235,"name":"HideNowAllowGuestsMsg","value":false},{"index":236,"name":"HideSocialAccountsAndContactsGuidedTour","value":false},{"index":237,"name":"HideAnalyticsHomeGuidedTour","value":false},{"index":238,"name":"ShowQuickCreateGuidedTour","value":false},{"index":245,"name":"HideFilePageGuidedTour","value":false},{"index":250,"name":"HideForecastingGuidedTour","value":false},{"index":251,"name":"HideBucketFieldGuide","value":false},{"index":263,"name":"HideSmartSearchCallOut","value":false},{"index":273,"name":"ShowForecastingQuotaAttainment","value":false},{"index":280,"name":"HideForecastingQuotaColumn","value":false},{"index":301,"name":"HideManyWhoGuidedTour","value":false},{"index":298,"name":"HideFileSyncBannerMsg","value":false},{"index":299,"name":"HideTestConsoleGuidedTour","value":false},{"index":302,"name":"HideManyWhoInlineEditTip","value":false},{"index":303,"name":"HideSetupV2WelcomeMessage","value":false},{"index":312,"name":"ForecastingShowQuantity","value":false},{"index":313,"name":"HideDataImporterIntroMsg","value":false},{"index":314,"name":"HideEnvironmentHubLightbox","value":false},{"index":316,"name":"HideSetupV2GuidedTour","value":false},{"index":317,"name":"HideFileSyncMobileDownloadDialog","value":false},{"index":322,"name":"HideEnhancedProfileHelpBubble","value":false},{"index":328,"name":"ForecastingHideZeroRows","value":false},{"index":330,"name":"HideEmbeddedComponentsFeatureCallout","value":false},{"index":341,"name":"HideDedupeMatchResultCallout","value":false},{"index":340,"name":"HideS1BrowserUI","value":false},{"index":346,"name":"HideS1Banner","value":false},{"index":358,"name":"HideEmailVerificationAlert","value":false},{"index":354,"name":"HideLearningPathModal","value":false},{"index":359,"name":"HideAtMentionsHelpBubble","value":false},{"index":368,"name":"LightningExperiencePreferred","value":true},{"index":373,"name":"PreviewLightning","value":false}],"networkId":"","uiTheme":"Theme4u","uiSkin":"Theme3","userName":"laura.perry@aacr.org.uat","userId":"0057A0000025EHo","isCurrentlySysAdminSU":false,"renderMode":"RETRO","startOfWeek":"1","vfDomainPattern":"aacr--UAT--(?:[^.]+).cs44.visual.force.com","auraDomain":"aacr--UAT.lightning.force.com","orgPreferences":[{"index":257,"name":"TabOrganizer","value":true},{"index":113,"name":"GroupTasks","value":true}],"siteUrlPrefix":"","isDefaultNetwork":true,"timeFormat":"h:mm a"});
+</script><script type="text/javascript">
+var MOTIF_KEY='Setup';</script><script>try{DynamicCss.addCssUrl("/sCSS/46.0/sprites/1562794536000/Theme3/default/gc/zen-componentsCompatible.css")}catch(e){}
+try{DynamicCss.addCssUrl("/sCSS/46.0/sprites/1562794536000/Theme3/default/gc/elements.css")}catch(e){}
+try{DynamicCss.addCssUrl("/sCSS/46.0/sprites/1562794536000/Theme3/default/gc/common.css")}catch(e){}
+try{DynamicCss.addCssUrl("/sCSS/46.0/sprites/1562794536000/Theme3/default/gc/setup.css")}catch(e){}
+try{DynamicCss.addCssUrl("/sCSS/46.0/sprites/1562794536000/Theme3/default/gc/ChatterFiles.css")}catch(e){}
+try{DynamicCss.addCssUrl("/sCSS/46.0/sprites/1562794536000/Theme3/default/gc/chatterCore.css")}catch(e){}
+try{DynamicCss.addCssUrl("/sCSS/46.0/sprites/1562794536000/Theme3/default/gc/chatterExtended.css")}catch(e){}
+try{DynamicCss.addCssUrl("/sCSS/46.0/sprites/1562794536000/Theme3/default/gc/DedupeCSS.css")}catch(e){}
+try{DynamicCss.addCssUrl("/sCSS/46.0/sprites/1563511304000/Theme3/gc/dStandard.css")}catch(e){}
+try{DynamicCss.addCssUrl("/sCSS/46.0/sprites/1563511304000/Theme3/00D7A0000000UdE/0057A0000025EHo/gc/dCustom0.css")}catch(e){}
+try{DynamicCss.addCssUrl("/sCSS/46.0/sprites/1563511304000/Theme3/00D7A0000000UdE/0057A0000025EHo/gc/dCustom1.css")}catch(e){}
+try{DynamicCss.addCssUrl("/sCSS/46.0/sprites/1563511304000/Theme3/00D7A0000000UdE/0057A0000025EHo/gc/dCustom2.css")}catch(e){}
+try{DynamicCss.addCssUrl("/sCSS/46.0/sprites/1562794536000/Theme3/default/gc/extended.css")}catch(e){}
+try{DynamicCss.addCssUrl("/sCSS/46.0/sprites/1562794536000/Theme3/default/gc/DesktopFrameCommon.css")}catch(e){}
+try{DynamicCss.addCssUrl("/sCSS/46.0/sprites/1562794536000/Theme3/default/gc/AuraAlohaSetupContentFrame.css")}catch(e){}
+try{DynamicCss.doneLoading()}catch(e){}</script><meta http-equiv="Expires" content="Mon, 01 Jan 1990 12:00:00 GMT"><meta http-equiv="Cache-control" content="no-cache"><meta http-equiv="Cache-control" content="must-revalidate"><meta http-equiv="Cache-control" content="max-age=0"><script>window.pl = window.pl || {};</script><script src="/static/111213/js/picklist4.js"></script><script>pl.noneLabel="--None--";
+pl.naLabel="\*\*Not Applicable\*\*";
+pl.selectedLabel="Chosen";
+pl.availableLabel="Available";</script><link rel="shortcut icon" href="https://aacr--UAT.my.salesforce.com/favicon.ico" />
+<script src="/jslibrary/1553583056220/sfdc/Security.js"></script><script>ClientHash.prototype.needsClientHash('sid_Client','A0000025EHoA0000000UdE','64.47.143.62','/servlet/servlet.ClientHashValidator?ResponseRequestedURL=%2F005%2Fe%3FisUserEntityOverride%3D1%26ut%3Dc%26retURL%3D%252F0037A00000OQCOXQA5%26cntc%3D0037A00000OQCOXQA5%26name_firstName%3DJaniquaJYUIR0EBO8%26name_lastName%3DTestJYUIR0EH1A%26Alias%3Djtest%26MobilePhone%3D909-909-9090%26Addressstreet%3DCentro%2BComercial%2BLa%2BLoma%2BCtra.%2BBailen%2B-Motril%252C%2BKM%2B37.5%252C%2BJa%25C3%25A9n%252C%2B23009%26Addresscity%3DJa%25C3%25A9n%26Addresscountry%3DES%26Email%3Djtestjyuir0eh1ajyuissai3w%2540yopmail.com%26Username%3Djtestjyuir0eh1ajyuissai3w%2540yopmail.com%26CommunityNickname%3Djtestjyuir0eh1ajyuissai3w%26appLayout%3Dsetup%26tour%3D%26isdtp%3Dp1%26sfdcIFrameOrigin%3Dhttps%253A%252F%252Faacr--uat.lightning.force.com%26sfdcIFrameHost%3Dweb%26nonce%3D41257d372f811a7ab4c34372d8ceea45997a1583b95b633eff13876f34470e63%26ltn_app_id%3D06m1I000000ioHrQAI%26clc%3D1');</script></head><body onUnload="if(this.bodyOnUnload)bodyOnUnload();" onBeforeUnload="if(this.bodyOnBeforeUnload){var s=bodyOnBeforeUnload();if(s)return s;}" onLoad="if(this.bodyOnLoad)bodyOnLoad();" class="hasMotif setupTab  editPage  ext-webkit ext-chrome sfdcBody brandQuaternaryBgr " onFocus="if(this.bodyOnFocus)bodyOnFocus();">
+<!-- Main Body Starts Here -->
+<a name="skiplink"><img src="/img/s.gif" height='1' width='1' alt="Content Starts Here" class="skiplink skipLinkTargetInner zen-skipLinkTarget" title="Content Starts Here"/></a><div class="bPageTitle"><div class="ptBody"><div class="content"><img src="/img/s.gif" alt=""  class="pageTitleIcon" title=""/><h1 class="noSecondHeader pageType">New User</h1><div class="blank">&nbsp;</div></div><div class="links"><a href="javascript:openPopupFocusEscapePounds(%27https://help.salesforce.com/apex/htdoor?loc=help&amp;target=adding_new_users.htm&amp;section=User_Management&amp;language=en_US&amp;release=220.16.1&amp;instance=CS44%27, %27Help%27, 1024, 768, %27width=1024,height=768,resizable=yes,toolbar=yes,status=yes,scrollbars=yes,menubar=yes,directories=no,location=yes,dependant=no%27, false, false);" title="Help for this Page (New Window)"><span  class="helpLink">Help for this Page</span><img src="/img/s.gif" alt=""  class="helpIcon"/></a></div></div><div class="ptBreadcrumb"></div></div><script type="text/javascript">
+function changeActive() {
+var active = document.getElementsByName('active')[0].checked;
+if (!active) alert('Deactivating users removes them from all delegated groups and sharing privileges. The following page prompts you to remove this user from any teams. You can still transfer this user\'s records to an active user and view the user\'s name under Manage Users.');
+}
+function changeUserLicense(oldVal, newVal) {
+  if (newVal != oldVal) {
+    alert('Warning: Changing this user\'s license will also remove any permission sets and permission set licenses that are assigned to this user. A welcome email from the community will be sent to new community users, regardless of their preferences.');
+  }
+}
+function litePortalUserUpgrade(oldVal, newVal) {
+  if (newVal != oldVal) {
+    alert('Warning: License updates remove any permission sets and permission set licenses that are assigned to this user. In addition, upgrading a user to a role-based license is irreversible. Ensure that the user\'s new license, profile, and permissions are set up to meet their business needs. For more details, refer to the Communities help documentation. A welcome email from the community will be sent to new community users, regardless of their preferences.');
+  }
+}
+
+</script>
+<script src="/static/111213/js/picklist4.js"></script><script src="/servlet/servlet.picklist?e=User&amp;h=Un6%2FQ%2Bw%2BLIPuo47mbERfx28qtsKz28Xe9SrxmQVT0AU%3D&amp;v=1542299859000&amp;layout=00h1I000002Y5LB&amp;mo=EDITLOAD&amp;esc=HTML&amp;isdtp=p1&amp;l=en_US&amp;pr=1.29&amp;t=0"></script><script>pl.vals_Profile=['00e1I000001Rt2n','Customer Community Login User','00e1I000001Rt2x','Fonteva Customer Community Login User'];
+pl.map_Profile={'1001I0000014QSN':'wAAA'};
+</script><script>pl.vals_UserRole=[];
+pl.map_UserRole={};
+</script><form  accept-charset="UTF-8" action="/005/e?isUserEntityOverride=1&amp;isdtp=p1" enctype="application/x-www-form-urlencoded" id="editPage" method="post" name="editPage" onsubmit="if (window.ffInAlert) { return false; }if (window.sfdcPage && window.sfdcPage.disableSaveButtons) { return window.sfdcPage.disableSaveButtons(); }" ><input type="hidden" name="_CONFIRMATIONTOKEN" id="_CONFIRMATIONTOKEN" value="VmpFPSxNakF4T1Mwd09DMHdOVlF4T1RvMU1Ub3lOQzR4TXpCYSw5Tlp6cFRFMk05azV3eHlwQVV4aXNCLE1ESmpOelE0" /><input type="hidden" name="cancelURL" id="cancelURL" value="/0037A00000OQCOXQA5" /><input type="hidden" name="cntc" id="cntc" value="0037A00000OQCOXQA5" /><input type="hidden" name="isdtp" id="isdtp" value="p1" /><input type="hidden" name="retURL" id="retURL" value="/0037A00000OQCOXQA5" /><input type="hidden" name="save_new_url" id="save_new_url" value="/005/e?appLayout=setup&amp;retURL=%2F0037A00000OQCOXQA5&amp;Email=jtestjyuir0eh1ajyuissai3w%40yopmail.com&amp;ltn_app_id=06m1I000000ioHrQAI&amp;Addresscity=Ja%C3%A9n&amp;Addressstreet=Centro+Comercial+La+Loma+Ctra.+Bailen+-Motril%2C+KM+37.5%2C+Ja%C3%A9n%2C+23009&amp;isdtp=p1&amp;sfdcIFrameOrigin=https%3A%2F%2Faacr--uat.lightning.force.com&amp;nonce=41257d372f811a7ab4c34372d8ceea45997a1583b95b633eff13876f34470e63&amp;MobilePhone=909-909-9090&amp;name_lastName=TestJYUIR0EH1A&amp;tour=&amp;Addresscountry=ES&amp;CommunityNickname=jtestjyuir0eh1ajyuissai3w&amp;cntc=0037A00000OQCOXQA5&amp;Username=jtestjyuir0eh1ajyuissai3w%40yopmail.com&amp;Alias=jtest&amp;isUserEntityOverride=1&amp;sfdcIFrameHost=web&amp;clc=1&amp;name_firstName=JaniquaJYUIR0EBO8&amp;ut=c" /><input type="hidden" name="ut" id="ut" value="c" /><div class="bPageBlock brandSecondaryBrd bEditBlock secondaryPalette" id="ep"><div class="pbHeader"><table  border="0" cellpadding="0" cellspacing="0"><tr><td class="pbTitle"><img src="/img/s.gif" alt="" width="1" height="1" class="minWidth" title="" /><h2 class="mainTitle">User Edit</h2></td><td class="pbButton" id="topButtonRow"><input value=" Save "  class="btn" name="save" title="Save" type="submit" onclick="return confirm('If you’ve selected the option Send welcome email for any communities, new members to those communities will receive a welcome email message. But if you want to prevent those community members from receiving welcome email messages, just deselect the option Send welcome email.')" /> <input value="Cancel"  class="btn" name="cancel" title="Cancel" type="submit" /></td><td class="pbLinks"><a href="#accessibilityMode"><img src="/img/s.gif" height='1' width='1' alt="Skip to Accessibility Mode preference" class="skiplink skipLinkTargetInner zen-skipLinkTarget" title="Skip to Accessibility Mode preference"/></a></td></tr>
+</table></div><div class="pbBody"><div class="pbError" id="errorDiv_ep" style="display: none">Error: Invalid Data. <br/>Review all error messages below to correct your data.</div><div class="brandTertiaryBgr first pbSubheader tertiaryPalette" id="head_1_ep"><span class="pbSubExtra"><span class="requiredLegend brandTertiaryFgr"><span class="requiredExampleOuter"><span class="requiredExample">&nbsp;</span></span><span class="requiredMark">*</span><span  class="requiredText"> = Required Information</span></span></span><h3>General Information<span  class="titleSeparatingColon">:</span></h3></div><div class="pbSubsection"><table  class="detailList" border="0" cellpadding="0" cellspacing="0"><tr><td class="labelCol"><label for="name_firstName">First Name</label></td><td class="dataCol col02"><input  id="name_firstName" maxlength="40" name="name_firstName" size="20" tabindex="1" type="text" value="JaniquaJYUIR0EBO8" /></td><td class="labelCol requiredInput">User License</td><td class="dataCol"><div class="requiredInput"><div class="requiredBlock"></div>Customer Community Login<select  id="user_license_id" name="user_license_id" style="display: none" tabindex="15"><option value="1001I0000014QSN" selected="selected">Customer Community Login</option>
+</select></div></td></tr>
+<tr><td class="labelCol"><label for="name_middleName">Middle Name</label></td><td class="dataCol col02"><input  id="name_middleName" maxlength="40" name="name_middleName" size="20" tabindex="2" type="text" /></td><td class="labelCol requiredInput"><label for="Profile"><span class="assistiveText">*</span>Profile</label></td><td class="dataCol"><div class="requiredInput"><div class="requiredBlock"></div><span style="white-space:nowrap;"><span><select  id="Profile" name="Profile" tabindex="16">
+<option value="" selected="true">--None--</option>
+</select></span><div class="mouseOverInfoOuter" onfocus="addMouseOver(this)" onmouseover="addMouseOver(this)" tabindex="17"><img src="/img/s.gif" alt=""  class="infoIcon" title=""/><div class="mouseOverInfo" style="display:none;">Profiles contain settings and permissions, which control what users can do. The available profiles depend on which user license is selected.</div></div></span><script>new picklist('Profile','Profile','Profile','user_license_id',['',''],' id=\"Profile\" name=\"Profile\" tabindex=\"16\"',false,true);</script>
+</div></td></tr>
+<tr><td class="labelCol requiredInput"><label for="name_lastName"><span class="assistiveText">*</span>Last Name</label></td><td class="dataCol col02"><div class="requiredInput"><div class="requiredBlock"></div><input  id="name_lastName" maxlength="80" name="name_lastName" onchange="UserPage.setAlias('Alias', 'name_firstName', 'name_lastName')" size="20" tabindex="3" type="text" value="TestJYUIR0EH1A" /></div></td><td class="labelCol">Active</td><td class="dataCol"><img src="/img/checkbox_checked.gif" alt="Checked" width="21" height="16" class="checkImg" title="Checked" /></td></tr>
+<tr><td class="labelCol requiredInput"><label for="Alias"><span class="assistiveText">*</span>Alias</label></td><td class="dataCol col02"><div class="requiredInput"><div class="requiredBlock"></div><input  id="Alias" maxlength="8" name="Alias" size="20" tabindex="4" type="text" value="jtest" /></div></td><td class="labelCol"><label for="dev_context_menu">Quick Access Menu</label></td><td class="dataCol"><input  checked="checked" id="dev_context_menu" name="dev_context_menu" tabindex="18" type="checkbox" value="1" /></td></tr>
+<tr><td class="labelCol requiredInput"><label for="Email"><span class="assistiveText">*</span>Email</label></td><td class="dataCol col02"><div class="requiredInput"><div class="requiredBlock"></div><input  id="Email" maxlength="128" name="Email" onchange="UserPage.setUsername('Email', 'Username')" size="20" tabindex="5" type="text" value="jtestjyuir0eh1ajyuissai3w@yopmail.com" /></div></td><td class="labelCol"><label for="forecast_enabled">Allow Forecasting</label></td><td class="dataCol"><input  id="forecast_enabled" name="forecast_enabled" tabindex="19" type="checkbox" value="1" /></td></tr>
+<tr><td class="labelCol requiredInput"><label for="Username"><span class="assistiveText">*</span>Username</label></td><td class="dataCol col02"><div class="requiredInput"><div class="requiredBlock"></div><input  id="Username" maxlength="80" name="Username" onchange="UserPage.setCommNickname('CommunityNickname', 'Username')" size="20" tabindex="6" type="text" value="jtestjyuir0eh1ajyuissai3w@yopmail.com" /></div></td><td class="labelCol"><label for="Phone">Phone</label></td><td class="dataCol"><input  id="Phone" maxlength="40" name="Phone" onblur="formatPhone(this);" onkeydown="formatPhoneOnEnter(this, event);" size="20" tabindex="20" type="text" /></td></tr>
+<tr><td class="labelCol requiredInput"><label for="CommunityNickname"><span class="assistiveText">*</span>Nickname</label></td><td class="dataCol col02"><div class="requiredInput"><div class="requiredBlock"></div><input  id="CommunityNickname" maxlength="40" name="CommunityNickname" size="20" tabindex="9" type="text" value="jtestjyuir0eh1ajyuissai3w" />&nbsp;<div class="mouseOverInfoOuter" onfocus="addMouseOver(this)" onmouseover="addMouseOver(this)" tabindex="10"><img src="/img/s.gif" alt=""  class="infoIcon" title=""/><div class="mouseOverInfo" style="display:none;">Display name for users in online communities.</div></div></div></td><td class="labelCol"><label for="Extension">Extension</label></td><td class="dataCol"><input  id="Extension" maxlength="40" name="Extension" onblur="formatPhone(this);" onkeydown="formatPhoneOnEnter(this, event);" size="20" tabindex="21" type="text" /></td></tr>
+<tr><td class="labelCol"><label for="Title">Title</label></td><td class="dataCol col02"><input  id="Title" maxlength="80" name="Title" size="20" tabindex="11" type="text" /></td><td class="labelCol"><label for="Fax">Fax</label></td><td class="dataCol"><input  id="Fax" maxlength="40" name="Fax" onblur="formatPhone(this);" onkeydown="formatPhoneOnEnter(this, event);" size="20" tabindex="22" type="text" /></td></tr>
+<tr><td class="labelCol"><label for="CompanyName">Company</label></td><td class="dataCol col02"><input  id="CompanyName" maxlength="80" name="CompanyName" size="20" tabindex="12" type="text" /></td><td class="labelCol"><label for="MobilePhone">Mobile</label></td><td class="dataCol"><input  id="MobilePhone" maxlength="40" name="MobilePhone" onblur="formatPhone(this);" onkeydown="formatPhoneOnEnter(this, event);" size="20" tabindex="23" type="text" value="909-909-9090" /></td></tr>
+<tr><td class="labelCol"><label for="Department">Department</label></td><td class="dataCol col02"><input  id="Department" maxlength="80" name="Department" size="20" tabindex="13" type="text" /></td><td class="labelCol requiredInput"><label for="EmailEncodingKey"><span class="assistiveText">*</span>Email Encoding</label></td><td class="dataCol"><div class="requiredInput"><div class="requiredBlock"></div><select  id="EmailEncodingKey" name="EmailEncodingKey" tabindex="24"><option value="0">Unicode (UTF-8)</option>
+<option value="1" selected="selected">General US &amp; Western Europe (ISO-8859-1, ISO-LATIN-1)</option>
+<option value="2">Japanese (Shift-JIS)</option>
+<option value="3">Japanese (JIS)</option>
+<option value="4">Japanese (EUC)</option>
+<option value="5">Korean (ks_c_5601-1987)</option>
+<option value="6">Traditional Chinese (Big5)</option>
+<option value="7">Simplified Chinese (GB2312)</option>
+<option value="8">Traditional Chinese Hong Kong (Big5-HKSCS)</option>
+<option value="9">Japanese (Shift-JIS_2004)</option>
+</select></div></td></tr>
+<tr><td class="labelCol last empty">&nbsp;</td><td class="dataCol last col02 empty">&nbsp;</td><td class="last labelCol"><label for="IndividualUserPage">Individual</label></td><td class="last dataCol"><input type="hidden" name="IndividualUserPage_lkid" id="IndividualUserPage_lkid" value="000000000000000" /><input type="hidden" name="IndividualUserPage_lkold" id="IndividualUserPage_lkold" value="null" /><input type="hidden" name="IndividualUserPage_lktp" id="IndividualUserPage_lktp" value="0PK" /><input type="hidden" name="IndividualUserPage_lspf" id="IndividualUserPage_lspf" value="0" /><input type="hidden" name="IndividualUserPage_lspfsub" id="IndividualUserPage_lspfsub" value="0" /><input type="hidden" name="IndividualUserPage_mod" id="IndividualUserPage_mod" value="0" /><span class="lookupInput"><input  id="IndividualUserPage" maxlength="255" name="IndividualUserPage" onchange="getElementByIdCS('IndividualUserPage_lkid').value='';getElementByIdCS('IndividualUserPage_mod').value='1';" size="20" tabindex="25" type="text" /><a href="javascript:%20openLookup%28%27%2F_ui%2Fcommon%2Fdata%2FLookupPage%3Flkfm%3DeditPage%26lknm%3DIndividualUserPage%26lktp%3D%27%20%2B%20getElementByIdCS%28%27IndividualUserPage_lktp%27%29.value%2C670%2C%271%27%2C%27%26lksrch%3D%27%20%2B%20escapeUTF%28getElementByIdCS%28%27IndividualUserPage%27%29.value.substring%280%2C%2080%29%29%29" id="IndividualUserPage_lkwgt" onclick="setLastMousePosition(event)" tabindex="25" title="Individual Lookup (New Window)"><img src="/img/s.gif" alt="Individual Lookup (New Window)"  class="lookupIcon" onblur="this.className = 'lookupIcon';" onfocus="this.className = 'lookupIconOn';" onmouseout="this.className = 'lookupIcon';this.className = 'lookupIcon';" onmouseover="this.className = 'lookupIconOn';this.className = 'lookupIconOn';" title="Individual Lookup (New Window)"/></a></span></td></tr>
+</table></div><div class="pbSubheader brandTertiaryBgr tertiaryPalette" id="head_2_ep"><h3>Mailing Address<span  class="titleSeparatingColon">:</span></h3></div><div class="pbSubsection"><table  class="detailList" border="0" cellpadding="0" cellspacing="0"><tr><td class="labelCol"><label for="Addresscountry">Country</label></td><td class="dataCol col02"><span><select  id="Addresscountry" name="Addresscountry" tabindex="26">
+<option value="ES" selected="true">Spain</option>
+</select></span><script>new picklist('Addresscountry','64','64',null,['ES','Spain'],' id=\"Addresscountry\" name=\"Addresscountry\" tabindex=\"26\"',true,true);</script>
+</td><td class="labelCol empty">&nbsp;</td><td class="dataCol empty">&nbsp;</td></tr>
+<tr><td class="labelCol"><label for="Addressstreet">Street</label></td><td class="dataCol col02"><textarea  cols="27" id="Addressstreet" maxlength="255" name="Addressstreet" rows="2" tabindex="27" type="text" wrap="soft">Centro Comercial La Loma Ctra. Bailen -Motril, KM 37.5, Jaén, 23009</textarea></td><td class="labelCol last empty">&nbsp;</td><td class="dataCol last empty">&nbsp;</td></tr>
+<tr><td class="labelCol"><label for="Addresscity">City</label></td><td class="dataCol col02"><input  id="Addresscity" maxlength="40" name="Addresscity" size="20" tabindex="28" type="text" value="Jaén" /></td><td class="labelCol last empty">&nbsp;</td><td class="dataCol last empty">&nbsp;</td></tr>
+<tr><td class="labelCol"><label for="Addressstate">State/Province</label></td><td class="dataCol col02"><span style="white-space:nowrap;"><span><select  id="Addressstate" name="Addressstate" tabindex="29">
+<option value="" selected="true">--None--</option>
+</select></span><div class="mouseOverInfoOuter" onfocus="addMouseOver(this)" onmouseover="addMouseOver(this)" tabindex="30"><img src="/img/s.gif" alt=""  class="infoIcon" title=""/><div class="mouseOverInfo" style="display:none;">Depends on &quot;Country&quot;</div></div></span><script>new picklist('Addressstate','63','63','Addresscountry',['',''],' id=\"Addressstate\" name=\"Addressstate\" tabindex=\"29\"',true,true);</script>
+</td><td class="labelCol last empty">&nbsp;</td><td class="dataCol last empty">&nbsp;</td></tr>
+<tr><td class="last labelCol"><label for="Addresszip">Zip/Postal Code</label></td><td class="dataCol last col02"><input  id="Addresszip" maxlength="20" name="Addresszip" size="20" tabindex="31" type="text" /></td><td class="labelCol last empty">&nbsp;</td><td class="dataCol last empty">&nbsp;</td></tr>
+</table></div><div class="pbSubheader brandTertiaryBgr tertiaryPalette" id="head_3_ep"><h3>Single Sign On Information<span  class="titleSeparatingColon">:</span></h3></div><div class="pbSubsection"><table  class="detailList" border="0" cellpadding="0" cellspacing="0"><tr><td class="last labelCol"><label for="FederationIdentifier">Federation ID</label></td><td class="dataCol last col02"><input  id="FederationIdentifier" maxlength="512" name="FederationIdentifier" size="20" tabindex="32" type="text" /></td><td class="labelCol last empty">&nbsp;</td><td class="dataCol last empty">&nbsp;</td></tr>
+</table></div><div class="pbSubheader brandTertiaryBgr tertiaryPalette" id="head_4_ep"><h3>Additional Information<span  class="titleSeparatingColon">:</span></h3></div><div class="pbSubsection"><table  class="detailList" border="0" cellpadding="0" cellspacing="0"><tr><td class="labelCol last empty">&nbsp;</td><td class="dataCol last col02 empty">&nbsp;</td><td class="last labelCol"><span class="helpButton" id="User.00N1I00000NJO3n-_help"><label for="00N1I00000NJO3n">SSO Email</label><img src="/img/s.gif" alt=""  class="helpOrb" title=""/><script>sfdcPage.setHelp('User.00N1I00000NJO3n', '\*\*System Assigned\*\* Do not modify');</script></span></td><td class="last dataCol"><input  id="00N1I00000NJO3n" maxlength="80" name="00N1I00000NJO3n" size="20" tabindex="33" type="text" /></td></tr>
+</table></div><div class="pbSubheader brandTertiaryBgr tertiaryPalette" id="head_5_ep"><h3>Locale Settings<span  class="titleSeparatingColon">:</span></h3></div><div class="pbSubsection"><table  class="detailList" border="0" cellpadding="0" cellspacing="0"><tr><td class="labelCol requiredInput"><label for="TimeZoneSidKey"><span class="assistiveText">*</span>Time Zone</label></td><td class="data2Col" colspan="3"><div class="requiredInput"><div class="requiredBlock"></div><select  id="TimeZoneSidKey" name="TimeZoneSidKey" tabindex="34"><option value="80">(GMT+14:00) Line Islands Time (Pacific/Kiritimati)</option>
+<option value="76">(GMT+13:00) Phoenix Islands Time (Pacific/Enderbury)</option>
+<option value="84">(GMT+13:00) Tonga Standard Time (Pacific/Tongatapu)</option>
+<option value="75">(GMT+12:45) Chatham Standard Time (Pacific/Chatham)</option>
+<option value="31">(GMT+12:00) Petropavlovsk-Kamchatski Standard Time (Asia/Kamchatka)</option>
+<option value="74">(GMT+12:00) New Zealand Standard Time (Pacific/Auckland)</option>
+<option value="77">(GMT+12:00) Fiji Standard Time (Pacific/Fiji)</option>
+<option value="78">(GMT+11:00) Solomon Islands Time (Pacific/Guadalcanal)</option>
+<option value="82">(GMT+11:00) Norfolk Island Time (Pacific/Norfolk)</option>
+<option value="54">(GMT+10:30) Lord Howe Standard Time (Australia/Lord_Howe)</option>
+<option value="52">(GMT+10:00) Australian Eastern Standard Time (Australia/Brisbane)</option>
+<option value="56">(GMT+10:00) Australian Eastern Standard Time (Australia/Sydney)</option>
+<option value="51">(GMT+09:30) Australian Central Standard Time (Australia/Adelaide)</option>
+<option value="53">(GMT+09:30) Australian Central Standard Time (Australia/Darwin)</option>
+<option value="40">(GMT+09:00) Korean Standard Time (Asia/Seoul)</option>
+<option value="46">(GMT+09:00) Japan Standard Time (Asia/Tokyo)</option>
+<option value="27">(GMT+08:00) Hong Kong Standard Time (Asia/Hong_Kong)</option>
+<option value="34">(GMT+08:00) Malaysia Time (Asia/Kuala_Lumpur)</option>
+<option value="36">(GMT+08:00) Philippine Standard Time (Asia/Manila)</option>
+<option value="57">(GMT+08:00) China Standard Time (Asia/Shanghai)</option>
+<option value="41">(GMT+08:00) Singapore Standard Time (Asia/Singapore)</option>
+<option value="42">(GMT+08:00) Taipei Standard Time (Asia/Taipei)</option>
+<option value="55">(GMT+08:00) Australian Western Standard Time (Australia/Perth)</option>
+<option value="22">(GMT+07:00) Indochina Time (Asia/Bangkok)</option>
+<option value="39">(GMT+07:00) Indochina Time (Asia/Ho_Chi_Minh)</option>
+<option value="28">(GMT+07:00) Western Indonesia Time (Asia/Jakarta)</option>
+<option value="37">(GMT+06:30) Myanmar Time (Asia/Rangoon)</option>
+<option value="25">(GMT+06:00) Bangladesh Standard Time (Asia/Dhaka)</option>
+<option value="33">(GMT+05:45) Nepal Time (Asia/Kathmandu)</option>
+<option value="24">(GMT+05:30) India Standard Time (Asia/Colombo)</option>
+<option value="23">(GMT+05:30) India Standard Time (Asia/Kolkata)</option>
+<option value="32">(GMT+05:00) Pakistan Standard Time (Asia/Karachi)</option>
+<option value="43">(GMT+05:00) Uzbekistan Standard Time (Asia/Tashkent)</option>
+<option value="47">(GMT+05:00) Yekaterinburg Standard Time (Asia/Yekaterinburg)</option>
+<option value="30">(GMT+04:30) Afghanistan Time (Asia/Kabul)</option>
+<option value="45">(GMT+04:30) Iran Daylight Time (Asia/Tehran)</option>
+<option value="91">(GMT+04:00) Azerbaijan Standard Time (Asia/Baku)</option>
+<option value="26">(GMT+04:00) Gulf Standard Time (Asia/Dubai)</option>
+<option value="44">(GMT+04:00) Georgia Standard Time (Asia/Tbilisi)</option>
+<option value="93">(GMT+04:00) Armenia Standard Time (Asia/Yerevan)</option>
+<option value="3">(GMT+03:00) East Africa Time (Africa/Nairobi)</option>
+<option value="21">(GMT+03:00) Arabian Standard Time (Asia/Baghdad)</option>
+<option value="90">(GMT+03:00) Eastern European Summer Time (Asia/Beirut)</option>
+<option value="29">(GMT+03:00) Israel Daylight Time (Asia/Jerusalem)</option>
+<option value="35">(GMT+03:00) Arabian Standard Time (Asia/Kuwait)</option>
+<option value="38">(GMT+03:00) Arabian Standard Time (Asia/Riyadh)</option>
+<option value="59">(GMT+03:00) Eastern European Summer Time (Europe/Athens)</option>
+<option value="62">(GMT+03:00) Eastern European Summer Time (Europe/Bucharest)</option>
+<option value="64">(GMT+03:00) Eastern European Summer Time (Europe/Helsinki)</option>
+<option value="65">(GMT+03:00) Europe/Istanbul</option>
+<option value="68">(GMT+03:00) Moscow Standard Time (Europe/Minsk)</option>
+<option value="69">(GMT+03:00) Moscow Standard Time (Europe/Moscow)</option>
+<option value="1">(GMT+02:00) Eastern European Standard Time (Africa/Cairo)</option>
+<option value="2">(GMT+02:00) South Africa Standard Time (Africa/Johannesburg)</option>
+<option value="58">(GMT+02:00) Central European Summer Time (Europe/Amsterdam)</option>
+<option value="60">(GMT+02:00) Central European Summer Time (Europe/Berlin)</option>
+<option value="61">(GMT+02:00) Central European Summer Time (Europe/Brussels)</option>
+<option value="70">(GMT+02:00) Central European Summer Time (Europe/Paris)</option>
+<option value="71">(GMT+02:00) Central European Summer Time (Europe/Prague)</option>
+<option value="72">(GMT+02:00) Central European Summer Time (Europe/Rome)</option>
+<option value="88">(GMT+01:00) Central European Standard Time (Africa/Algiers)</option>
+<option value="92">(GMT+01:00) Western European Standard Time (Africa/Casablanca)</option>
+<option value="63">(GMT+01:00) Greenwich Mean Time (Europe/Dublin)</option>
+<option value="66">(GMT+01:00) Western European Summer Time (Europe/Lisbon)</option>
+<option value="67">(GMT+01:00) British Summer Time (Europe/London)</option>
+<option value="98">(GMT+00:00) East Greenland Summer Time (America/Scoresbysund)</option>
+<option value="94">(GMT+00:00) Azores Summer Time (Atlantic/Azores)</option>
+<option value="73">(GMT+00:00) Greenwich Mean Time (GMT)</option>
+<option value="49">(GMT-01:00) Cape Verde Standard Time (Atlantic/Cape_Verde)</option>
+<option value="50">(GMT-02:00) South Georgia Time (Atlantic/South_Georgia)</option>
+<option value="19">(GMT-02:30) Newfoundland Daylight Time (America/St_Johns)</option>
+<option value="6">(GMT-03:00) Argentina Standard Time (America/Argentina/Buenos_Aires)</option>
+<option value="10">(GMT-03:00) Atlantic Daylight Time (America/Halifax)</option>
+<option value="18">(GMT-03:00) Brasilia Standard Time (America/Sao_Paulo)</option>
+<option value="48">(GMT-03:00) Atlantic Daylight Time (Atlantic/Bermuda)</option>
+<option value="7">(GMT-04:00) Venezuela Time (America/Caracas)</option>
+<option value="85">(GMT-04:00) Eastern Daylight Time (America/Indiana/Indianapolis)</option>
+<option value="14" selected="selected">(GMT-04:00) Eastern Daylight Time (America/New_York)</option>
+<option value="17">(GMT-04:00) Atlantic Standard Time (America/Puerto_Rico)</option>
+<option value="87">(GMT-04:00) Chile Standard Time (America/Santiago)</option>
+<option value="5">(GMT-05:00) Colombia Standard Time (America/Bogota)</option>
+<option value="8">(GMT-05:00) Central Daylight Time (America/Chicago)</option>
+<option value="11">(GMT-05:00) Peru Standard Time (America/Lima)</option>
+<option value="13">(GMT-05:00) Central Daylight Time (America/Mexico_City)</option>
+<option value="15">(GMT-05:00) Eastern Standard Time (America/Panama)</option>
+<option value="9">(GMT-06:00) Mountain Daylight Time (America/Denver)</option>
+<option value="86">(GMT-06:00) Central Standard Time (America/El_Salvador)</option>
+<option value="100">(GMT-06:00) Mexican Pacific Daylight Time (America/Mazatlan)</option>
+<option value="12">(GMT-07:00) Pacific Daylight Time (America/Los_Angeles)</option>
+<option value="16">(GMT-07:00) Mountain Standard Time (America/Phoenix)</option>
+<option value="20">(GMT-07:00) Pacific Daylight Time (America/Tijuana)</option>
+<option value="4">(GMT-08:00) Alaska Daylight Time (America/Anchorage)</option>
+<option value="95">(GMT-08:00) Pitcairn Time (Pacific/Pitcairn)</option>
+<option value="97">(GMT-09:00) Hawaii-Aleutian Daylight Time (America/Adak)</option>
+<option value="96">(GMT-09:00) Gambier Time (Pacific/Gambier)</option>
+<option value="99">(GMT-09:30) Marquesas Time (Pacific/Marquesas)</option>
+<option value="79">(GMT-10:00) Hawaii-Aleutian Standard Time (Pacific/Honolulu)</option>
+<option value="81">(GMT-11:00) Niue Time (Pacific/Niue)</option>
+<option value="83">(GMT-11:00) Samoa Standard Time (Pacific/Pago_Pago)</option>
+</select></div></td></tr>
+<tr><td class="labelCol requiredInput"><label for="LocaleSidKey"><span class="assistiveText">*</span>Locale</label></td><td class="data2Col" colspan="3"><div class="requiredInput"><div class="requiredBlock"></div><select  id="LocaleSidKey" name="LocaleSidKey" tabindex="35"><option value="318">Afrikaans (South Africa)</option>
+<option value="150">Albanian (Albania)</option>
+<option value="193">Arabic (Algeria)</option>
+<option value="72">Arabic (Bahrain)</option>
+<option value="122">Arabic (Egypt)</option>
+<option value="194">Arabic (Iraq)</option>
+<option value="73">Arabic (Jordan)</option>
+<option value="74">Arabic (Kuwait)</option>
+<option value="75">Arabic (Lebanon)</option>
+<option value="195">Arabic (Libya)</option>
+<option value="196">Arabic (Morocco)</option>
+<option value="197">Arabic (Oman)</option>
+<option value="167">Arabic (Qatar)</option>
+<option value="76">Arabic (Saudi Arabia)</option>
+<option value="198">Arabic (Sudan)</option>
+<option value="199">Arabic (Syria)</option>
+<option value="200">Arabic (Tunisia)</option>
+<option value="71">Arabic (United Arab Emirates)</option>
+<option value="201">Arabic (Yemen)</option>
+<option value="97">Armenian (Armenia)</option>
+<option value="162">Azerbaijani (Azerbaijan)</option>
+<option value="166">Bangla (Bangladesh)</option>
+<option value="325">Bangla (India)</option>
+<option value="153">Basque (Spain)</option>
+<option value="168">Belarusian (Belarus)</option>
+<option value="140">Bosnian (Bosnia &amp; Herzegovina)</option>
+<option value="77">Bulgarian (Bulgaria)</option>
+<option value="290">Burmese (Myanmar (Burma))</option>
+<option value="30">Catalan (Spain)</option>
+<option value="189">Chinese (China, Pinyin Ordering)</option>
+<option value="186">Chinese (China, Stroke Ordering)</option>
+<option value="21">Chinese (China)</option>
+<option value="188">Chinese (Hong Kong SAR China, Stroke Ordering)</option>
+<option value="62">Chinese (Hong Kong SAR China)</option>
+<option value="172">Chinese (Macau SAR China)</option>
+<option value="173">Chinese (Singapore)</option>
+<option value="187">Chinese (Taiwan, Stroke Ordering)</option>
+<option value="27">Chinese (Taiwan)</option>
+<option value="96">Croatian (Croatia)</option>
+<option value="32">Czech (Czechia)</option>
+<option value="4">Danish (Denmark)</option>
+<option value="293">Dutch (Aruba)</option>
+<option value="22">Dutch (Belgium)</option>
+<option value="23">Dutch (Netherlands)</option>
+<option value="105">Dutch (Suriname)</option>
+<option value="262">Dzongkha (Bhutan)</option>
+<option value="271">English (Antigua &amp; Barbuda)</option>
+<option value="37">English (Australia)</option>
+<option value="276">English (Bahamas)</option>
+<option value="78">English (Barbados)</option>
+<option value="298">English (Belize)</option>
+<option value="79">English (Bermuda)</option>
+<option value="275">English (Botswana)</option>
+<option value="302">English (Cameroon)</option>
+<option value="3">English (Canada)</option>
+<option value="257">English (Cayman Islands)</option>
+<option value="269">English (Eritrea)</option>
+<option value="267">English (Falkland Islands)</option>
+<option value="279">English (Fiji)</option>
+<option value="301">English (Gambia)</option>
+<option value="80">English (Ghana)</option>
+<option value="272">English (Gibraltar)</option>
+<option value="304">English (Guyana)</option>
+<option value="202">English (Hong Kong SAR China)</option>
+<option value="127">English (India)</option>
+<option value="81">English (Indonesia)</option>
+<option value="10">English (Ireland)</option>
+<option value="282">English (Jamaica)</option>
+<option value="292">English (Kenya)</option>
+<option value="296">English (Liberia)</option>
+<option value="283">English (Madagascar)</option>
+<option value="268">English (Malawi)</option>
+<option value="135">English (Malaysia)</option>
+<option value="297">English (Mauritius)</option>
+<option value="307">English (Namibia)</option>
+<option value="39">English (New Zealand)</option>
+<option value="121">English (Nigeria)</option>
+<option value="165">English (Pakistan)</option>
+<option value="270">English (Papua New Guinea)</option>
+<option value="124">English (Philippines)</option>
+<option value="273">English (Rwanda)</option>
+<option value="285">English (Samoa)</option>
+<option value="266">English (Seychelles)</option>
+<option value="265">English (Sierra Leone)</option>
+<option value="82">English (Singapore)</option>
+<option value="264">English (Sint Maarten)</option>
+<option value="289">English (Solomon Islands)</option>
+<option value="40">English (South Africa)</option>
+<option value="260">English (St. Helena)</option>
+<option value="310">English (Swaziland)</option>
+<option value="312">English (Tanzania)</option>
+<option value="311">English (Tonga)</option>
+<option value="258">English (Trinidad &amp; Tobago)</option>
+<option value="256">English (Uganda)</option>
+<option value="2">English (United Kingdom)</option>
+<option value="1" selected="selected">English (United States)</option>
+<option value="277">English (Vanuatu)</option>
+<option value="94">Estonian (Estonia)</option>
+<option value="12">Finnish (Finland)</option>
+<option value="13">French (Belgium)</option>
+<option value="14">French (Canada)</option>
+<option value="287">French (Comoros)</option>
+<option value="16">French (France)</option>
+<option value="288">French (Guinea)</option>
+<option value="263">French (Haiti)</option>
+<option value="17">French (Luxembourg)</option>
+<option value="284">French (Mauritania)</option>
+<option value="95">French (Monaco)</option>
+<option value="15">French (Switzerland)</option>
+<option value="281">French (Wallis &amp; Futuna)</option>
+<option value="129">Georgian (Georgia)</option>
+<option value="5">German (Austria)</option>
+<option value="315">German (Belgium)</option>
+<option value="7">German (Germany)</option>
+<option value="8">German (Luxembourg)</option>
+<option value="6">German (Switzerland)</option>
+<option value="9">Greek (Greece)</option>
+<option value="324">Gujarati (India)</option>
+<option value="99">Hebrew (Israel)</option>
+<option value="164">Hindi (India)</option>
+<option value="183">Hungarian (Hungary)</option>
+<option value="98">Icelandic (Iceland)</option>
+<option value="184">Indonesian (Indonesia)</option>
+<option value="157">Irish (Ireland)</option>
+<option value="19">Italian (Italy)</option>
+<option value="18">Italian (Switzerland)</option>
+<option value="20">Japanese (Japan)</option>
+<option value="322">Kannada (India)</option>
+<option value="100">Kazakh (Kazakhstan)</option>
+<option value="101">Khmer (Cambodia)</option>
+<option value="313">Korean (North Korea)</option>
+<option value="63">Korean (South Korea)</option>
+<option value="163">Kyrgyz (Kyrgyzstan)</option>
+<option value="309">Lao (Laos)</option>
+<option value="103">Latvian (Latvia)</option>
+<option value="102">Lithuanian (Lithuania)</option>
+<option value="299">Luba-Katanga (Congo - Kinshasa)</option>
+<option value="179">Luxembourgish (Luxembourg)</option>
+<option value="145">Macedonian (Macedonia)</option>
+<option value="171">Malay (Brunei)</option>
+<option value="104">Malay (Malaysia)</option>
+<option value="321">Malayalam (India)</option>
+<option value="155">Maltese (Malta)</option>
+<option value="216">Maori (New Zealand)</option>
+<option value="323">Marathi (India)</option>
+<option value="327">Montenegrin (Montenegro, USD)</option>
+<option value="158">Montenegrin (Montenegro)</option>
+<option value="306">Nepali (Nepal)</option>
+<option value="24">Norwegian (Norway)</option>
+<option value="305">Pashto (Afghanistan)</option>
+<option value="274">Persian (Iran)</option>
+<option value="182">Polish (Poland)</option>
+<option value="106">Portuguese (Angola)</option>
+<option value="64">Portuguese (Brazil)</option>
+<option value="291">Portuguese (Cape Verde)</option>
+<option value="294">Portuguese (Mozambique)</option>
+<option value="25">Portuguese (Portugal)</option>
+<option value="280">Portuguese (São Tomé &amp; Príncipe)</option>
+<option value="143">Romanian (Moldova)</option>
+<option value="107">Romanian (Romania)</option>
+<option value="177">Romansh (Switzerland)</option>
+<option value="286">Rundi (Burundi)</option>
+<option value="326">Russian (Kazakhstan)</option>
+<option value="117">Russian (Russia)</option>
+<option value="132">Serbian (Cyrillic) (Bosnia and Herzegovina)</option>
+<option value="131">Serbian (Cyrillic) (Serbia)</option>
+<option value="138">Serbian (Latin) (Bosnia and Herzegovina)</option>
+<option value="137">Serbian (Latin) (Serbia)</option>
+<option value="314">Serbian (Serbia)</option>
+<option value="108">Slovak (Slovakia)</option>
+<option value="109">Slovenian (Slovenia)</option>
+<option value="261">Somali (Djibouti)</option>
+<option value="308">Somali (Somalia)</option>
+<option value="42">Spanish (Argentina)</option>
+<option value="83">Spanish (Bolivia)</option>
+<option value="84">Spanish (Chile)</option>
+<option value="43">Spanish (Colombia)</option>
+<option value="85">Spanish (Costa Rica)</option>
+<option value="300">Spanish (Cuba)</option>
+<option value="120">Spanish (Dominican Republic)</option>
+<option value="86">Spanish (Ecuador)</option>
+<option value="92">Spanish (El Salvador)</option>
+<option value="87">Spanish (Guatemala)</option>
+<option value="88">Spanish (Honduras)</option>
+<option value="45">Spanish (Mexico)</option>
+<option value="203">Spanish (Nicaragua)</option>
+<option value="123">Spanish (Panama)</option>
+<option value="91">Spanish (Paraguay)</option>
+<option value="89">Spanish (Peru)</option>
+<option value="90">Spanish (Puerto Rico)</option>
+<option value="11">Spanish (Spain)</option>
+<option value="204">Spanish (United States)</option>
+<option value="93">Spanish (Uruguay)</option>
+<option value="46">Spanish (Venezuela)</option>
+<option value="316">Swahili (Kenya)</option>
+<option value="26">Swedish (Sweden)</option>
+<option value="126">Tagalog (Philippines)</option>
+<option value="169">Tajik (Tajikistan)</option>
+<option value="192">Tamil (India)</option>
+<option value="259">Tamil (Sri Lanka)</option>
+<option value="320">Telugu (India)</option>
+<option value="68">Thai (Thailand)</option>
+<option value="278">Tigrinya (Ethiopia)</option>
+<option value="185">Turkish (Turkey)</option>
+<option value="116">Ukrainian (Ukraine)</option>
+<option value="110">Urdu (Pakistan)</option>
+<option value="303">Uzbek (LATN,UZ)</option>
+<option value="111">Vietnamese (Vietnam)</option>
+<option value="161">Welsh (United Kingdom)</option>
+<option value="317">Xhosa (South Africa)</option>
+<option value="295">Yoruba (Benin)</option>
+<option value="319">Zulu (South Africa)</option>
+</select></div></td></tr>
+<tr><td class="labelCol last requiredInput"><label for="LanguageLocaleKey"><span class="assistiveText">*</span>Language</label></td><td class="last data2Col" colspan="3"><div class="requiredInput"><div class="requiredBlock"></div><select  id="LanguageLocaleKey" name="LanguageLocaleKey" tabindex="36"><option value="1" selected="selected">English</option>
+<option value="33">German</option>
+<option value="41">Spanish</option>
+<option value="48">French</option>
+<option value="50">Italian</option>
+<option value="52">Japanese</option>
+<option value="58">Swedish</option>
+<option value="53">Korean</option>
+<option value="27">Chinese (Traditional)</option>
+<option value="21">Chinese (Simplified)</option>
+<option value="64">Portuguese (Brazil)</option>
+<option value="23">Dutch</option>
+<option value="70">Danish</option>
+<option value="59">Thai</option>
+<option value="66">Finnish</option>
+<option value="57">Russian</option>
+<option value="45">Spanish (Mexico)</option>
+<option value="54">Norwegian</option>
+</select></div></td></tr>
+</table></div><div class="pbSubheader brandTertiaryBgr tertiaryPalette" id="head_6_ep"><h3>Approver Settings<span  class="titleSeparatingColon">:</span></h3></div><div class="pbSubsection"><table  class="detailList" border="0" cellpadding="0" cellspacing="0"><tr><td class="labelCol"><label for="DelegatedApprover">Delegated Approver</label></td><td class="dataCol col02"><input type="hidden" name="DelegatedApprover_lkid" id="DelegatedApprover_lkid" value="000000000000000" /><input type="hidden" name="DelegatedApprover_lkold" id="DelegatedApprover_lkold" value="null" /><input type="hidden" name="DelegatedApprover_lktp" id="DelegatedApprover_lktp" value="StandardUserLookup" /><input type="hidden" name="DelegatedApprover_lspf" id="DelegatedApprover_lspf" value="0" /><input type="hidden" name="DelegatedApprover_lspfsub" id="DelegatedApprover_lspfsub" value="0" /><input type="hidden" name="DelegatedApprover_mod" id="DelegatedApprover_mod" value="0" /><span class="lookupInput"><input  id="DelegatedApprover" maxlength="255" name="DelegatedApprover" onchange="getElementByIdCS('DelegatedApprover_lkid').value='';getElementByIdCS('DelegatedApprover_mod').value='1';" size="20" tabindex="37" type="text" /><a href="javascript:%20openLookup%28%27%2F_ui%2Fcommon%2Fdata%2FLookupPage%3Flkfm%3DeditPage%26lknm%3DDelegatedApprover%26lktp%3D%27%20%2B%20getElementByIdCS%28%27DelegatedApprover_lktp%27%29.value%2C670%2C%271%27%2C%27%26lksrch%3D%27%20%2B%20escapeUTF%28getElementByIdCS%28%27DelegatedApprover%27%29.value.substring%280%2C%2080%29%29%29" id="DelegatedApprover_lkwgt" onclick="setLastMousePosition(event)" tabindex="37" title="Delegated Approver Lookup (New Window)"><img src="/img/s.gif" alt="Delegated Approver Lookup (New Window)"  class="lookupIcon" onblur="this.className = 'lookupIcon';" onfocus="this.className = 'lookupIconOn';" onmouseout="this.className = 'lookupIcon';this.className = 'lookupIcon';" onmouseover="this.className = 'lookupIconOn';this.className = 'lookupIconOn';" title="Delegated Approver Lookup (New Window)"/></a></span></td><td class="labelCol last empty">&nbsp;</td><td class="dataCol last empty">&nbsp;</td></tr>
+<tr><td class="labelCol"><label for="Manager">Manager</label></td><td class="dataCol col02"><input type="hidden" name="Manager_lkid" id="Manager_lkid" value="000000000000000" /><input type="hidden" name="Manager_lkold" id="Manager_lkold" value="null" /><input type="hidden" name="Manager_lktp" id="Manager_lktp" value="StandardUserLookup" /><input type="hidden" name="Manager_lspf" id="Manager_lspf" value="0" /><input type="hidden" name="Manager_lspfsub" id="Manager_lspfsub" value="0" /><input type="hidden" name="Manager_mod" id="Manager_mod" value="0" /><span class="lookupInput"><input  id="Manager" maxlength="255" name="Manager" onchange="getElementByIdCS('Manager_lkid').value='';getElementByIdCS('Manager_mod').value='1';" size="20" tabindex="38" type="text" /><a href="javascript:%20openLookup%28%27%2F_ui%2Fcommon%2Fdata%2FLookupPage%3Flkfm%3DeditPage%26lknm%3DManager%26lktp%3D%27%20%2B%20getElementByIdCS%28%27Manager_lktp%27%29.value%2C670%2C%271%27%2C%27%26lksrch%3D%27%20%2B%20escapeUTF%28getElementByIdCS%28%27Manager%27%29.value.substring%280%2C%2080%29%29%29" id="Manager_lkwgt" onclick="setLastMousePosition(event)" tabindex="38" title="Manager Lookup (New Window)"><img src="/img/s.gif" alt="Manager Lookup (New Window)"  class="lookupIcon" onblur="this.className = 'lookupIcon';" onfocus="this.className = 'lookupIconOn';" onmouseout="this.className = 'lookupIcon';this.className = 'lookupIcon';" onmouseover="this.className = 'lookupIconOn';this.className = 'lookupIconOn';" title="Manager Lookup (New Window)"/></a></span></td><td class="labelCol last empty">&nbsp;</td><td class="dataCol last empty">&nbsp;</td></tr>
+<tr><td class="labelCol requiredInput"><label for="receiveApprovalsEmails"><span class="assistiveText">*</span>Receive Approval Request Emails</label></td><td class="dataCol col02"><div class="requiredInput"><div class="requiredBlock"></div><select  id="receiveApprovalsEmails" name="receiveApprovalsEmails" tabindex="39"><option value="SEND_ALL">If I am an approver or delegated approver</option>
+<option value="SEND_APPROVER" selected="selected">Only if I am an approver</option>
+<option value="SEND_DELEGATED">Only if I am a delegated approver</option>
+<option value="SEND_NONE">Never</option>
+</select></div></td><td class="labelCol last empty">&nbsp;</td><td class="dataCol last empty">&nbsp;</td></tr>
+<tr  class="detailRow"><td colspan='4'>&nbsp;</td></tr><tr  class="last detailRow"><td colspan='4'><input  checked="checked" id="new_password" name="new_password" tabindex="40" type="checkbox" value="1" /><label for="new_password">Generate new password and notify user immediately</label></td></tr></table></div></div><div class="pbBottomButtons"><table  border="0" cellpadding="0" cellspacing="0"><tr><td class="pbTitle"><img src="/img/s.gif" alt="" width="1" height="1" class="minWidth" title="" />&nbsp;</td><td class="pbButtonb" id="bottomButtonRow"><input value=" Save "  class="btn" name="save" onclick="return confirm('If you’ve selected the option Send welcome email for any communities, new members to those communities will receive a welcome email message. But if you want to prevent those community members from receiving welcome email messages, just deselect the option Send welcome email.')" tabindex="41" title="Save" type="submit" /> <input value="Cancel"  class="btn" name="cancel" tabindex="42" title="Cancel" type="submit" /></td></tr>
+</table></div><div class="pbFooter secondaryPalette"><div class="bg"></div></div></div><script>if (window.sfdcPage && window.sfdcPage.initButtons) { window.sfdcPage.initButtons(["save","cancel"]); }</script><input type="hidden"  id="isSetupParam" name="isSetupParam" value="0" /></form><script>picklist.initAll();
+new UserEdit('user_license_id', {"1001I0000014QSN":["UserPermissions_10","UserPermissions_0","UserPermissions_4","UserPermissions_6","UserPermissions_9","UserPermissions_7","UserPermissions_1","UserPermissions_5","forecast_enabled","UserRole","content_email_no_digest","no_content_send_emails"]},{"1001I0000014QSN":[]},{"1001I0000014QSN":[]},{});</script><script>picklist.initAll()</script><script>window.sfdcPage.appendToOnloadQueue(function() {DevSlide.addTools([{"title":"View Fields","hoverText":"View and manage the fields for this object","newLinkHover":"Add a field to this object","url":"/p/setup/layout/LayoutFieldList?type=User&setupid=ManageUsers&setupid=UserFields","newUrl":"/p/setup/field/NewCustomFieldStageManager?entity=User&setupid=ManageUsers&setupid=UserFields&retURL=%2F005%2Fe%3FisUserEntityOverride%3D1%26ut%3Dc%26retURL%3D%252F0037A00000OQCOXQA5%26cntc%3D0037A00000OQCOXQA5%26name_firstName%3DJaniquaJYUIR0EBO8%26name_lastName%3DTestJYUIR0EH1A%26Alias%3Djtest%26MobilePhone%3D909-909-9090%26Addressstreet%3DCentro%2BComercial%2BLa%2BLoma%2BCtra.%2BBailen%2B-Motril%252C%2BKM%2B37.5%252C%2BJa%25C3%25A9n%252C%2B23009%26Addresscity%3DJa%25C3%25A9n%26Addresscountry%3DES%26Email%3Djtestjyuir0eh1ajyuissai3w%2540yopmail.com%26Username%3Djtestjyuir0eh1ajyuissai3w%2540yopmail.com%26CommunityNickname%3Djtestjyuir0eh1ajyuissai3w%26appLayout%3Dsetup%26tour%3D%26isdtp%3Dp1%26sfdcIFrameOrigin%3Dhttps%253A%252F%252Faacr--uat.lightning.force.com%26sfdcIFrameHost%3Dweb%26nonce%3D41257d372f811a7ab4c34372d8ceea45997a1583b95b633eff13876f34470e63%26ltn_app_id%3D06m1I000000ioHrQAI%26clc%3D1","newWindow":true,"newInNewWindow":true,"section":0},{"title":"View Object","hoverText":"View and manage details for this object","newLinkHover":"Create an Object","url":"/ui/setup/Setup?setupid=UserCustomize","newUrl":"/01I/e?retURL=%2F005%2Fe%3FisUserEntityOverride%3D1%26ut%3Dc%26retURL%3D%252F0037A00000OQCOXQA5%26cntc%3D0037A00000OQCOXQA5%26name_firstName%3DJaniquaJYUIR0EBO8%26name_lastName%3DTestJYUIR0EH1A%26Alias%3Djtest%26MobilePhone%3D909-909-9090%26Addressstreet%3DCentro%2BComercial%2BLa%2BLoma%2BCtra.%2BBailen%2B-Motril%252C%2BKM%2B37.5%252C%2BJa%25C3%25A9n%252C%2B23009%26Addresscity%3DJa%25C3%25A9n%26Addresscountry%3DES%26Email%3Djtestjyuir0eh1ajyuissai3w%2540yopmail.com%26Username%3Djtestjyuir0eh1ajyuissai3w%2540yopmail.com%26CommunityNickname%3Djtestjyuir0eh1ajyuissai3w%26appLayout%3Dsetup%26tour%3D%26isdtp%3Dp1%26sfdcIFrameOrigin%3Dhttps%253A%252F%252Faacr--uat.lightning.force.com%26sfdcIFrameHost%3Dweb%26nonce%3D41257d372f811a7ab4c34372d8ceea45997a1583b95b633eff13876f34470e63%26ltn_app_id%3D06m1I000000ioHrQAI%26clc%3D1&setupid=UserCustomize","newWindow":true,"newInNewWindow":false,"section":0},{"title":"View Validation Rules","hoverText":"View and manage validation rules for this object","newLinkHover":"Add a validation rule for this object","url":"/_ui/common/config/entity/ValidationFormulaListUI/d?retURL=%2F005%2Fe%3FisUserEntityOverride%3D1%26ut%3Dc%26retURL%3D%252F0037A00000OQCOXQA5%26cntc%3D0037A00000OQCOXQA5%26name_firstName%3DJaniquaJYUIR0EBO8%26name_lastName%3DTestJYUIR0EH1A%26Alias%3Djtest%26MobilePhone%3D909-909-9090%26Addressstreet%3DCentro%2BComercial%2BLa%2BLoma%2BCtra.%2BBailen%2B-Motril%252C%2BKM%2B37.5%252C%2BJa%25C3%25A9n%252C%2B23009%26Addresscity%3DJa%25C3%25A9n%26Addresscountry%3DES%26Email%3Djtestjyuir0eh1ajyuissai3w%2540yopmail.com%26Username%3Djtestjyuir0eh1ajyuissai3w%2540yopmail.com%26CommunityNickname%3Djtestjyuir0eh1ajyuissai3w%26appLayout%3Dsetup%26tour%3D%26isdtp%3Dp1%26sfdcIFrameOrigin%3Dhttps%253A%252F%252Faacr--uat.lightning.force.com%26sfdcIFrameHost%3Dweb%26nonce%3D41257d372f811a7ab4c34372d8ceea45997a1583b95b633eff13876f34470e63%26ltn_app_id%3D06m1I000000ioHrQAI%26clc%3D1&tableEnumOrId=User&setupid=ManageUsers&setupid=UserValidations","newUrl":"/03d/e?setupid=ManageUsers&setupid=UserValidations&retURL=%2F0037A00000OQCOXQA5&TableEnumOrId=User&Active=1","newWindow":true,"newInNewWindow":false,"section":0},{"title":"Edit App","hoverText":"Customize the tab list, profile assignments, and other details for this app","url":"/02u1I0000016L2m/e?retURL=%2F005%2Fe%3FisUserEntityOverride%3D1%26ut%3Dc%26retURL%3D%252F0037A00000OQCOXQA5%26cntc%3D0037A00000OQCOXQA5%26name_firstName%3DJaniquaJYUIR0EBO8%26name_lastName%3DTestJYUIR0EH1A%26Alias%3Djtest%26MobilePhone%3D909-909-9090%26Addressstreet%3DCentro%2BComercial%2BLa%2BLoma%2BCtra.%2BBailen%2B-Motril%252C%2BKM%2B37.5%252C%2BJa%25C3%25A9n%252C%2B23009%26Addresscity%3DJa%25C3%25A9n%26Addresscountry%3DES%26Email%3Djtestjyuir0eh1ajyuissai3w%2540yopmail.com%26Username%3Djtestjyuir0eh1ajyuissai3w%2540yopmail.com%26CommunityNickname%3Djtestjyuir0eh1ajyuissai3w%26appLayout%3Dsetup%26tour%3D%26isdtp%3Dp1%26sfdcIFrameOrigin%3Dhttps%253A%252F%252Faacr--uat.lightning.force.com%26sfdcIFrameHost%3Dweb%26nonce%3D41257d372f811a7ab4c34372d8ceea45997a1583b95b633eff13876f34470e63%26ltn_app_id%3D06m1I000000ioHrQAI%26clc%3D1&setupid=TabSet","newWindow":false,"newInNewWindow":false,"section":1},{"title":"Edit Layout","hoverText":"Customize this page layout","url":"/layouteditor/layoutEditor.apexp?type=User&lid=00h1I000002Y5LB&retURL=%2F005%2Fe%3FisUserEntityOverride%3D1%26ut%3Dc%26retURL%3D%252F0037A00000OQCOXQA5%26cntc%3D0037A00000OQCOXQA5%26name_firstName%3DJaniquaJYUIR0EBO8%26name_lastName%3DTestJYUIR0EH1A%26Alias%3Djtest%26MobilePhone%3D909-909-9090%26Addressstreet%3DCentro%2BComercial%2BLa%2BLoma%2BCtra.%2BBailen%2B-Motril%252C%2BKM%2B37.5%252C%2BJa%25C3%25A9n%252C%2B23009%26Addresscity%3DJa%25C3%25A9n%26Addresscountry%3DES%26Email%3Djtestjyuir0eh1ajyuissai3w%2540yopmail.com%26Username%3Djtestjyuir0eh1ajyuissai3w%2540yopmail.com%26CommunityNickname%3Djtestjyuir0eh1ajyuissai3w%26appLayout%3Dsetup%26tour%3D%26isdtp%3Dp1%26sfdcIFrameOrigin%3Dhttps%253A%252F%252Faacr--uat.lightning.force.com%26sfdcIFrameHost%3Dweb%26nonce%3D41257d372f811a7ab4c34372d8ceea45997a1583b95b633eff13876f34470e63%26ltn_app_id%3D06m1I000000ioHrQAI%26clc%3D1&setupid=ManageUsers&setupid=UserLayouts","newWindow":false,"newInNewWindow":false,"section":1}]);
+new DevSlide("<img src=\"/img/s.gif\" alt=\"Quick Access Menu\"  class=\"menuArrow\" onblur=\"this.className = 'menuArrow';\" onfocus=\"this.className = 'menuArrowOn';\" onmouseout=\"this.className = 'menuArrow';\" onmouseover=\"this.className = 'menuArrowOn';\" title=\"Quick Access Menu\"/>", "<img src=\"/img/s.gif\" alt=\"Go to Setup\"  class=\"forceLogo\" onblur=\"this.className = 'forceLogo';\" onfocus=\"this.className = 'forceLogoOn';\" onmouseout=\"this.className = 'forceLogo';\" onmouseover=\"this.className = 'forceLogoOn';\" title=\"Go to Setup\"/>", "<a href=\"javascript:openPopupFocusEscapePounds(%27https://help.salesforce.com/apex/htdoor?section=Dev_Tools&amp;target=dev_quick_access_menu.htm&amp;loc=help&amp;language=en_US&amp;release=220.16.1&amp;instance=CS44%27, %27Help%27, 1024, 768, %27width=1024,height=768,resizable=yes,toolbar=yes,status=yes,scrollbars=yes,menubar=yes,directories=no,location=yes,dependant=no%27, false, false);\" class=\"helpLink\" title=\"Help\"><img src=\"/img/s.gif\" alt=\"Help\"  class=\"helpIcon\" title=\"Help\"/><\/a>", "/lightning/setup/SetupOneHome/home");
+});</script>
+
+
+<!-- Body events -->
+<script type="text/javascript">function bodyOnLoad(){new ForeignKeyInputElement("Manager","/_ui/common/data/LookupValidationServlet",null,true,{"acent":"005"});new ForeignKeyInputElement("DelegatedApprover","/_ui/common/data/LookupValidationServlet",null,true,{"acent":"005"});new ForeignKeyInputElement("IndividualUserPage","/_ui/common/data/LookupValidationServlet",null,true,{"acent":"0PK"});setFocusOnLoad();if (typeof(startSessionTimer)!='undefined') {startSessionTimer(); };if ((window.sfdcPage) && (sfdcPage.executeOnloadQueue)){sfdcPage.executeOnloadQueue();};if(window.PreferenceBits){window.PreferenceBits.prototype.csrfToken="VmpFPSxNakF4T1Mwd09DMHdOVlF4T1RvMU1Ub3lOQzR5TVRoYSxCdlpTek5fRE5MLXdoQmFxdFd6X2tBLE1HVXdaalF3";};}function bodyOnBeforeUnload(){if ((window.sfdcPage) && (sfdcPage.executeOnBeforeUnloadQueue)){sfdcPage.executeOnBeforeUnloadQueue();};}function bodyOnFocus(){closePopupOnBodyFocus();}function bodyOnUnload(){}</script><script>var SFDCSessionVars={"uid":"0057A0000025EHo","server":"https:\/\/test.salesforce.com\/login\/sessionserver212.html","act":"t","inst":"https:\/\/aacr--UAT.my.salesforce.com","host":"test.salesforce.com","oid":"00D7A0000000UdE","exp":1564782565000};</script><script>var SFDCMktUrl='https://login.salesforce.com/17181/logo180.png';</script><script defer="true" src="/jslibrary/1553583056220/sfdc/ChatterDefer.js"></script><script defer="true" src="/jslibrary/1553583056220/sfdc/Zen.js"></script><script defer="true" src="/jslibrary/1553583056220/sfdc/Setup.js"></script><script>(function(){var s=document.createElement('SCRIPT');s.async=true;s.defer=true;s.src='/jslibrary/1553583056220/sfdc/SfdcSessionBase208.js';(document.body||document.getElementsByTagName('script')[0]).appendChild(s);})();</script><script>(function(){var s=document.createElement('SCRIPT');s.async=true;s.defer=true;s.src='/jslibrary/1553583056220/sfdc/MarketingSurveyResponse.js';(document.body||document.getElementsByTagName('script')[0]).appendChild(s);})();</script></body></html>
+<!-- page generation time: 102ms -->
