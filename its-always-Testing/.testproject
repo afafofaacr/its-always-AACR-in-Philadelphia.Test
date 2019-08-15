@@ -31,6 +31,12 @@
             <connectionUrl url="restservice:url=http://www.yopmail.com;authenticationType=NO_AUTHENTICATION"/>
           </connectionUrls>
         </connection>
+        <connection name="JP_UAT">
+          <summary/>
+          <connectionUrls>
+            <connectionUrl url="restservice:url=https://uat-aacr.cs44.force.com;authenticationType=NO_AUTHENTICATION"/>
+          </connectionUrls>
+        </connection>
       </connections>
     </connectionClass>
   </connectionClasses>

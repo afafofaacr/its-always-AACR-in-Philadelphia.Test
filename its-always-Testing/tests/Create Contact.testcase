@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<testCase id="13">
+<testCase id="2">
   <summary/>
   <steps>
     <apiCall apiId="com.provar.plugins.bundled.apis.control.SetValues" name="SetValues" testItemId="25" title="Set Values: FakeEmail">
@@ -1497,7 +1497,7 @@
       <clauses>
         <clause name="substeps" testItemId="78">
           <steps>
-            <apiCall apiId="com.provar.plugins.forcedotcom.core.ui.UiDoAction" name="UiDoAction" testItemId="79" title="Click the Reset Password">
+            <apiCall apiId="com.provar.plugins.forcedotcom.core.ui.UiDoAction" name="UiDoAction" testItemId="81" title="Click the Reset Password">
               <arguments>
                 <argument id="locator">
                   <value class="uiLocator" uri="ui:pageobject:field?field=frame%2FresetPassword&amp;pageId=pageobjects.SetupProfChanged"/>
@@ -1524,15 +1524,54 @@
                   <value class="value" valueClass="string">Click the Reset Password</value>
                 </argument>
                 <argument id="autoRetry"/>
+                <argument id="ieClickMethod">
+                  <value class="value" valueClass="string">Default</value>
+                </argument>
               </arguments>
               <generatedParameters>
-                <apiParam group="value" name="hover" title="Hover before Clicking">
+                <apiParam group="value" name="hover" seq="10000" title="Hover before Clicking">
                   <summary>Whether the mouse should hover over the field before it is clicked.</summary>
                   <type>
                     <booleanType/>
                   </type>
                 </apiParam>
+                <apiParam group="value" name="ieClickMethod" seq="10001" title="IE Click Method">
+                  <summary>How the click should be executed for Internet Explorer.</summary>
+                  <type>
+                    <choiceType>
+                      <constraints>
+                        <valueConstraint name="valuesSource">com.provar.core.model.base.java.EnumChoiceListValuesSource</valueConstraint>
+                        <valueConstraint name="valuesSourceDependencies">com.provar.core.model.ui.api.ClickMethod</valueConstraint>
+                      </constraints>
+                    </choiceType>
+                  </type>
+                </apiParam>
               </generatedParameters>
+            </apiCall>
+            <apiCall apiId="com.provar.plugins.forcedotcom.core.ui.UiHandleAlert" name="UiHandleAlert" testItemId="80" title="Handle UI Alerts">
+              <arguments>
+                <argument id="alerts">
+                  <value class="valueList" mutable="Mutable">
+                    <namedValues mutable="Mutable">
+                      <namedValue name="expectedMessage">
+                        <value class="value" valueClass="string">Reset password for this user?</value>
+                      </namedValue>
+                      <namedValue name="response">
+                        <value class="value" valueClass="string">OK</value>
+                      </namedValue>
+                      <namedValue name="beforeWait"/>
+                      <namedValue name="afterWait"/>
+                      <namedValue name="autoRetry"/>
+                    </namedValues>
+                  </value>
+                </argument>
+                <argument id="captureBefore">
+                  <value class="value" valueClass="string">false</value>
+                </argument>
+                <argument id="captureAfter">
+                  <value class="value" valueClass="string">false</value>
+                </argument>
+              </arguments>
             </apiCall>
           </steps>
         </clause>
@@ -1544,31 +1583,6 @@
           </type>
         </apiParam>
       </generatedParameters>
-    </apiCall>
-    <apiCall apiId="com.provar.plugins.forcedotcom.core.ui.UiHandleAlert" name="UiHandleAlert" testItemId="80" title="Handle UI Alerts">
-      <arguments>
-        <argument id="alerts">
-          <value class="valueList" mutable="Mutable">
-            <namedValues mutable="Mutable">
-              <namedValue name="expectedMessage">
-                <value class="value" valueClass="string">Reset password for this user?</value>
-              </namedValue>
-              <namedValue name="response">
-                <value class="value" valueClass="string">OK</value>
-              </namedValue>
-              <namedValue name="beforeWait"/>
-              <namedValue name="afterWait"/>
-              <namedValue name="autoRetry"/>
-            </namedValues>
-          </value>
-        </argument>
-        <argument id="captureBefore">
-          <value class="value" valueClass="string">false</value>
-        </argument>
-        <argument id="captureAfter">
-          <value class="value" valueClass="string">false</value>
-        </argument>
-      </arguments>
     </apiCall>
     <apiCall apiId="com.provar.plugins.bundled.apis.restservice.WebConnect" name="WebConnect" testItemId="54" title="Web Connect: Yopmail_Connected">
       <arguments>
