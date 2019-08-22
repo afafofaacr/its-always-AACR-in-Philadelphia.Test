@@ -72,5 +72,29 @@ public class PersonalInformationPage {
 	@ButtonType()
 	@FindBy(xpath = "//div[contains(@class, \"slds-grid\")]/div[1]/lightning-dual-listbox[1]/div/div[2]/div/div[4]/lightning-button-icon[1]//button[contains(@class,'slds-button') and @title='Move selection to Selected Items']")
 	public WebElement majorFocusValues31;
+	@TextType()
+	@AuraBy(componentXPath = "//lightning:input[@value= '{!v.nominator1.memberNo}']")
+	public WebElement memberNom1;
+	@TextType()
+	@AuraBy(componentXPath = "//lightning:input[@value= '{!v.nominator2.memberNo}']")
+	public WebElement memberNom2;
+	@ButtonType()
+	@FindByLabel(label = "nominator1")
+	public WebElement nominator1Verify;
+	@ButtonType()
+	@FindByLabel(label = "nominator2")
+	public WebElement nominator2Verify;
+	@TextType()
+	@AuraBy(componentXPath = "//lightning:input[@required='{!v.required}']", qualifier = "file2")
+	public WebElement VInputLabel_BothFileLocationsAtOnce;
+	@TextType()
+	@FindBy(xpath = "//label[@id='file-selector-label-147']/span[normalize-space(.)='Upload Files' and contains(@class,'slds-file-selector__button')]")
+	public WebElement UploadFiles_Left;
+	@BooleanType()
+	@FindByLabel(label = "DeclineJournal")
+	public WebElement decline;
+	@TextType()
+	@FindBy(xpath = "//label[normalize-space(.)='Decline']")
+	public WebElement Decline;
 	
 }

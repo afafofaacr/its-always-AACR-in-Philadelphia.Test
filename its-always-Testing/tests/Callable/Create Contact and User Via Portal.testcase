@@ -13,7 +13,7 @@
               <namedValue name="value">
                 <value class="compound">
                   <parts>
-                    <value valueClass="string">Connor</value>
+                    <value valueClass="string">Abigail</value>
                     <funcCall id="UniqueId">
                       <argument id="length">
                         <value class="value" valueClass="decimal">5</value>

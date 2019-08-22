@@ -29,5 +29,8 @@ public class MembershipPortal {
 	@ButtonType()
 	@FindByLabel(label = "Become a Member")
 	public WebElement becomeAMember;
-			
+		@ButtonType()
+	@FindByLabel(label = "Renew Dues")
+	public WebElement renewDues;
+				
 }
