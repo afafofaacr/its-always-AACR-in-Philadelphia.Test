@@ -39,6 +39,16 @@
         </connection>
       </connections>
     </connectionClass>
+    <connectionClass name="ui">
+      <connections>
+        <connection name="MyAACR_UAT">
+          <summary>UAT Portal for Members</summary>
+          <connectionUrls>
+            <connectionUrl url="se:baseUrl=https://uat-aacr.cs44.force.com/"/>
+          </connectionUrls>
+        </connection>
+      </connections>
+    </connectionClass>
   </connectionClasses>
   <browserConfigurations>
     <browserConfiguration adjustBrowserWidthForChromeIde="true" browserHeight="0" browserWidth="0" name="Full Screen">

@@ -32,5 +32,8 @@ public class MembershipPortal {
 		@ButtonType()
 	@FindByLabel(label = "Renew Dues")
 	public WebElement renewDues;
+		@ButtonType()
+		@FindByLabel(label = "Launch Directory")
+		public WebElement launchDirectory;
 				
 }
