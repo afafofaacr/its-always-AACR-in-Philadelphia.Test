@@ -132,7 +132,7 @@
           <value class="value" valueClass="string">false</value>
         </argument>
         <argument id="uiTargetUrl">
-          <value class="value" valueClass="string">https://uat-aacr.cs44.force.com</value>
+          <value class="value" valueClass="string">https://uat-aacr.cs47.force.com/dw_aacr_custom_login?site=a0d1I0000011T3OQAU</value>
         </argument>
       </arguments>
       <clauses>

@@ -17,9 +17,6 @@ public class RenewPages {
 	@ButtonType()
 	@FindByLabel(label = "Next")
 	public WebElement next;
-	@ChoiceListType()
-	@FindBy(id = "1284:0")
-	public WebElement _;
 	@PageFrame()
 	public static class Frame {
 
@@ -40,6 +37,9 @@ public class RenewPages {
 	public WebElement processPayment;
 	@LinkType()
 	@FindBy(linkText = "Return to Profile")
-	public WebElement returnToProfile;	
+	public WebElement returnToProfile;
+	@ChoiceListType()
+	@FindBy(xpath = "//div[@id='ccPaymentComp']/div/div/div/div/div/div/div/div/div/div/select[@id='1440:0']")
+	public WebElement ExpYear;	
 			
 }
