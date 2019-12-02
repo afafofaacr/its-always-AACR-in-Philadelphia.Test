@@ -38,8 +38,17 @@ public class RenewPages {
 	@LinkType()
 	@FindBy(linkText = "Return to Profile")
 	public WebElement returnToProfile;
+	@LinkType()
+	@FindBy(linkText = "Logout")
+	public WebElement logout;
+	@ChoiceListType()
+	@FindBy(xpath = "//div[@id='ccPaymentComp']/div/div/div/div/div/div/div/div/div/div/select[@id='2652:0']")
+	public WebElement Exp_Year_Dropdown;
 	@ChoiceListType()
 	@FindBy(xpath = "//div[@id='ccPaymentComp']/div/div/div/div/div/div/div/div/div/div/select[@id='1440:0']")
-	public WebElement ExpYear;	
+	public WebElement ExpYear;
+	@ChoiceListType()
+	@FindBy(xpath = "//div[@id='ccPaymentComp']/div/div/div/div/div/div/div/div/div/div/select[contains(@class,'slds-select') and @data-aura-rendered-by='1334:0']")
+	public WebElement ExpirationYear;	
 			
 }

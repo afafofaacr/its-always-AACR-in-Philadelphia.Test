@@ -96,26 +96,17 @@ public class PersonalInformationPage {
 	@TextType()
 	@FindBy(xpath = "//label[normalize-space(.)='Decline']")
 	public WebElement Decline;
-	@ButtonType()
-	@FindBy(xpath = "//div/lightning-primitive-file-droppable-zone//input[@id='input-file-147' and @type='file']")
+	@ButtonType(file=true)
+	@FindBy(xpath = "//div/lightning-primitive-file-droppable-zone//input[@id='input-file-154' and @type='file']")
 	public WebElement CurriculumVitae;
-	@TextType()
-	@FindBy(xpath = "//label[@id='file-selector-label-150']/span[normalize-space(.)='Upload Files']")
-	public WebElement CurriculumVitaeUpload;
-	@ButtonType()
+	@ButtonType(file=true)
 	@FindBy(xpath = "(//div/lightning-primitive-file-droppable-zone//input)[1]")
 	public WebElement BibliographyUpload;
-	@ButtonType()
-	@FindBy(xpath = "(//div/lightning-primitive-file-droppable-zone//input[@id='input-file-147'])")
-	public WebElement BibliographyUploadv2;
-	@ButtonType()
-	@FindBy(xpath = "(//div/lightning-primitive-file-droppable-zone)[1]")
-	public WebElement Bibliographyv1;
-	@TextType()
-	@FindBy(xpath = "//label[@id='file-selector-label-149']/span[normalize-space(.)='Upload Files']")
-	public WebElement Bibliographyv3;
-	@ButtonType()
-	@FindBy(xpath = "//lightning-input/div/div/lightning-primitive-file-droppable-zone/slot/input[@id='input-file-152']")
-	public WebElement Bibliography_plzwork;
+	@BooleanType()
+	@AuraBy(componentXPath = "//lightning:input[@aura:id= 'primaryAddress']", qualifier = "primaryAddress")
+	public WebElement primaryAddress;
+	@BooleanType()
+	@FindByLabel(label = "Decline")
+	public WebElement decline1;
 	
 }

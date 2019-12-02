@@ -35,5 +35,8 @@ public class MembershipPortal {
 		@ButtonType()
 		@FindByLabel(label = "Launch Directory")
 		public WebElement launchDirectory;
+		@LinkType()
+		@FindBy(linkText = "My Membership")
+		public WebElement myMembershipTab;
 				
 }

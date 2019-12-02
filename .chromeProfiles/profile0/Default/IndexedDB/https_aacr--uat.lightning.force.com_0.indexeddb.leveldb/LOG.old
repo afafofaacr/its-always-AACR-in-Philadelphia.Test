@@ -1,6 +1,9 @@
-2019/09/03-11:48:00.142 21c4 Reusing MANIFEST C:\Users\laura.perry\OneDrive - American Association for Cancer Res\Documents\GitHub\its-always-AACR-in-Philadelphia.Test\.chromeProfiles\profile0\Default\IndexedDB\https_aacr--uat.lightning.force.com_0.indexeddb.leveldb/MANIFEST-000001
-2019/09/03-11:48:00.142 21c4 Recovering log #13
-2019/09/03-11:48:00.155 21c4 Reusing old log C:\Users\laura.perry\OneDrive - American Association for Cancer Res\Documents\GitHub\its-always-AACR-in-Philadelphia.Test\.chromeProfiles\profile0\Default\IndexedDB\https_aacr--uat.lightning.force.com_0.indexeddb.leveldb/000013.log 
-2019/09/03-11:48:04.845 2b88 Level-0 table #16: started
-2019/09/03-11:48:04.895 2b88 Level-0 table #16: 3744706 bytes OK
-2019/09/03-11:48:04.910 2b88 Delete type=0 #13
+2019/09/16-11:55:25.912 2730 Reusing MANIFEST C:\Users\laura.perry\OneDrive - American Association for Cancer Res\Documents\GitHub\its-always-AACR-in-Philadelphia.Test\.chromeProfiles\profile0\Default\IndexedDB\https_aacr--uat.lightning.force.com_0.indexeddb.leveldb/MANIFEST-000001
+2019/09/16-11:55:25.912 2730 Recovering log #37
+2019/09/16-11:55:25.916 2730 Reusing old log C:\Users\laura.perry\OneDrive - American Association for Cancer Res\Documents\GitHub\its-always-AACR-in-Philadelphia.Test\.chromeProfiles\profile0\Default\IndexedDB\https_aacr--uat.lightning.force.com_0.indexeddb.leveldb/000037.log 
+2019/09/16-11:55:27.394 1e0 Compacting 1@1 + 1@2 files
+2019/09/16-11:55:27.435 1e0 Generated table #41@1: 1383 keys, 1525383 bytes
+2019/09/16-11:55:27.435 1e0 Compacted 1@1 + 1@2 files => 1525383 bytes
+2019/09/16-11:55:27.440 1e0 compacted to: files[ 0 0 1 0 0 0 0 ]
+2019/09/16-11:55:27.440 1e0 Delete type=2 #23
+2019/09/16-11:55:27.442 1e0 Delete type=2 #39

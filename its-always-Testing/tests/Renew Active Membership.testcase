@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<testCase id="2">
+<testCase id="4">
   <summary/>
   <steps>
     <apiCall apiId="com.provar.plugins.bundled.apis.control.SetValues" name="SetValues" testItemId="6" title="Set Values: Password">
@@ -11,7 +11,7 @@
                 <value class="value" valueClass="string">EmailAddress</value>
               </namedValue>
               <namedValue name="value">
-                <value class="value" valueClass="string">sjane4@yopmail.com</value>
+                <value class="value" valueClass="string">ameerabdullah@yopmail.com</value>
               </namedValue>
               <namedValue name="valueScope">
                 <value class="value" valueClass="string">Test</value>
@@ -763,16 +763,16 @@
                 </apiParam>
               </generatedParameters>
             </apiCall>
-            <apiCall apiId="com.provar.plugins.forcedotcom.core.ui.UiDoAction" name="UiDoAction" testItemId="65" title="Set the Exp Year to 2022">
+            <apiCall apiId="com.provar.plugins.forcedotcom.core.ui.UiDoAction" name="UiDoAction" testItemId="68" title="Set the Exp_ Year_ Dropdown to 2023">
               <arguments>
                 <argument id="locator">
-                  <value class="uiLocator" uri="ui:pageobject:field?field=ExpYear&amp;pageId=pageobjects.RenewPages"/>
+                  <value class="uiLocator" uri="ui:pageobject:field?field=Exp_Year_Dropdown&amp;pageId=pageobjects.RenewPages"/>
                 </argument>
                 <argument id="interaction">
                   <value class="uiInteraction" uri="ui:interaction?name=set"/>
                 </argument>
                 <argument id="value">
-                  <value class="value" valueClass="string">2022</value>
+                  <value class="value" valueClass="string">2023</value>
                 </argument>
                 <argument id="blur">
                   <value class="value" valueClass="boolean">false</value>
@@ -793,7 +793,7 @@
                   <value class="uiWait" uri="default"/>
                 </argument>
                 <argument id="interactionDescription">
-                  <value class="value" valueClass="string">Set the Exp Year to 2022</value>
+                  <value class="value" valueClass="string">Set the Exp_ Year_ Dropdown to 2023</value>
                 </argument>
                 <argument id="autoRetry"/>
               </arguments>
@@ -811,6 +811,116 @@
                   </type>
                 </apiParam>
                 <apiParam group="value" name="pressEnter" seq="10002" title="Press Enter">
+                  <summary>Whether the Enter key should be pressed after the value is populated.</summary>
+                  <type>
+                    <booleanType/>
+                  </type>
+                </apiParam>
+              </generatedParameters>
+            </apiCall>
+            <apiCall apiId="com.provar.plugins.forcedotcom.core.ui.UiDoAction" name="UiDoAction" testItemId="71" title="Set the Exp Year to 2030">
+              <arguments>
+                <argument id="locator">
+                  <value class="uiLocator" uri="ui:pageobject:field?field=ExpYear&amp;pageId=pageobjects.RenewPages"/>
+                </argument>
+                <argument id="interaction">
+                  <value class="uiInteraction" uri="ui:interaction?name=set"/>
+                </argument>
+                <argument id="value">
+                  <value class="value" valueClass="string">2030</value>
+                </argument>
+                <argument id="blur">
+                  <value class="value" valueClass="boolean">false</value>
+                </argument>
+                <argument id="pressEnter">
+                  <value class="value" valueClass="boolean">false</value>
+                </argument>
+                <argument id="captureBefore">
+                  <value class="value" valueClass="string">false</value>
+                </argument>
+                <argument id="captureAfter">
+                  <value class="value" valueClass="string">false</value>
+                </argument>
+                <argument id="beforeWait">
+                  <value class="uiWait" uri="default"/>
+                </argument>
+                <argument id="afterWait">
+                  <value class="uiWait" uri="default"/>
+                </argument>
+                <argument id="interactionDescription">
+                  <value class="value" valueClass="string">Set the Exp Year to 2030</value>
+                </argument>
+                <argument id="autoRetry"/>
+              </arguments>
+              <generatedParameters>
+                <apiParam group="value" name="value" seq="10000" title="Value">
+                  <summary>The value to be populated.</summary>
+                  <type>
+                    <choiceType/>
+                  </type>
+                </apiParam>
+                <apiParam group="value" name="blur" seq="10001" title="Tab off field">
+                  <summary>Whether the tab key should be pressed after the value is populated.</summary>
+                  <type>
+                    <booleanType/>
+                  </type>
+                </apiParam>
+                <apiParam group="value" name="pressEnter" seq="10002" title="Press Enter">
+                  <summary>Whether the Enter key should be pressed after the value is populated.</summary>
+                  <type>
+                    <booleanType/>
+                  </type>
+                </apiParam>
+              </generatedParameters>
+            </apiCall>
+            <apiCall apiId="com.provar.plugins.forcedotcom.core.ui.UiDoAction" name="UiDoAction" testItemId="72" title="Set the Expiration Year to 2030">
+              <arguments>
+                <argument id="locator">
+                  <value class="uiLocator" uri="ui:pageobject:field?field=ExpirationYear&amp;pageId=pageobjects.RenewPages"/>
+                </argument>
+                <argument id="interaction">
+                  <value class="uiInteraction" uri="ui:interaction?name=set"/>
+                </argument>
+                <argument id="value">
+                  <value class="value" valueClass="string">2030</value>
+                </argument>
+                <argument id="blur">
+                  <value class="value" valueClass="boolean">false</value>
+                </argument>
+                <argument id="pressEnter">
+                  <value class="value" valueClass="boolean">false</value>
+                </argument>
+                <argument id="captureBefore">
+                  <value class="value" valueClass="string">false</value>
+                </argument>
+                <argument id="captureAfter">
+                  <value class="value" valueClass="string">false</value>
+                </argument>
+                <argument id="beforeWait">
+                  <value class="uiWait" uri="default"/>
+                </argument>
+                <argument id="afterWait">
+                  <value class="uiWait" uri="default"/>
+                </argument>
+                <argument id="interactionDescription">
+                  <value class="value" valueClass="string">Set the Expiration Year to 2030</value>
+                </argument>
+                <argument id="autoRetry"/>
+              </arguments>
+              <generatedParameters>
+                <apiParam group="value" name="value" title="Value">
+                  <summary>The value to be populated.</summary>
+                  <type>
+                    <textType/>
+                  </type>
+                </apiParam>
+                <apiParam group="value" name="blur" title="Tab off field">
+                  <summary>Whether the tab key should be pressed after the value is populated.</summary>
+                  <type>
+                    <booleanType/>
+                  </type>
+                </apiParam>
+                <apiParam group="value" name="pressEnter" title="Press Enter">
                   <summary>Whether the Enter key should be pressed after the value is populated.</summary>
                   <type>
                     <booleanType/>
@@ -1024,7 +1134,58 @@
       <clauses>
         <clause name="substeps" testItemId="59">
           <steps>
-            <apiCall apiId="com.provar.plugins.forcedotcom.core.ui.UiAssert" isTitleUpdated="true" name="UiAssert" testItemId="63" title="UI Assert - Launch Directory Button Appears">
+            <apiCall apiId="com.provar.plugins.forcedotcom.core.ui.UiDoAction" name="UiDoAction" testItemId="69" title="Click the My Membership Tab">
+              <arguments>
+                <argument id="locator">
+                  <value class="uiLocator" uri="ui:pageobject:field?field=myMembershipTab&amp;pageId=pageobjects.MembershipPortal"/>
+                </argument>
+                <argument id="interaction">
+                  <value class="uiInteraction" uri="ui:interaction?name=action"/>
+                </argument>
+                <argument id="hover">
+                  <value class="value" valueClass="boolean">false</value>
+                </argument>
+                <argument id="captureBefore">
+                  <value class="value" valueClass="string">false</value>
+                </argument>
+                <argument id="captureAfter">
+                  <value class="value" valueClass="string">false</value>
+                </argument>
+                <argument id="beforeWait">
+                  <value class="uiWait" uri="default"/>
+                </argument>
+                <argument id="afterWait">
+                  <value class="uiWait" uri="default"/>
+                </argument>
+                <argument id="interactionDescription">
+                  <value class="value" valueClass="string">Click the My Membership Tab</value>
+                </argument>
+                <argument id="autoRetry"/>
+                <argument id="ieClickMethod">
+                  <value class="value" valueClass="string">Default</value>
+                </argument>
+              </arguments>
+              <generatedParameters>
+                <apiParam group="value" name="hover" seq="10000" title="Hover before Clicking">
+                  <summary>Whether the mouse should hover over the field before it is clicked.</summary>
+                  <type>
+                    <booleanType/>
+                  </type>
+                </apiParam>
+                <apiParam group="value" name="ieClickMethod" seq="10001" title="IE Click Method">
+                  <summary>How the click should be executed for Internet Explorer.</summary>
+                  <type>
+                    <choiceType>
+                      <constraints>
+                        <valueConstraint name="valuesSource">com.provar.core.model.base.java.EnumChoiceListValuesSource</valueConstraint>
+                        <valueConstraint name="valuesSourceDependencies">com.provar.core.model.ui.api.ClickMethod</valueConstraint>
+                      </constraints>
+                    </choiceType>
+                  </type>
+                </apiParam>
+              </generatedParameters>
+            </apiCall>
+            <apiCall apiId="com.provar.plugins.forcedotcom.core.ui.UiAssert" isTitleUpdated="true" name="UiAssert" testItemId="70" title="UI Assert - Launch Directory Button Appears">
               <arguments>
                 <argument id="resultName">
                   <value class="value" valueClass="string">Values</value>
