@@ -1,6 +1,9 @@
-2019/09/16-12:53:43.303 21e8 Reusing MANIFEST C:\Users\laura.perry\OneDrive - American Association for Cancer Res\Documents\GitHub\its-always-AACR-in-Philadelphia.Test\.chromeProfiles\profile0\Default\IndexedDB\https_aacr--uat.lightning.force.com_0.indexeddb.leveldb/MANIFEST-000001
-2019/09/16-12:53:43.304 21e8 Recovering log #37
-2019/09/16-12:53:43.318 21e8 Reusing old log C:\Users\laura.perry\OneDrive - American Association for Cancer Res\Documents\GitHub\its-always-AACR-in-Philadelphia.Test\.chromeProfiles\profile0\Default\IndexedDB\https_aacr--uat.lightning.force.com_0.indexeddb.leveldb/000037.log 
-2019/09/16-12:53:46.088 4070 Level-0 table #44: started
-2019/09/16-12:53:46.130 4070 Level-0 table #44: 3823112 bytes OK
-2019/09/16-12:53:46.137 4070 Delete type=0 #37
+2019/12/18-15:25:20.782 105c Reusing MANIFEST C:\Users\laura.perry\OneDrive - American Association for Cancer Res\Documents\GitHub\its-always-AACR-in-Philadelphia.Test\.chromeProfiles\profile0\Default\IndexedDB\https_aacr--uat.lightning.force.com_0.indexeddb.leveldb/MANIFEST-000001
+2019/12/18-15:25:20.783 105c Recovering log #46
+2019/12/18-15:25:20.808 105c Reusing old log C:\Users\laura.perry\OneDrive - American Association for Cancer Res\Documents\GitHub\its-always-AACR-in-Philadelphia.Test\.chromeProfiles\profile0\Default\IndexedDB\https_aacr--uat.lightning.force.com_0.indexeddb.leveldb/000046.log 
+2019/12/18-15:25:23.387 15cc Level-0 table #50: started
+2019/12/18-15:25:23.426 15cc Level-0 table #50: 4264273 bytes OK
+2019/12/18-15:25:23.432 15cc Delete type=0 #46
+2019/12/18-15:25:31.233 15cc Level-0 table #52: started
+2019/12/18-15:25:31.268 15cc Level-0 table #52: 3865823 bytes OK
+2019/12/18-15:25:31.274 15cc Delete type=0 #49

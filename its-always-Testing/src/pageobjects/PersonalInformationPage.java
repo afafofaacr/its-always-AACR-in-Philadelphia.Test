@@ -18,11 +18,10 @@ public class PersonalInformationPage {
 	@TextType()
 	@FindBy(xpath = "//input[@name='Salutation']")
 	public WebElement salutation;
+	@FindBy(xpath = "//*[@id=\"input-97\" and @name=\"Gender__c\"]")
 	@TextType()
-	@AuraBy(componentXPath = "//lightning:inputField[@aura:id= 'gender']", qualifier = "Gender__c")
 	@SalesforceField(name = "Gender__c", object = "Contact")
 	public WebElement gender;
-	@TextType()
 	@AuraBy(componentXPath = "//lightning:inputField[@aura:id= 'race']", qualifier = "Race__c")
 	@SalesforceField(name = "Race__c", object = "Contact")
 	public WebElement race;

@@ -1,3 +1,6 @@
-2019/09/16-11:54:37.326 312c Reusing MANIFEST leveldb/MANIFEST-000001
-2019/09/16-11:54:37.328 312c Recovering log #10
-2019/09/16-11:54:37.329 312c Reusing old log leveldb/000010.log 
+2019/12/18-13:15:17.578 19dc Reusing MANIFEST C:\Users\laura.perry\OneDrive - American Association for Cancer Res\Documents\GitHub\its-always-AACR-in-Philadelphia.Test\.chromeProfiles\profile0\Default\Local Storage\leveldb/MANIFEST-000001
+2019/12/18-13:15:17.579 19dc Recovering log #10
+2019/12/18-13:15:17.580 19dc Reusing old log C:\Users\laura.perry\OneDrive - American Association for Cancer Res\Documents\GitHub\its-always-AACR-in-Philadelphia.Test\.chromeProfiles\profile0\Default\Local Storage\leveldb/000010.log 
+2019/12/18-13:43:10.006 4930 Level-0 table #14: started
+2019/12/18-13:43:10.012 4930 Level-0 table #14: 17076 bytes OK
+2019/12/18-13:43:10.018 4930 Delete type=0 #10
