@@ -22,6 +22,14 @@ public class BO_ContactPage {
 	@FindByLabel(label = "Process Payment")
 	public WebElement processPayment;
 	
+	
+	@ChoiceListType(values = {
+	@ChoiceListValue(value = "2033", title = "2033")
+	})
+	@FindBy(xpath = "//div[@class='slds-select_container']//option[@value='2033']")
+	public WebElement expYear;
+	
+	
 	//nested frame logic for Card Number
 	@PageFrame()
 	public static class Frame {
