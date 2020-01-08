@@ -18,7 +18,11 @@ public class BO_ContactPage {
 	@FindByLabel(label = "Next")
 	public WebElement next;
 	
+	@ButtonType()
+	@FindByLabel(label = "Process Payment")
+	public WebElement processPayment;
 	
+	//nested frame logic for Card Number
 	@PageFrame()
 	public static class Frame {
 
@@ -35,12 +39,27 @@ public class BO_ContactPage {
 		@TextType()
 		@FindBy(xpath = "//input[@id='card_number']")
 		public WebElement cardNumber;
-		
+	}
+
+
+	//nested frame logic for CVV
+	@PageFrame()
+	public static class FrameCVV {
+
+		@FindBy(xpath = "//iframe[contains(@id,'spreedly-cvv-frame')]")
+		public FrameCVVInner frame;
+	}
+	
+	@FindBy(xpath = "//iframe[contains(@src,'CreditCardPaymentFrame')]")
+	public FrameCVV frameForCvv;
+	
+	@PageFrame()
+	public static class FrameCVVInner {
+	
 		@TextType()
 		@FindBy(xpath = "//input[@id='cvv']")
 		public WebElement cvv;
-	}
-			
+	}			
 	
 	
 	
