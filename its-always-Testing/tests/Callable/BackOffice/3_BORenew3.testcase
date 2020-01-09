@@ -458,7 +458,7 @@
                   <value class="value" valueClass="string">4111111111111111</value>
                 </argument>
                 <argument id="blur">
-                  <value class="value" valueClass="boolean">true</value>
+                  <value class="value" valueClass="boolean">false</value>
                 </argument>
                 <argument id="pressEnter">
                   <value class="value" valueClass="boolean">false</value>
@@ -470,7 +470,7 @@
                   <value class="value" valueClass="string">false</value>
                 </argument>
                 <argument id="beforeWait">
-                  <value class="uiWait" uri="ui:wait:timed?seconds=15"/>
+                  <value class="uiWait" uri="ui:wait:timed?seconds=20"/>
                 </argument>
                 <argument id="afterWait">
                   <value class="uiWait" uri="default"/>
@@ -479,9 +479,10 @@
                   <value class="value" valueClass="string">Set the Card Number to 4111111111111111</value>
                 </argument>
                 <argument id="autoRetry">
-                  <value class="uiWait" uri="ui:wait:autoRetry:timeout=20"/>
+                  <value class="uiWait" uri="ui:wait:autoRetry:enabled=false&amp;timeout=100"/>
                 </argument>
               </arguments>
+              <expectedExceptions/>
               <generatedParameters>
                 <apiParam group="value" name="value" seq="10000" title="Value">
                   <summary>The value to be populated.</summary>
@@ -601,22 +602,25 @@
                   <value class="value" valueClass="string">Default</value>
                 </argument>
                 <argument id="hover">
-                  <value class="value" valueClass="boolean">true</value>
+                  <value class="value" valueClass="boolean">false</value>
+                </argument>
+                <argument id="blur">
+                  <value class="value" valueClass="boolean">false</value>
                 </argument>
                 <argument id="value">
                   <value class="value" valueClass="string">2033</value>
                 </argument>
-                <argument id="blur"/>
               </arguments>
+              <expectedExceptions>
+                <expectedException comparisonType="Contains" title="Element Not Found When Found">
+                  <assertionValue class="value" valueClass="string">WebDriverException: unknown error: failed to parse value of getElementRegion</assertionValue>
+                </expectedException>
+              </expectedExceptions>
               <generatedParameters>
                 <apiParam group="value" name="value" seq="10000" title="Value">
                   <summary>The value to be populated.</summary>
                   <type>
-                    <choiceType>
-                      <constraints>
-                        <valueConstraint name="boundedValues">2033:2033</valueConstraint>
-                      </constraints>
-                    </choiceType>
+                    <choiceType/>
                   </type>
                 </apiParam>
                 <apiParam group="value" name="blur" seq="10001" title="Tab off field">

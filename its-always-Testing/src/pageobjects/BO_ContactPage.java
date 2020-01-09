@@ -23,9 +23,15 @@ public class BO_ContactPage {
 	public WebElement processPayment;
 	
 	
-	@ChoiceListType(values = {
+	/*@ChoiceListType(values = {
 	@ChoiceListValue(value = "2033", title = "2033")
 	})
+	@FindBy(xpath = "//div[@class='slds-select_container']//option[@value='2033']")
+	public WebElement expYear;*/
+	
+	//@TextType()
+	//@FindBy(xpath = "//div[@class='slds-select_container']//option[@value='2033']")
+	@ChoiceListType()
 	@FindBy(xpath = "//div[@class='slds-select_container']//option[@value='2033']")
 	public WebElement expYear;
 	
