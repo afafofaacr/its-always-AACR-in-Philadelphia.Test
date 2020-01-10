@@ -1,54 +1,11 @@
-2020/01/10-13:26:09.622 1f8 Reusing MANIFEST C:\Users\laura.perry\OneDrive - American Association for Cancer Res\Documents\GitHub\its-always-AACR-in-Philadelphia.Test\.chromeProfiles\profile0\Default\IndexedDB\https_aacr--uat.lightning.force.com_0.indexeddb.leveldb/MANIFEST-000001
-2020/01/10-13:26:09.623 1f8 Recovering log #621
-2020/01/10-13:26:09.625 1f8 Reusing old log C:\Users\laura.perry\OneDrive - American Association for Cancer Res\Documents\GitHub\its-always-AACR-in-Philadelphia.Test\.chromeProfiles\profile0\Default\IndexedDB\https_aacr--uat.lightning.force.com_0.indexeddb.leveldb/000621.log 
-2020/01/10-13:26:11.799 19c4 Compacting 2@0 + 1@1 files
-2020/01/10-13:26:11.831 19c4 Generated table #624@0: 659 keys, 2142839 bytes
-2020/01/10-13:26:11.845 19c4 Generated table #625@0: 246 keys, 589834 bytes
-2020/01/10-13:26:11.845 19c4 Compacted 2@0 + 1@1 files => 2732673 bytes
-2020/01/10-13:26:11.848 19c4 compacted to: files[ 0 2 3 0 0 0 0 ]
-2020/01/10-13:26:11.848 19c4 Delete type=2 #618
-2020/01/10-13:26:11.848 19c4 Delete type=2 #620
-2020/01/10-13:26:11.848 19c4 Delete type=2 #622
-2020/01/10-13:26:14.819 19c4 Compacting 1@1 + 2@2 files
-2020/01/10-13:26:14.845 19c4 Generated table #626@1: 33 keys, 2242631 bytes
-2020/01/10-13:26:14.889 19c4 Generated table #627@1: 2708 keys, 1710230 bytes
-2020/01/10-13:26:14.889 19c4 Compacted 1@1 + 2@2 files => 3952861 bytes
-2020/01/10-13:26:14.892 19c4 compacted to: files[ 0 1 3 0 0 0 0 ]
-2020/01/10-13:26:17.158 19c4 Level-0 table #629: started
-2020/01/10-13:26:17.202 19c4 Level-0 table #629: 4282614 bytes OK
-2020/01/10-13:26:17.206 19c4 Delete type=2 #615
-2020/01/10-13:26:17.207 19c4 Delete type=2 #616
-2020/01/10-13:26:17.207 19c4 Delete type=0 #621
-2020/01/10-13:26:17.207 19c4 Delete type=2 #625
-2020/01/10-13:26:43.414 19c4 Level-0 table #631: started
-2020/01/10-13:26:43.450 19c4 Level-0 table #631: 3927876 bytes OK
-2020/01/10-13:26:43.454 19c4 Delete type=0 #628
-2020/01/10-13:26:46.343 19c4 Compacting 2@0 + 1@1 files
-2020/01/10-13:26:46.374 19c4 Generated table #632@0: 904 keys, 2127860 bytes
-2020/01/10-13:26:46.388 19c4 Generated table #633@0: 185 keys, 703120 bytes
-2020/01/10-13:26:46.388 19c4 Compacted 2@0 + 1@1 files => 2830980 bytes
-2020/01/10-13:26:46.390 19c4 compacted to: files[ 0 2 3 0 0 0 0 ]
-2020/01/10-13:26:46.400 19c4 Compacting 1@1 + 2@2 files
-2020/01/10-13:26:46.426 19c4 Generated table #634@1: 33 keys, 2124724 bytes
-2020/01/10-13:26:46.432 19c4 Level-0 table #637: started
-2020/01/10-13:26:46.469 19c4 Level-0 table #637: 2272439 bytes OK
-2020/01/10-13:26:46.473 19c4 Delete type=2 #624
-2020/01/10-13:26:46.473 19c4 Delete type=2 #629
-2020/01/10-13:26:46.473 19c4 Delete type=0 #630
-2020/01/10-13:26:46.474 19c4 Delete type=2 #631
-2020/01/10-13:26:46.512 19c4 Generated table #635@1: 2810 keys, 1960783 bytes
-2020/01/10-13:26:46.512 19c4 Compacted 1@1 + 2@2 files => 4085507 bytes
-2020/01/10-13:26:46.515 19c4 compacted to: files[ 1 1 3 0 0 0 0 ]
-2020/01/10-13:26:46.515 19c4 Delete type=2 #626
-2020/01/10-13:26:46.515 19c4 Delete type=2 #627
-2020/01/10-13:26:46.516 19c4 Delete type=2 #633
-2020/01/10-13:26:46.521 19c4 Compacting 1@0 + 1@1 files
-2020/01/10-13:26:46.551 19c4 Generated table #638@0: 1495 keys, 2193210 bytes
-2020/01/10-13:26:46.570 19c4 Generated table #639@0: 606 keys, 990508 bytes
-2020/01/10-13:26:46.571 19c4 Compacted 1@0 + 1@1 files => 3183718 bytes
-2020/01/10-13:26:46.573 19c4 compacted to: files[ 0 2 3 0 0 0 0 ]
-2020/01/10-13:26:46.573 19c4 Delete type=2 #632
-2020/01/10-13:26:46.574 19c4 Delete type=2 #637
-2020/01/10-13:27:18.481 19c4 Level-0 table #641: started
-2020/01/10-13:27:18.527 19c4 Level-0 table #641: 4270367 bytes OK
-2020/01/10-13:27:18.532 19c4 Delete type=0 #636
+2020/01/10-14:54:53.251 3bfc Reusing MANIFEST C:\Users\laura.perry\OneDrive - American Association for Cancer Res\Documents\GitHub\its-always-AACR-in-Philadelphia.Test\.chromeProfiles\profile0\Default\IndexedDB\https_aacr--uat.lightning.force.com_0.indexeddb.leveldb/MANIFEST-000001
+2020/01/10-14:54:55.809 2b18 Level-0 table #5: started
+2020/01/10-14:54:55.817 2b18 Level-0 table #5: 472507 bytes OK
+2020/01/10-14:54:55.825 2b18 Delete type=0 #3
+2020/01/10-14:54:55.826 2b18 Manual compaction at level-0 from '\x00\x07\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x08\x00\x00\x00' @ 0 : 0; will stop at (end)
+2020/01/10-14:55:03.235 2b18 Level-0 table #7: started
+2020/01/10-14:55:03.277 2b18 Level-0 table #7: 3990975 bytes OK
+2020/01/10-14:55:03.283 2b18 Delete type=0 #4
+2020/01/10-14:55:32.181 2b18 Level-0 table #9: started
+2020/01/10-14:55:32.228 2b18 Level-0 table #9: 4216055 bytes OK
+2020/01/10-14:55:32.243 2b18 Delete type=0 #6
