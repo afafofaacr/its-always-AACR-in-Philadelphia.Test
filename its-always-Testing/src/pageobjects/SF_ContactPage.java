@@ -17,5 +17,8 @@ public class SF_ContactPage {
 	@ButtonType()
 	@FindByLabel(label = "Renew")
 	public WebElement renew;
+	@ButtonType()
+	@FindByLabel(label = "New Application")
+	public WebElement newApplication;
 			
 }
