@@ -41,7 +41,7 @@ public class BO_ContactPage {
 	public static class Frame {
 
 		@FindBy(xpath = "//iframe[contains(@id,'spreedly-number-frame')]")
-		public Frame1 frame;
+		public Frame outerframe;
 	}
 	
 	@FindBy(xpath = "//iframe[contains(@src,'CreditCardPaymentFrame')]")
@@ -50,6 +50,7 @@ public class BO_ContactPage {
 	@PageFrame()
 	public static class Frame1 {
 
+		@PageWait.BackgroundActivity(timeoutSeconds = 60)
 		@TextType()
 		@FindBy(xpath = "//input[@id='card_number']")
 		public WebElement cardNumber;

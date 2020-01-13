@@ -1,11 +1,33 @@
-2020/01/10-14:54:53.251 3bfc Reusing MANIFEST C:\Users\laura.perry\OneDrive - American Association for Cancer Res\Documents\GitHub\its-always-AACR-in-Philadelphia.Test\.chromeProfiles\profile0\Default\IndexedDB\https_aacr--uat.lightning.force.com_0.indexeddb.leveldb/MANIFEST-000001
-2020/01/10-14:54:55.809 2b18 Level-0 table #5: started
-2020/01/10-14:54:55.817 2b18 Level-0 table #5: 472507 bytes OK
-2020/01/10-14:54:55.825 2b18 Delete type=0 #3
-2020/01/10-14:54:55.826 2b18 Manual compaction at level-0 from '\x00\x07\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x08\x00\x00\x00' @ 0 : 0; will stop at (end)
-2020/01/10-14:55:03.235 2b18 Level-0 table #7: started
-2020/01/10-14:55:03.277 2b18 Level-0 table #7: 3990975 bytes OK
-2020/01/10-14:55:03.283 2b18 Delete type=0 #4
-2020/01/10-14:55:32.181 2b18 Level-0 table #9: started
-2020/01/10-14:55:32.228 2b18 Level-0 table #9: 4216055 bytes OK
-2020/01/10-14:55:32.243 2b18 Delete type=0 #6
+2020/01/13-15:35:53.767 40b0 Reusing MANIFEST C:\Users\laura.perry\OneDrive - American Association for Cancer Res\Documents\GitHub\its-always-AACR-in-Philadelphia.Test\.chromeProfiles\profile0\Default\IndexedDB\https_aacr--uat.lightning.force.com_0.indexeddb.leveldb/MANIFEST-000001
+2020/01/13-15:35:53.768 40b0 Recovering log #21
+2020/01/13-15:35:53.778 40b0 Reusing old log C:\Users\laura.perry\OneDrive - American Association for Cancer Res\Documents\GitHub\its-always-AACR-in-Philadelphia.Test\.chromeProfiles\profile0\Default\IndexedDB\https_aacr--uat.lightning.force.com_0.indexeddb.leveldb/000021.log 
+2020/01/13-15:35:57.306 2644 Compacting 1@0 + 2@1 files
+2020/01/13-15:35:57.337 2644 Generated table #24@0: 1038 keys, 2177976 bytes
+2020/01/13-15:35:57.358 2644 Generated table #25@0: 385 keys, 1113414 bytes
+2020/01/13-15:35:57.358 2644 Compacted 1@0 + 2@1 files => 3291390 bytes
+2020/01/13-15:35:57.363 2644 compacted to: files[ 0 2 1 0 0 0 0 ]
+2020/01/13-15:35:57.373 2644 Level-0 table #27: started
+2020/01/13-15:35:57.415 2644 Level-0 table #27: 4260940 bytes OK
+2020/01/13-15:35:57.419 2644 Delete type=2 #19
+2020/01/13-15:35:57.419 2644 Delete type=2 #20
+2020/01/13-15:35:57.419 2644 Delete type=0 #21
+2020/01/13-15:35:57.419 2644 Delete type=2 #22
+2020/01/13-15:36:06.996 2644 Level-0 table #29: started
+2020/01/13-15:36:07.038 2644 Level-0 table #29: 3805638 bytes OK
+2020/01/13-15:36:07.042 2644 Delete type=0 #26
+2020/01/13-15:37:26.527 2644 Level-0 table #31: started
+2020/01/13-15:37:26.582 2644 Level-0 table #31: 4412537 bytes OK
+2020/01/13-15:37:26.589 2644 Delete type=0 #28
+2020/01/13-15:43:45.812 2644 Compacting 3@0 + 2@1 files
+2020/01/13-15:43:45.881 2644 Generated table #32@0: 1236 keys, 2212307 bytes
+2020/01/13-15:43:45.944 2644 Generated table #33@0: 499 keys, 1349093 bytes
+2020/01/13-15:43:45.944 2644 Compacted 3@0 + 2@1 files => 3561400 bytes
+2020/01/13-15:43:45.947 2644 compacted to: files[ 0 2 1 0 0 0 0 ]
+2020/01/13-15:43:45.948 2644 Delete type=2 #24
+2020/01/13-15:43:45.948 2644 Delete type=2 #25
+2020/01/13-15:43:45.948 2644 Delete type=2 #27
+2020/01/13-15:43:45.949 2644 Delete type=2 #29
+2020/01/13-15:43:45.949 2644 Delete type=2 #31
+2020/01/13-15:43:45.979 2644 Level-0 table #35: started
+2020/01/13-15:43:46.026 2644 Level-0 table #35: 3566556 bytes OK
+2020/01/13-15:43:46.043 2644 Delete type=0 #30

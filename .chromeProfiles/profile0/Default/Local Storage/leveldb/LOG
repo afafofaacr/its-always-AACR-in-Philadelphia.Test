@@ -1,3 +1,15 @@
-2020/01/10-16:10:38.079 c40 Reusing MANIFEST C:\Users\laura.perry\OneDrive - American Association for Cancer Res\Documents\GitHub\its-always-AACR-in-Philadelphia.Test\.chromeProfiles\profile0\Default\Local Storage\leveldb/MANIFEST-000001
-2020/01/10-16:10:38.080 c40 Recovering log #52
-2020/01/10-16:10:38.081 c40 Reusing old log C:\Users\laura.perry\OneDrive - American Association for Cancer Res\Documents\GitHub\its-always-AACR-in-Philadelphia.Test\.chromeProfiles\profile0\Default\Local Storage\leveldb/000052.log 
+2020/01/13-15:35:51.669 2e1c Reusing MANIFEST C:\Users\laura.perry\OneDrive - American Association for Cancer Res\Documents\GitHub\its-always-AACR-in-Philadelphia.Test\.chromeProfiles\profile0\Default\Local Storage\leveldb/MANIFEST-000001
+2020/01/13-15:35:51.670 2e1c Recovering log #60
+2020/01/13-15:35:51.671 2e1c Reusing old log C:\Users\laura.perry\OneDrive - American Association for Cancer Res\Documents\GitHub\its-always-AACR-in-Philadelphia.Test\.chromeProfiles\profile0\Default\Local Storage\leveldb/000060.log 
+2020/01/13-16:09:50.695 2e80 Level-0 table #64: started
+2020/01/13-16:09:50.704 2e80 Level-0 table #64: 13494 bytes OK
+2020/01/13-16:09:50.715 2e80 Delete type=0 #60
+2020/01/13-16:09:50.719 2e80 Compacting 4@0 + 1@1 files
+2020/01/13-16:09:50.727 2e80 Generated table #65@0: 53 keys, 4708 bytes
+2020/01/13-16:09:50.727 2e80 Compacted 4@0 + 1@1 files => 4708 bytes
+2020/01/13-16:09:50.733 2e80 compacted to: files[ 0 1 1 0 0 0 0 ]
+2020/01/13-16:09:50.735 2e80 Delete type=2 #54
+2020/01/13-16:09:50.735 2e80 Delete type=2 #57
+2020/01/13-16:09:50.735 2e80 Delete type=2 #59
+2020/01/13-16:09:50.736 2e80 Delete type=2 #61
+2020/01/13-16:09:50.736 2e80 Delete type=2 #64
