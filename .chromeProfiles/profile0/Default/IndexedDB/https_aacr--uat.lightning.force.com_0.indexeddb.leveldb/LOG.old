@@ -1,32 +1,29 @@
-2020/01/13-15:23:44.190 2358 Reusing MANIFEST C:\Users\laura.perry\OneDrive - American Association for Cancer Res\Documents\GitHub\its-always-AACR-in-Philadelphia.Test\.chromeProfiles\profile0\Default\IndexedDB\https_aacr--uat.lightning.force.com_0.indexeddb.leveldb/MANIFEST-000001
-2020/01/13-15:23:44.191 2358 Recovering log #8
-2020/01/13-15:23:44.210 2358 Reusing old log C:\Users\laura.perry\OneDrive - American Association for Cancer Res\Documents\GitHub\its-always-AACR-in-Philadelphia.Test\.chromeProfiles\profile0\Default\IndexedDB\https_aacr--uat.lightning.force.com_0.indexeddb.leveldb/000008.log 
-2020/01/13-15:23:48.194 4338 Level-0 table #12: started
-2020/01/13-15:23:48.243 4338 Level-0 table #12: 4179440 bytes OK
-2020/01/13-15:23:48.257 4338 Delete type=0 #8
-2020/01/13-15:23:50.301 4338 Compacting 2@0 + 1@1 files
-2020/01/13-15:23:50.333 4338 Generated table #13@0: 619 keys, 2128432 bytes
-2020/01/13-15:23:50.349 4338 Generated table #14@0: 227 keys, 754052 bytes
-2020/01/13-15:23:50.349 4338 Compacted 2@0 + 1@1 files => 2882484 bytes
-2020/01/13-15:23:50.355 4338 compacted to: files[ 0 2 1 0 0 0 0 ]
-2020/01/13-15:23:54.986 4338 Level-0 table #16: started
-2020/01/13-15:23:55.036 4338 Level-0 table #16: 3997760 bytes OK
-2020/01/13-15:23:55.043 4338 Delete type=2 #7
-2020/01/13-15:23:55.043 4338 Delete type=2 #9
-2020/01/13-15:23:55.043 4338 Delete type=0 #11
-2020/01/13-15:23:55.043 4338 Delete type=2 #12
-2020/01/13-15:25:16.825 4338 Level-0 table #18: started
-2020/01/13-15:25:16.870 4338 Level-0 table #18: 4165863 bytes OK
-2020/01/13-15:25:16.876 4338 Delete type=0 #15
-2020/01/13-15:25:41.296 4338 Compacting 2@0 + 2@1 files
-2020/01/13-15:25:41.345 4338 Generated table #19@0: 933 keys, 2199060 bytes
-2020/01/13-15:25:41.392 4338 Generated table #20@0: 343 keys, 1070537 bytes
-2020/01/13-15:25:41.392 4338 Compacted 2@0 + 2@1 files => 3269597 bytes
-2020/01/13-15:25:41.396 4338 compacted to: files[ 0 2 1 0 0 0 0 ]
-2020/01/13-15:25:41.399 4338 Delete type=2 #13
-2020/01/13-15:25:41.399 4338 Delete type=2 #14
-2020/01/13-15:25:41.402 4338 Delete type=2 #16
-2020/01/13-15:25:41.402 4338 Delete type=2 #18
-2020/01/13-15:25:42.880 4338 Level-0 table #22: started
-2020/01/13-15:25:42.928 4338 Level-0 table #22: 3868810 bytes OK
-2020/01/13-15:25:42.934 4338 Delete type=0 #17
+2020/01/14-15:28:10.069 259c Reusing MANIFEST C:\Users\laura.perry\OneDrive - American Association for Cancer Res\Documents\GitHub\its-always-AACR-in-Philadelphia.Test\.chromeProfiles\profile0\Default\IndexedDB\https_aacr--uat.lightning.force.com_0.indexeddb.leveldb/MANIFEST-000001
+2020/01/14-15:28:10.070 259c Recovering log #113
+2020/01/14-15:28:10.073 259c Reusing old log C:\Users\laura.perry\OneDrive - American Association for Cancer Res\Documents\GitHub\its-always-AACR-in-Philadelphia.Test\.chromeProfiles\profile0\Default\IndexedDB\https_aacr--uat.lightning.force.com_0.indexeddb.leveldb/000113.log 
+2020/01/14-15:28:12.223 3c9c Compacting 1@0 + 1@1 files
+2020/01/14-15:28:12.249 3c9c Generated table #116@0: 909 keys, 1382644 bytes
+2020/01/14-15:28:12.249 3c9c Compacted 1@0 + 1@1 files => 1382644 bytes
+2020/01/14-15:28:12.256 3c9c compacted to: files[ 0 1 1 0 0 0 0 ]
+2020/01/14-15:28:12.256 3c9c Delete type=2 #111
+2020/01/14-15:28:12.257 3c9c Delete type=2 #114
+2020/01/14-15:28:15.176 3c9c Level-0 table #118: started
+2020/01/14-15:28:15.220 3c9c Level-0 table #118: 3717473 bytes OK
+2020/01/14-15:28:15.224 3c9c Delete type=0 #113
+2020/01/14-15:28:31.849 3c9c Level-0 table #120: started
+2020/01/14-15:28:31.908 3c9c Level-0 table #120: 4214341 bytes OK
+2020/01/14-15:28:31.915 3c9c Delete type=0 #117
+2020/01/14-15:29:24.596 3c9c Level-0 table #122: started
+2020/01/14-15:29:24.645 3c9c Level-0 table #122: 4273004 bytes OK
+2020/01/14-15:29:24.649 3c9c Delete type=0 #119
+2020/01/14-15:29:53.304 3c9c Compacting 3@0 + 1@1 files
+2020/01/14-15:29:53.343 3c9c Generated table #123@0: 1619 keys, 1904260 bytes
+2020/01/14-15:29:53.343 3c9c Compacted 3@0 + 1@1 files => 1904260 bytes
+2020/01/14-15:29:53.346 3c9c compacted to: files[ 0 1 1 0 0 0 0 ]
+2020/01/14-15:29:53.346 3c9c Delete type=2 #116
+2020/01/14-15:29:53.347 3c9c Delete type=2 #118
+2020/01/14-15:29:53.347 3c9c Delete type=2 #120
+2020/01/14-15:29:53.347 3c9c Delete type=2 #122
+2020/01/14-15:29:55.213 3c9c Level-0 table #125: started
+2020/01/14-15:29:55.256 3c9c Level-0 table #125: 4172150 bytes OK
+2020/01/14-15:29:55.260 3c9c Delete type=0 #121
