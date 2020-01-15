@@ -15,16 +15,19 @@ import com.provar.core.testapi.annotations.*;
 public class AACR_NomAndMatsPage {
 
 	@TextType()
-	@FindBy(xpath = "//input[@id='input-142']")
+	//@FindBy(xpath = "(//label[normalize-space(.)='Member #'][1]/following-sibling::div//input)")
+	@FindBy(xpath="(//div[@class='slds-card__body']//input)[1]")
 	public WebElement Nominator1;
 	@TextType()
-	@FindBy(xpath = "//input[@id='input-146']")
+	//@FindBy(xpath = "(//label[normalize-space(.)='Member #'][2]/following-sibling::div//input)")
+	@FindBy(xpath="(//div[@class='slds-card__body']//input)[3]")
 	public WebElement Nominator2;
 	@ButtonType(file=true)
 	@FindBy(xpath = "(//div/lightning-primitive-file-droppable-zone//input)[1]")
 	public WebElement BibliographyUpload;
 	@ButtonType(file=true)
-	@FindBy(xpath = "//div/lightning-primitive-file-droppable-zone//input[@id='input-file-152' and @type='file']")
+	@FindBy(xpath = "(//div/lightning-primitive-file-droppable-zone//input)[2]")
+	//@FindBy(xpath = "//div/lightning-primitive-file-droppable-zone//input[@id='input-file-152' and @type='file']")
 	public WebElement CurriculumVitae;
 	@ButtonType()
 	@FindByLabel(label = "nominator1")

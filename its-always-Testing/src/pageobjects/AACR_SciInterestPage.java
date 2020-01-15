@@ -30,7 +30,7 @@ public class AACR_SciInterestPage {
 	@FindBy(xpath = "//label[normalize-space(.)='If Other, Please Specify']/following-sibling::div//input")
 	public WebElement ifOther;
 	@TextType()
-	@FindBy(xpath = "//input[@id='input-122' and @name='primaryResearch']")
-	public WebElement researchAreaOfExpertise;
+	@FindByLabel(label = "Research Area of Expertise")
+	public WebElement researchAreaOfExpertiseDropDown;
 			
 }

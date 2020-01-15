@@ -14,10 +14,13 @@ import com.provar.core.testapi.annotations.*;
      )             
 public class AACR_JournalSelectionsPage {
 
-	@TextType()
-	@AuraBy(componentXPath = "//lightning:combobox[@value= '{!v.selectedComp}']")
+	@ChoiceListType()
+	@FindBy(xpath = "//input[@name='complimentaryJournalsOnline']")
 	public WebElement selectCompJournal;
-	@BooleanType()
+/*	@BooleanType()
+	@FindBy(xpath = ("(//span[contains(@class,'slds-radio_faux')])[4]"))
+	public WebElement primaryAddressRadioButton;*/
+	/*@BooleanType()
 	@AuraBy(componentXPath = "//lightning:input[@aura:id= 'primaryAddress']", qualifier = "primaryAddress")
 	public WebElement primaryAddress;
 	@BooleanType()
@@ -28,6 +31,27 @@ public class AACR_JournalSelectionsPage {
 	public WebElement primaryAddressSelectButton;
 	@BooleanType()
 	@AuraBy(componentXPath = "//lightning:input[@aura:id= 'primaryAddress']", qualifier = "primaryAddress")
-	public WebElement primaryAddressLastTime;
+	public WebElement primaryAddressLastTime;*/
+	/*@BooleanType()
+	@FindBy(xpath = "(//label[normalize-space(.)='Online']/parent::span/parent::div/parent::div/parent::fieldset/parent::lightning-radio-group/parent::div/parent::div/following-sibling::div//span[contains(@class,'slds-radio_faux')])[1]")
+	public WebElement primaryAddress;
+	@BooleanType()
+	@FindBy(xpath = "//label[normalize-space(.)='Primary Address']/span[contains(@class,'slds-radio_faux')]")
+	public WebElement primaryAddressv2;
+	@BooleanType()
+	@FindBy(xpath="//input[@name='primaryAddress']")
+	public WebElement primaryAddressv3;
+		@BooleanType()
+	@FindBy(xpath="//span[@class ='slds-radio']/input[@name='primaryAddress']")
+	public WebElement primaryAddressv4;*/
+	@ChoiceListType()
+	@FindBy(xpath="//span[@class ='slds-radio']/input[@name='primaryAddress']")
+	public WebElement primaryAddress;
+/*	@ButtonType()
+	@FindByLabel(label = "Next")
+	public WebElement next;*/
+	@ButtonType()
+	@FindBy(xpath = "//button[normalize-space(.)='Next']")
+	public WebElement nextButton;
 			
 }
