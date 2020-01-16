@@ -24,5 +24,9 @@ public class AACR_MemCategories {
 	//@FindBy(xpath = "//button[@class='slds-button slds-button_neutral']/@id[0]")
 	@FindBy(xpath = "//button[normalize-space(.)='Apply' and @value='a131I0000013GiDQAU']")
 	public WebElement ActiveMembership;
+
+	@ButtonType()
+	@FindBy(xpath = "//button[normalize-space(.)='Apply' and @value='a131I0000013GimQAE']")
+	public WebElement AffiliateMembershipApply;
 			
 }

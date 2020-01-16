@@ -29,5 +29,8 @@ public class AACR_MemberPortalPage {
 	@LinkType()
 	@FindBy(xpath = "//div[@id='wrapper']/div/div/div/div/ul/li/a[@aria-expanded='false']")
 	public WebElement menuButton;
+	@TextType()
+	@FindBy(xpath = "//div[@id='myMembership']/div/div/div/div/div[normalize-space(.)='Your application has been submitted and is awaiting approval. Please check back soon or contact membership at membership@aacr.org.']")
+	public WebElement myMembershipMessageNeedsApproval;
 			
 }

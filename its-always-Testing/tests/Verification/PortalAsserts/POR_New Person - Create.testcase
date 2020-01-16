@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <testCase id="12">
-  <summary/>
+  <summary>&lt;p&gt;&lt;font face="Segoe UI" size="2"&gt;Verify the New Person creation through the Portal flow works.&lt;/font&gt;&lt;/p&gt;&lt;p&gt;&lt;font face="Segoe UI" size="2"&gt;Verification is done by logging into the portal and checking the Portal outputs.&lt;/font&gt;&lt;/p&gt;</summary>
   <steps>
     <caseCall testCaseId="ec193e98-950e-4666-96f9-ac29fec5145a" testCasePath="tests/Callable/Portal/1.NewUserRegistration.testcase" testItemId="2">
       <outputArguments>

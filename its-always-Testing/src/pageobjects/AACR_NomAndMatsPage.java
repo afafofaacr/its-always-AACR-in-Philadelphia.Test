@@ -29,6 +29,12 @@ public class AACR_NomAndMatsPage {
 	@FindBy(xpath = "(//div/lightning-primitive-file-droppable-zone//input)[2]")
 	//@FindBy(xpath = "//div/lightning-primitive-file-droppable-zone//input[@id='input-file-152' and @type='file']")
 	public WebElement CurriculumVitae;
+	@ButtonType(file=true)
+	@FindBy(xpath = "(//div/lightning-primitive-file-droppable-zone//input)[3]")
+	public WebElement ThirdFileUpload;
+	@ButtonType(file=true)
+	@FindBy(xpath = "(//div/lightning-primitive-file-droppable-zone//input)[4]")
+	public WebElement FourthFileUpload;
 	@ButtonType()
 	@FindByLabel(label = "nominator1")
 	public WebElement nominator1Verify;
