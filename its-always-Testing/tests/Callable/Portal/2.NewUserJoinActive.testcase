@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<testCase id="2" registryId="93a53ecb-3917-4b27-adad-d1d71f3714cc" visibility="Internal">
+<testCase id="3" registryId="93a53ecb-3917-4b27-adad-d1d71f3714cc" visibility="Internal">
   <summary/>
   <steps>
     <caseCall testCaseId="ec193e98-950e-4666-96f9-ac29fec5145a" testCasePath="tests/Callable/Portal/1.NewUserRegistration.testcase" testItemId="132">
@@ -468,10 +468,10 @@
       <clauses>
         <clause name="substeps" testItemId="139">
           <steps>
-            <apiCall apiId="com.provar.plugins.forcedotcom.core.ui.UiDoAction" name="UiDoAction" testItemId="141" title="Click the Active Membership">
+            <apiCall apiId="com.provar.plugins.forcedotcom.core.ui.UiDoAction" name="UiDoAction" testItemId="141" title="Click the Active Membership Apply">
               <arguments>
                 <argument id="locator">
-                  <value class="uiLocator" uri="ui:pageobject:field?field=ActiveMembership&amp;pageId=pageobjects.AACR_MemCategories"/>
+                  <value class="uiLocator" uri="ui:pageobject:field?field=ActiveMembershipApply&amp;pageId=pageobjects.AACR_MemCategories"/>
                 </argument>
                 <argument id="interaction">
                   <value class="uiInteraction" uri="ui:interaction?name=action"/>
@@ -492,7 +492,7 @@
                   <value class="uiWait" uri="default"/>
                 </argument>
                 <argument id="interactionDescription">
-                  <value class="value" valueClass="string">Click the Active Membership</value>
+                  <value class="value" valueClass="string">Click the Active Membership Apply</value>
                 </argument>
                 <argument id="autoRetry"/>
                 <argument id="ieClickMethod">
@@ -1737,7 +1737,7 @@
                   <value class="uiWait" uri="ui:wait:timed?seconds=10"/>
                 </argument>
                 <argument id="afterWait">
-                  <value class="uiWait" uri="default"/>
+                  <value class="uiWait" uri="ui:wait:timed?seconds=5"/>
                 </argument>
                 <argument id="interactionDescription">
                   <value class="value" valueClass="string">Click the Next Button</value>

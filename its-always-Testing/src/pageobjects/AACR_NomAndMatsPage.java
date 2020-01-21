@@ -15,11 +15,9 @@ import com.provar.core.testapi.annotations.*;
 public class AACR_NomAndMatsPage {
 
 	@TextType()
-	//@FindBy(xpath = "(//label[normalize-space(.)='Member #'][1]/following-sibling::div//input)")
 	@FindBy(xpath="(//div[@class='slds-card__body']//input)[1]")
 	public WebElement Nominator1;
 	@TextType()
-	//@FindBy(xpath = "(//label[normalize-space(.)='Member #'][2]/following-sibling::div//input)")
 	@FindBy(xpath="(//div[@class='slds-card__body']//input)[3]")
 	public WebElement Nominator2;
 	@ButtonType(file=true)
@@ -27,7 +25,6 @@ public class AACR_NomAndMatsPage {
 	public WebElement BibliographyUpload;
 	@ButtonType(file=true)
 	@FindBy(xpath = "(//div/lightning-primitive-file-droppable-zone//input)[2]")
-	//@FindBy(xpath = "//div/lightning-primitive-file-droppable-zone//input[@id='input-file-152' and @type='file']")
 	public WebElement CurriculumVitae;
 	@ButtonType(file=true)
 	@FindBy(xpath = "(//div/lightning-primitive-file-droppable-zone//input)[3]")
@@ -44,5 +41,14 @@ public class AACR_NomAndMatsPage {
 	@ButtonType()
 	@FindByLabel(label = "Next")
 	public WebElement next;
+	@TextType()
+	@FindBy(xpath = "//label[normalize-space(.)='Nominator Title']/following-sibling::div//input")
+	public WebElement nominatorTitle;
+	@TextType()
+	@FindBy(xpath = "//label[normalize-space(.)='Nominator Name']/following-sibling::div//input")
+	public WebElement nominatorName;
+	@TextType()
+	@FindBy(xpath = "//label[normalize-space(.)='Nominator Type']/following-sibling::div//input")
+	public WebElement nominatorType;
 			
 }
