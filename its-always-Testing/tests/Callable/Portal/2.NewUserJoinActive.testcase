@@ -153,7 +153,9 @@
                 <argument id="interactionDescription">
                   <value class="value" valueClass="string">Set the Username to {EmailAddress}</value>
                 </argument>
-                <argument id="autoRetry"/>
+                <argument id="autoRetry">
+                  <value class="uiWait" uri="ui:wait:autoRetry:timeout=15"/>
+                </argument>
               </arguments>
               <generatedParameters>
                 <apiParam group="value" name="value" seq="10000" title="Value">
@@ -670,19 +672,19 @@
       <clauses>
         <clause name="substeps" testItemId="146">
           <steps>
-            <apiCall apiId="com.provar.plugins.forcedotcom.core.ui.UiDoAction" name="UiDoAction" testItemId="193" title="Set the Research Area Of Expertise Drop Down to Behavioral Science">
+            <apiCall apiId="com.provar.plugins.forcedotcom.core.ui.UiDoAction" name="UiDoAction" testItemId="220" title="Set the Major Focus Drop Down to Advocacy">
               <arguments>
                 <argument id="locator">
-                  <value class="uiLocator" uri="ui:pageobject:field?field=researchAreaOfExpertiseDropDown&amp;pageId=pageobjects.AACR_SciInterestPage"/>
+                  <value class="uiLocator" uri="ui:pageobject:field?field=MajorFocusDropDown&amp;pageId=pageobjects.AACR_SciInterestPage"/>
                 </argument>
                 <argument id="interaction">
                   <value class="uiInteraction" uri="ui:interaction?name=set"/>
                 </argument>
                 <argument id="value">
-                  <value class="value" valueClass="string">Behavioral Science</value>
+                  <value class="value" valueClass="string">Advocacy</value>
                 </argument>
                 <argument id="blur">
-                  <value class="value" valueClass="boolean">true</value>
+                  <value class="value" valueClass="boolean">false</value>
                 </argument>
                 <argument id="pressEnter">
                   <value class="value" valueClass="boolean">true</value>
@@ -694,13 +696,13 @@
                   <value class="value" valueClass="string">false</value>
                 </argument>
                 <argument id="beforeWait">
-                  <value class="uiWait" uri="ui:wait:timed?seconds=10"/>
+                  <value class="uiWait" uri="default"/>
                 </argument>
                 <argument id="afterWait">
                   <value class="uiWait" uri="default"/>
                 </argument>
                 <argument id="interactionDescription">
-                  <value class="value" valueClass="string">Set the Research Area Of Expertise Drop Down to Behavioral Science</value>
+                  <value class="value" valueClass="string">Set the Major Focus Drop Down to Advocacy</value>
                 </argument>
                 <argument id="autoRetry"/>
               </arguments>
@@ -708,7 +710,11 @@
                 <apiParam group="value" name="value" seq="10000" title="Value">
                   <summary>The value to be populated.</summary>
                   <type>
-                    <textType/>
+                    <textType>
+                      <constraints>
+                        <valueConstraint name="mimeType">text/plain</valueConstraint>
+                      </constraints>
+                    </textType>
                   </type>
                 </apiParam>
                 <apiParam group="value" name="blur" seq="10001" title="Tab off field">
@@ -721,57 +727,6 @@
                   <summary>Whether the Enter key should be pressed after the value is populated.</summary>
                   <type>
                     <booleanType/>
-                  </type>
-                </apiParam>
-              </generatedParameters>
-            </apiCall>
-            <apiCall apiId="com.provar.plugins.forcedotcom.core.ui.UiDoAction" name="UiDoAction" testItemId="149" title="Click the Major Focus Add Arrow">
-              <arguments>
-                <argument id="locator">
-                  <value class="uiLocator" uri="ui:pageobject:field?field=majorFocusAddArrow&amp;pageId=pageobjects.AACR_SciInterestPage"/>
-                </argument>
-                <argument id="interaction">
-                  <value class="uiInteraction" uri="ui:interaction?name=action"/>
-                </argument>
-                <argument id="hover">
-                  <value class="value" valueClass="boolean">false</value>
-                </argument>
-                <argument id="captureBefore">
-                  <value class="value" valueClass="string">false</value>
-                </argument>
-                <argument id="captureAfter">
-                  <value class="value" valueClass="string">false</value>
-                </argument>
-                <argument id="beforeWait">
-                  <value class="uiWait" uri="default"/>
-                </argument>
-                <argument id="afterWait">
-                  <value class="uiWait" uri="default"/>
-                </argument>
-                <argument id="interactionDescription">
-                  <value class="value" valueClass="string">Click the Major Focus Add Arrow</value>
-                </argument>
-                <argument id="autoRetry"/>
-                <argument id="ieClickMethod">
-                  <value class="value" valueClass="string">Default</value>
-                </argument>
-              </arguments>
-              <generatedParameters>
-                <apiParam group="value" name="hover" seq="10000" title="Hover before Clicking">
-                  <summary>Whether the mouse should hover over the field before it is clicked.</summary>
-                  <type>
-                    <booleanType/>
-                  </type>
-                </apiParam>
-                <apiParam group="value" name="ieClickMethod" seq="10001" title="IE Click Method">
-                  <summary>How the click should be executed for Internet Explorer.</summary>
-                  <type>
-                    <choiceType>
-                      <constraints>
-                        <valueConstraint name="valuesSource">com.provar.core.model.base.java.EnumChoiceListValuesSource</valueConstraint>
-                        <valueConstraint name="valuesSourceDependencies">com.provar.core.model.ui.api.ClickMethod</valueConstraint>
-                      </constraints>
-                    </choiceType>
                   </type>
                 </apiParam>
               </generatedParameters>

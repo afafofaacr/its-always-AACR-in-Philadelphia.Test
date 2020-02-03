@@ -32,5 +32,8 @@ public class AACR_SciInterestPage {
 	@TextType()
 	@FindByLabel(label = "Research Area of Expertise")
 	public WebElement researchAreaOfExpertiseDropDown;
+	@TextType()
+	@FindBy(xpath = "//input[@name='majorFocus']")
+	public WebElement MajorFocusDropDown;
 			
 }

@@ -1,5 +1,11 @@
 package pageobjects;
 
+import java.time.LocalDate;
+import java.time.LocalDateTime;
+import java.time.Month;
+import java.time.format.DateTimeFormatter;
+import java.time.temporal.ChronoUnit;
+import java.util.Date;
 import java.util.List;
 
 import org.openqa.selenium.WebElement;
@@ -59,4 +65,46 @@ public class AACR_MemberPortalPage {
 	@ButtonType()
 	@FindByLabel(label = "Next")
 	public WebElement next;
+	@TextType()
+	@FindBy(xpath = "(//article//span[@data-aura-class='uiOutputDate'])[2]")
+	public WebElement ExpiresOnDate;
+	@TextType()
+	@FindBy(xpath = "//div[@class='slds-box slds-align_absolute-center active']")
+	public WebElement DaysLeftBox;
+	//Apply Regex to Days Left read from site to return only the number of days displayed
+	public int daysLeftMath(String str){
+	
+		String daysNumber = str.replaceAll("([A-z ]*)", "").replace("\n","");
+		
+		return Integer.parseInt(daysNumber);
+	}
+	//If the person renewed to this current year, calculate expected number of days left
+	//Adds 30 days because the Grace Period is 30 Days
+	public int numDaysLeftCurrentYearMath(){ 
+		LocalDate todayDate = java.time.LocalDate.now();
+		LocalDate currentCTE = LocalDate.of(todayDate.getYear(), Month.DECEMBER, 31);
+		currentCTE = currentCTE.plusDays(30);
+		
+		return (int) ChronoUnit.DAYS.between(todayDate, currentCTE);	
+	}
+	//If the person renewed to forthcoming year, calculate expected number of days left
+	//Adds 30 days because the Grace Period is 30 Days
+	public int numDaysLeftForthcomingYearMath(){
+		LocalDate todayDate = java.time.LocalDate.now();
+		LocalDate forthcomingCTE = LocalDate.of(todayDate.plusYears(1).getYear(), Month.DECEMBER, 31);
+		forthcomingCTE = forthcomingCTE.plusDays(30);
+		
+		return (int) ChronoUnit.DAYS.between(todayDate, forthcomingCTE);
+	}
+	//Switch Logic, did they renew to current year (1) or next year (2)?
+	public int whichYearRenewedTo(int isSuccessfulRenewValue){
+		if(isSuccessfulRenewValue < 366){
+		return 1;
+		}
+		return 2;
+	}
+
+	@ButtonType()
+	@FindBy(xpath = "//button[normalize-space(.)='Forthcoming Year']")
+	public WebElement forthcomingYear;
 }
