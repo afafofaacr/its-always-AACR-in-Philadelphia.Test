@@ -2,7 +2,7 @@
 <testCase id="2" registryId="18c30d99-cd69-4e48-b669-c4a12f0bf59d" visibility="Internal">
   <summary>&lt;font face="Segoe UI" size="2"&gt;For now in the back office, if renewals are open the "Renew Through" toggle will automatically be preset to the future year, so the BORenew Future Year flow is the same as the Current Year flow. &amp;nbsp;Have this created for sake of if the UI changes in the future.&lt;/font&gt;</summary>
   <steps>
-    <apiCall apiId="com.provar.plugins.bundled.apis.control.SetValues" name="SetValues" testItemId="14" title="Set Values: SearchName">
+    <apiCall apiId="com.provar.plugins.bundled.apis.control.SetValues" name="SetValues" testItemId="14" title="Set Values: Password">
       <arguments>
         <argument id="values">
           <value class="valueList" mutable="Mutable">
@@ -12,6 +12,28 @@
               </namedValue>
               <namedValue name="value">
                 <value class="value" valueClass="string">Aggravating Anthony</value>
+              </namedValue>
+              <namedValue name="valueScope">
+                <value class="value" valueClass="string">Test</value>
+              </namedValue>
+            </namedValues>
+            <namedValues mutable="Mutable">
+              <namedValue name="valuePath">
+                <value class="value" valueClass="string">EmailAddress</value>
+              </namedValue>
+              <namedValue name="value">
+                <value class="value" valueClass="string">aggravatinganthony@sharklasers.com</value>
+              </namedValue>
+              <namedValue name="valueScope">
+                <value class="value" valueClass="string">Test</value>
+              </namedValue>
+            </namedValues>
+            <namedValues mutable="Mutable">
+              <namedValue name="valuePath">
+                <value class="value" valueClass="string">Password</value>
+              </namedValue>
+              <namedValue name="value">
+                <value class="value" valueClass="string">Hi123456</value>
               </namedValue>
               <namedValue name="valueScope">
                 <value class="value" valueClass="string">Test</value>

@@ -77,7 +77,7 @@ this.driver=driver;
 	driver.switchTo().defaultContent();
 	
 	}
-
-
-
+	@ButtonType()
+	@FindByLabel(label = "Cancel Order")
+	public WebElement cancelOrder;
 }

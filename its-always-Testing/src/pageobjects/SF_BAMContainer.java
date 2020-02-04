@@ -52,6 +52,9 @@ public class SF_BAMContainer {
 	}
 	@FindBy(xpath = "//iframe[contains(@src,'CreditCardPayment')]")
 	public Frame frame;
+	@BooleanType()
+	@FindBy(xpath = "//label/span[normalize-space(.)='2020']")
+	public WebElement RenewThrough2020Toggle;
 	
 	
 	//@TextType()
