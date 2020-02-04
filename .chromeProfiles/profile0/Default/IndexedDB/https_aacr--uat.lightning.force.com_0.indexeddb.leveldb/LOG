@@ -1,0 +1,20 @@
+2020/02/04-11:22:20.257 4628 Reusing MANIFEST C:\Users\laura.perry\OneDrive - American Association for Cancer Res\Documents\GitHub\its-always-AACR-in-Philadelphia.Test\.chromeProfiles\profile0\Default\IndexedDB\https_aacr--uat.lightning.force.com_0.indexeddb.leveldb/MANIFEST-000001
+2020/02/04-11:22:20.258 4628 Recovering log #259
+2020/02/04-11:22:20.261 4628 Reusing old log C:\Users\laura.perry\OneDrive - American Association for Cancer Res\Documents\GitHub\its-always-AACR-in-Philadelphia.Test\.chromeProfiles\profile0\Default\IndexedDB\https_aacr--uat.lightning.force.com_0.indexeddb.leveldb/000259.log 
+2020/02/04-11:22:21.981 3e44 Compacting 3@0 + 1@1 files
+2020/02/04-11:22:22.012 3e44 Generated table #262@0: 974 keys, 1427171 bytes
+2020/02/04-11:22:22.012 3e44 Compacted 3@0 + 1@1 files => 1427171 bytes
+2020/02/04-11:22:22.015 3e44 compacted to: files[ 0 1 1 0 0 0 0 ]
+2020/02/04-11:22:22.015 3e44 Delete type=2 #254
+2020/02/04-11:22:22.015 3e44 Delete type=2 #256
+2020/02/04-11:22:22.016 3e44 Delete type=2 #258
+2020/02/04-11:22:22.016 3e44 Delete type=2 #260
+2020/02/04-11:22:25.293 3e44 Level-0 table #264: started
+2020/02/04-11:22:25.360 3e44 Level-0 table #264: 4337755 bytes OK
+2020/02/04-11:22:25.368 3e44 Delete type=0 #259
+2020/02/04-11:22:33.387 3e44 Level-0 table #266: started
+2020/02/04-11:22:33.430 3e44 Level-0 table #266: 4273613 bytes OK
+2020/02/04-11:22:33.433 3e44 Delete type=0 #263
+2020/02/04-11:22:59.710 3e44 Level-0 table #268: started
+2020/02/04-11:22:59.756 3e44 Level-0 table #268: 3812138 bytes OK
+2020/02/04-11:22:59.764 3e44 Delete type=0 #265

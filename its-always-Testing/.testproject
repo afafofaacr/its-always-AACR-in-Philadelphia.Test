@@ -11,8 +11,41 @@
     <connectionClass name="sf">
       <connections>
         <connection name="LP_UAT">
+          <summary/>
           <connectionUrls>
             <connectionUrl secureStorageNodeId="913ed8dc-f5c3-4ec1-80ee-dd6029f635a8" url="sf:user=laura.perry@aacr.org.uat;password={password};securityToken={securityToken};environment=SANDBOX;userLoginUrl=https://aacr--uat.my.salesforce.com;lightningMode=true"/>
+          </connectionUrls>
+        </connection>
+        <connection name="LP_QA">
+          <summary>LP Connection to QA Environment</summary>
+          <connectionUrls>
+            <connectionUrl secureStorageNodeId="0eb32d11-f931-4994-ac13-ef4059b1b7d4" url="sf:user=laura.perry@aacr.org.qa;password={password};securityToken={securityToken};environment=SANDBOX;userLoginUrl=https://aacr--qa.my.salesforce.com;lightningMode=true"/>
+          </connectionUrls>
+        </connection>
+      </connections>
+    </connectionClass>
+    <connectionClass name="webservice">
+      <connections>
+        <connection name="Yopmail">
+          <summary>Login to Yopmail</summary>
+          <connectionUrls>
+            <connectionUrl url="restservice:url=http://www.yopmail.com;authenticationType=NO_AUTHENTICATION"/>
+          </connectionUrls>
+        </connection>
+        <connection name="JP_UAT">
+          <summary/>
+          <connectionUrls>
+            <connectionUrl url="restservice:url=https://uat-aacr.cs47.force.com;authenticationType=NO_AUTHENTICATION"/>
+          </connectionUrls>
+        </connection>
+      </connections>
+    </connectionClass>
+    <connectionClass name="ui">
+      <connections>
+        <connection name="MyAACR_UAT">
+          <summary>UAT Portal for Members</summary>
+          <connectionUrls>
+            <connectionUrl url="se:baseUrl=https://uat-aacr.cs47.force.com"/>
           </connectionUrls>
         </connection>
       </connections>
