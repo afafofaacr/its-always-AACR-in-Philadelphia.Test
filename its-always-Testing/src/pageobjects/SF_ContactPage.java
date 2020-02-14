@@ -20,5 +20,7 @@ public class SF_ContactPage {
 	@ButtonType()
 	@FindByLabel(label = "New Application")
 	public WebElement newApplication;
-			
+	@ButtonType()
+	@FindByLabel(label = "Resign")
+	public WebElement resign;			
 }

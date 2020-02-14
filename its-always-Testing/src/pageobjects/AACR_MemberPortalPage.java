@@ -107,4 +107,8 @@ public class AACR_MemberPortalPage {
 	@ButtonType()
 	@FindBy(xpath = "//button[normalize-space(.)='Forthcoming Year']")
 	public WebElement forthcomingYear;
+	@TextType()
+	@FindBy(xpath = "(//div[@class='slds-text-heading_medium'])[4]")
+	//@FindBy(xpath = "//label[normalize-space(.)='AACR ID']/parent::div/parent::fieldset/parent::form/parent::div/parent::div/parent::span/parent::span/parent::div/parent::div/parent::div/parent::div/parent::div/parent::div/parent::div/parent::div/parent::div/parent::div/parent::body")
+	public WebElement MyMembershipMessageNeedsAssistance;
 }
