@@ -22,5 +22,8 @@ public class SF_ContactPage {
 	public WebElement newApplication;
 	@ButtonType()
 	@FindByLabel(label = "Resign")
-	public WebElement resign;			
+	public WebElement resign;	
+	public int strToNum(int num){
+		return num;
+	}		
 }
