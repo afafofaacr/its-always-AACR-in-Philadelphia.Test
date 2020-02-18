@@ -18,5 +18,8 @@ public class InnerModal {
 	@ButtonType()
 	@FindBy(xpath = "//footer/button[normalize-space(.)='Resign']")
 	public WebElement areYouSureResign;
+	@ButtonType()
+	@FindByLabel(label = "Cancel")
+	public WebElement cancel;
 	
 }

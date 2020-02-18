@@ -1,3 +1,6 @@
-2020/02/17-13:16:18.436 64a0 Reusing MANIFEST C:\Users\laura.perry\OneDrive - American Association for Cancer Res\Documents\GitHub\its-always-AACR-in-Philadelphia.Test\.chromeProfiles\profile1\Default\Local Storage\leveldb/MANIFEST-000001
-2020/02/17-13:16:18.437 64a0 Recovering log #4
-2020/02/17-13:16:18.439 64a0 Reusing old log C:\Users\laura.perry\OneDrive - American Association for Cancer Res\Documents\GitHub\its-always-AACR-in-Philadelphia.Test\.chromeProfiles\profile1\Default\Local Storage\leveldb/000004.log 
+2020/02/18-09:28:46.029 5ac8 Reusing MANIFEST C:\Users\laura.perry\OneDrive - American Association for Cancer Res\Documents\GitHub\its-always-AACR-in-Philadelphia.Test\.chromeProfiles\profile1\Default\Local Storage\leveldb/MANIFEST-000001
+2020/02/18-09:28:46.030 5ac8 Recovering log #4
+2020/02/18-09:28:46.031 5ac8 Reusing old log C:\Users\laura.perry\OneDrive - American Association for Cancer Res\Documents\GitHub\its-always-AACR-in-Philadelphia.Test\.chromeProfiles\profile1\Default\Local Storage\leveldb/000004.log 
+2020/02/18-09:31:47.103 3850 Level-0 table #8: started
+2020/02/18-09:31:47.117 3850 Level-0 table #8: 14726 bytes OK
+2020/02/18-09:31:47.125 3850 Delete type=0 #4

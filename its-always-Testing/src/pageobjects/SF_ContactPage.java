@@ -25,5 +25,8 @@ public class SF_ContactPage {
 	public WebElement resign;	
 	public int strToNum(int num){
 		return num;
-	}		
+	}
+	@LinkType()
+	@FindBy(xpath = "(//a[contains(@class,'forceBreadCrumbItem')])[2]")
+	public WebElement ContactOnTheBadges;		
 }

@@ -1,22 +1,193 @@
-2020/02/17-14:57:20.049 303c Reusing MANIFEST C:\Users\laura.perry\OneDrive - American Association for Cancer Res\Documents\GitHub\its-always-AACR-in-Philadelphia.Test\.chromeProfiles\profile0\Default\IndexedDB\https_aacr--uat.lightning.force.com_0.indexeddb.leveldb/MANIFEST-000001
-2020/02/17-14:57:20.051 303c Recovering log #1022
-2020/02/17-14:57:20.060 303c Reusing old log C:\Users\laura.perry\OneDrive - American Association for Cancer Res\Documents\GitHub\its-always-AACR-in-Philadelphia.Test\.chromeProfiles\profile0\Default\IndexedDB\https_aacr--uat.lightning.force.com_0.indexeddb.leveldb/001022.log 
-2020/02/17-14:57:22.812 4200 Level-0 table #1026: started
-2020/02/17-14:57:22.863 4200 Level-0 table #1026: 3761978 bytes OK
-2020/02/17-14:57:22.869 4200 Delete type=0 #1022
-2020/02/17-14:57:25.379 4200 Compacting 2@0 + 1@1 files
-2020/02/17-14:57:25.444 4200 Generated table #1027@0: 1813 keys, 797081 bytes
-2020/02/17-14:57:25.445 4200 Compacted 2@0 + 1@1 files => 797081 bytes
-2020/02/17-14:57:25.448 4200 compacted to: files[ 0 1 2 0 0 0 0 ]
-2020/02/17-14:57:25.450 4200 Delete type=2 #1021
-2020/02/17-14:57:25.451 4200 Delete type=2 #1023
-2020/02/17-14:57:25.451 4200 Delete type=2 #1026
-2020/02/17-14:57:29.714 4200 Level-0 table #1029: started
-2020/02/17-14:57:29.755 4200 Level-0 table #1029: 3513591 bytes OK
-2020/02/17-14:57:29.759 4200 Delete type=0 #1025
-2020/02/17-14:57:51.561 4200 Level-0 table #1031: started
-2020/02/17-14:57:51.597 4200 Level-0 table #1031: 4205171 bytes OK
-2020/02/17-14:57:51.601 4200 Delete type=0 #1028
-2020/02/17-14:57:54.887 4200 Level-0 table #1033: started
-2020/02/17-14:57:54.927 4200 Level-0 table #1033: 4319528 bytes OK
-2020/02/17-14:57:54.931 4200 Delete type=0 #1030
+2020/02/18-10:57:33.871 20 Reusing MANIFEST C:\Users\laura.perry\OneDrive - American Association for Cancer Res\Documents\GitHub\its-always-AACR-in-Philadelphia.Test\.chromeProfiles\profile0\Default\IndexedDB\https_aacr--uat.lightning.force.com_0.indexeddb.leveldb/MANIFEST-000001
+2020/02/18-10:57:33.872 20 Recovering log #1272
+2020/02/18-10:57:33.877 20 Reusing old log C:\Users\laura.perry\OneDrive - American Association for Cancer Res\Documents\GitHub\its-always-AACR-in-Philadelphia.Test\.chromeProfiles\profile0\Default\IndexedDB\https_aacr--uat.lightning.force.com_0.indexeddb.leveldb/001272.log 
+2020/02/18-10:57:36.574 5b2c Compacting 1@0 + 2@1 files
+2020/02/18-10:57:36.606 5b2c Generated table #1275@0: 5310 keys, 2188938 bytes
+2020/02/18-10:57:36.623 5b2c Generated table #1276@0: 474 keys, 572405 bytes
+2020/02/18-10:57:36.623 5b2c Compacted 1@0 + 2@1 files => 2761343 bytes
+2020/02/18-10:57:36.627 5b2c compacted to: files[ 0 2 2 0 0 0 0 ]
+2020/02/18-10:57:39.039 5b2c Level-0 table #1278: started
+2020/02/18-10:57:39.080 5b2c Level-0 table #1278: 3915436 bytes OK
+2020/02/18-10:57:39.084 5b2c Delete type=2 #1270
+2020/02/18-10:57:39.084 5b2c Delete type=2 #1271
+2020/02/18-10:57:39.084 5b2c Delete type=0 #1272
+2020/02/18-10:57:39.084 5b2c Delete type=2 #1273
+2020/02/18-10:57:51.741 5b2c Level-0 table #1280: started
+2020/02/18-10:57:51.781 5b2c Level-0 table #1280: 4218803 bytes OK
+2020/02/18-10:57:51.785 5b2c Delete type=0 #1277
+2020/02/18-10:58:03.147 5b2c Level-0 table #1282: started
+2020/02/18-10:58:03.200 5b2c Level-0 table #1282: 4271826 bytes OK
+2020/02/18-10:58:03.204 5b2c Delete type=0 #1279
+2020/02/18-10:58:29.198 5b2c Level-0 table #1284: started
+2020/02/18-10:58:29.236 5b2c Level-0 table #1284: 4201928 bytes OK
+2020/02/18-10:58:29.240 5b2c Delete type=0 #1281
+2020/02/18-10:58:29.241 5b2c Compacting 4@0 + 2@1 files
+2020/02/18-10:58:29.293 5b2c Generated table #1285@0: 5651 keys, 2205716 bytes
+2020/02/18-10:58:29.329 5b2c Generated table #1286@0: 666 keys, 1620736 bytes
+2020/02/18-10:58:29.329 5b2c Compacted 4@0 + 2@1 files => 3826452 bytes
+2020/02/18-10:58:29.333 5b2c compacted to: files[ 0 2 2 0 0 0 0 ]
+2020/02/18-10:58:29.334 5b2c Delete type=2 #1275
+2020/02/18-10:58:29.334 5b2c Delete type=2 #1276
+2020/02/18-10:58:29.334 5b2c Delete type=2 #1278
+2020/02/18-10:58:29.334 5b2c Delete type=2 #1280
+2020/02/18-10:58:29.334 5b2c Delete type=2 #1282
+2020/02/18-10:58:29.334 5b2c Delete type=2 #1284
+2020/02/18-10:58:32.384 5b2c Compacting 1@1 + 1@2 files
+2020/02/18-10:58:32.441 5b2c Generated table #1287@1: 4712 keys, 2185274 bytes
+2020/02/18-10:58:32.441 5b2c Compacted 1@1 + 1@2 files => 2185274 bytes
+2020/02/18-10:58:32.443 5b2c compacted to: files[ 0 1 2 0 0 0 0 ]
+2020/02/18-10:58:32.444 5b2c Delete type=2 #1243
+2020/02/18-10:58:32.444 5b2c Delete type=2 #1286
+2020/02/18-10:58:59.982 5b2c Level-0 table #1289: started
+2020/02/18-10:59:00.004 8f8 Current memtable full; waiting...
+2020/02/18-10:59:00.030 5b2c Level-0 table #1289: 4568549 bytes OK
+2020/02/18-10:59:00.034 5b2c Delete type=0 #1283
+2020/02/18-10:59:00.036 5b2c Level-0 table #1291: started
+2020/02/18-10:59:00.078 5b2c Level-0 table #1291: 2482227 bytes OK
+2020/02/18-10:59:00.084 5b2c Delete type=0 #1288
+2020/02/18-10:59:05.579 5b2c Level-0 table #1293: started
+2020/02/18-10:59:05.615 5b2c Level-0 table #1293: 3573527 bytes OK
+2020/02/18-10:59:05.620 5b2c Delete type=0 #1290
+2020/02/18-10:59:31.162 5b2c Compacting 3@0 + 1@1 files
+2020/02/18-10:59:31.208 5b2c Generated table #1294@0: 7609 keys, 1560270 bytes
+2020/02/18-10:59:31.208 5b2c Compacted 3@0 + 1@1 files => 1560270 bytes
+2020/02/18-10:59:31.211 5b2c compacted to: files[ 0 1 2 0 0 0 0 ]
+2020/02/18-10:59:31.211 5b2c Delete type=2 #1285
+2020/02/18-10:59:31.211 5b2c Delete type=2 #1289
+2020/02/18-10:59:31.211 5b2c Delete type=2 #1291
+2020/02/18-10:59:31.212 5b2c Delete type=2 #1293
+2020/02/18-10:59:35.788 5b2c Level-0 table #1296: started
+2020/02/18-10:59:35.826 5b2c Level-0 table #1296: 4157592 bytes OK
+2020/02/18-10:59:35.830 5b2c Delete type=0 #1292
+2020/02/18-10:59:41.871 5b2c Compacting 1@0 + 1@1 files
+2020/02/18-10:59:41.913 5b2c Generated table #1297@0: 7748 keys, 1673129 bytes
+2020/02/18-10:59:41.913 5b2c Compacted 1@0 + 1@1 files => 1673129 bytes
+2020/02/18-10:59:41.915 5b2c compacted to: files[ 0 1 2 0 0 0 0 ]
+2020/02/18-10:59:41.916 5b2c Delete type=2 #1294
+2020/02/18-10:59:41.916 5b2c Delete type=2 #1296
+2020/02/18-10:59:45.334 5b2c Level-0 table #1299: started
+2020/02/18-10:59:45.374 5b2c Level-0 table #1299: 4321358 bytes OK
+2020/02/18-10:59:45.378 5b2c Delete type=0 #1295
+2020/02/18-10:59:58.188 5b2c Level-0 table #1301: started
+2020/02/18-10:59:58.232 5b2c Level-0 table #1301: 3837144 bytes OK
+2020/02/18-10:59:58.236 5b2c Delete type=0 #1298
+2020/02/18-11:00:05.505 5b2c Compacting 2@0 + 1@1 files
+2020/02/18-11:00:05.551 5b2c Generated table #1302@0: 7939 keys, 1572889 bytes
+2020/02/18-11:00:05.552 5b2c Compacted 2@0 + 1@1 files => 1572889 bytes
+2020/02/18-11:00:05.557 5b2c compacted to: files[ 0 1 2 0 0 0 0 ]
+2020/02/18-11:00:14.851 5b2c Level-0 table #1304: started
+2020/02/18-11:00:14.892 5b2c Level-0 table #1304: 4203468 bytes OK
+2020/02/18-11:00:14.896 5b2c Delete type=2 #1297
+2020/02/18-11:00:14.896 5b2c Delete type=2 #1299
+2020/02/18-11:00:14.896 5b2c Delete type=0 #1300
+2020/02/18-11:00:14.896 5b2c Delete type=2 #1301
+2020/02/18-11:00:30.440 5b2c Level-0 table #1306: started
+2020/02/18-11:00:30.499 5b2c Level-0 table #1306: 4202945 bytes OK
+2020/02/18-11:00:30.506 5b2c Delete type=0 #1303
+2020/02/18-11:00:38.407 5b2c Level-0 table #1308: started
+2020/02/18-11:00:38.450 5b2c Level-0 table #1308: 3838030 bytes OK
+2020/02/18-11:00:38.453 5b2c Delete type=0 #1305
+2020/02/18-11:00:53.506 5b2c Compacting 3@0 + 1@1 files
+2020/02/18-11:00:53.565 5b2c Generated table #1309@0: 8333 keys, 1648302 bytes
+2020/02/18-11:00:53.565 5b2c Compacted 3@0 + 1@1 files => 1648302 bytes
+2020/02/18-11:00:53.569 5b2c compacted to: files[ 0 1 2 0 0 0 0 ]
+2020/02/18-11:00:53.745 5b2c Level-0 table #1311: started
+2020/02/18-11:00:53.801 5b2c Level-0 table #1311: 4283858 bytes OK
+2020/02/18-11:00:53.806 5b2c Delete type=2 #1302
+2020/02/18-11:00:53.806 5b2c Delete type=2 #1304
+2020/02/18-11:00:53.806 5b2c Delete type=2 #1306
+2020/02/18-11:00:53.806 5b2c Delete type=0 #1307
+2020/02/18-11:00:53.806 5b2c Delete type=2 #1308
+2020/02/18-11:01:05.440 5b2c Level-0 table #1313: started
+2020/02/18-11:01:05.487 5b2c Level-0 table #1313: 4269170 bytes OK
+2020/02/18-11:01:05.492 5b2c Delete type=0 #1310
+2020/02/18-11:01:16.679 5b2c Compacting 2@0 + 1@1 files
+2020/02/18-11:01:16.736 5b2c Generated table #1314@0: 8558 keys, 1667558 bytes
+2020/02/18-11:01:16.736 5b2c Compacted 2@0 + 1@1 files => 1667558 bytes
+2020/02/18-11:01:16.739 5b2c compacted to: files[ 0 1 2 0 0 0 0 ]
+2020/02/18-11:01:16.740 5b2c Delete type=2 #1309
+2020/02/18-11:01:16.740 5b2c Delete type=2 #1311
+2020/02/18-11:01:16.740 5b2c Delete type=2 #1313
+2020/02/18-11:01:17.741 5b2c Level-0 table #1316: started
+2020/02/18-11:01:17.788 5b2c Level-0 table #1316: 4197333 bytes OK
+2020/02/18-11:01:17.793 5b2c Delete type=0 #1312
+2020/02/18-11:01:27.083 5b2c Level-0 table #1318: started
+2020/02/18-11:01:27.129 5b2c Level-0 table #1318: 3849617 bytes OK
+2020/02/18-11:01:27.133 5b2c Delete type=0 #1315
+2020/02/18-11:01:41.247 5b2c Compacting 2@0 + 1@1 files
+2020/02/18-11:01:41.305 5b2c Generated table #1319@0: 8845 keys, 1736292 bytes
+2020/02/18-11:01:41.305 5b2c Compacted 2@0 + 1@1 files => 1736292 bytes
+2020/02/18-11:01:41.308 5b2c compacted to: files[ 0 1 2 0 0 0 0 ]
+2020/02/18-11:01:41.309 5b2c Delete type=2 #1314
+2020/02/18-11:01:41.310 5b2c Delete type=2 #1316
+2020/02/18-11:01:41.310 5b2c Delete type=2 #1318
+2020/02/18-11:01:44.143 5b2c Level-0 table #1321: started
+2020/02/18-11:01:44.189 5b2c Level-0 table #1321: 4194273 bytes OK
+2020/02/18-11:01:44.194 5b2c Delete type=0 #1317
+2020/02/18-11:01:56.924 5b2c Level-0 table #1323: started
+2020/02/18-11:01:56.978 5b2c Level-0 table #1323: 4308420 bytes OK
+2020/02/18-11:01:56.982 5b2c Delete type=0 #1320
+2020/02/18-11:02:08.302 5b2c Compacting 2@0 + 1@1 files
+2020/02/18-11:02:08.360 5b2c Generated table #1324@0: 9340 keys, 1963717 bytes
+2020/02/18-11:02:08.360 5b2c Compacted 2@0 + 1@1 files => 1963717 bytes
+2020/02/18-11:02:08.363 5b2c compacted to: files[ 0 1 2 0 0 0 0 ]
+2020/02/18-11:02:08.365 5b2c Delete type=2 #1319
+2020/02/18-11:02:08.365 5b2c Delete type=2 #1321
+2020/02/18-11:02:08.365 5b2c Delete type=2 #1323
+2020/02/18-11:02:12.830 5b2c Level-0 table #1326: started
+2020/02/18-11:02:12.869 5b2c Level-0 table #1326: 4084370 bytes OK
+2020/02/18-11:02:12.873 5b2c Delete type=0 #1322
+2020/02/18-11:02:36.129 5b2c Level-0 table #1328: started
+2020/02/18-11:02:36.171 5b2c Level-0 table #1328: 4203352 bytes OK
+2020/02/18-11:02:36.175 5b2c Delete type=0 #1325
+2020/02/18-11:02:44.445 5b2c Compacting 2@0 + 1@1 files
+2020/02/18-11:02:44.505 5b2c Generated table #1329@0: 9805 keys, 2027739 bytes
+2020/02/18-11:02:44.505 5b2c Compacted 2@0 + 1@1 files => 2027739 bytes
+2020/02/18-11:02:44.509 5b2c compacted to: files[ 0 1 2 0 0 0 0 ]
+2020/02/18-11:02:44.510 5b2c Delete type=2 #1324
+2020/02/18-11:02:44.510 5b2c Delete type=2 #1326
+2020/02/18-11:02:44.510 5b2c Delete type=2 #1328
+2020/02/18-11:02:48.358 5b2c Level-0 table #1331: started
+2020/02/18-11:02:48.407 5b2c Level-0 table #1331: 4095493 bytes OK
+2020/02/18-11:02:48.410 5b2c Delete type=0 #1327
+2020/02/18-11:03:35.176 5b2c Level-0 table #1333: started
+2020/02/18-11:03:35.224 5b2c Level-0 table #1333: 4009247 bytes OK
+2020/02/18-11:03:35.229 5b2c Delete type=0 #1330
+2020/02/18-11:04:12.441 5b2c Compacting 2@0 + 1@1 files
+2020/02/18-11:04:12.500 5b2c Generated table #1334@0: 10300 keys, 2098399 bytes
+2020/02/18-11:04:12.500 5b2c Compacted 2@0 + 1@1 files => 2098399 bytes
+2020/02/18-11:04:12.503 5b2c compacted to: files[ 0 1 2 0 0 0 0 ]
+2020/02/18-11:04:12.504 5b2c Delete type=2 #1329
+2020/02/18-11:04:12.504 5b2c Delete type=2 #1331
+2020/02/18-11:04:12.504 5b2c Delete type=2 #1333
+2020/02/18-11:04:13.341 5b2c Level-0 table #1336: started
+2020/02/18-11:04:13.386 5b2c Level-0 table #1336: 4229590 bytes OK
+2020/02/18-11:04:13.390 5b2c Delete type=0 #1332
+2020/02/18-11:04:51.803 5b2c Level-0 table #1338: started
+2020/02/18-11:04:51.847 5b2c Level-0 table #1338: 3909136 bytes OK
+2020/02/18-11:04:51.852 5b2c Delete type=0 #1335
+2020/02/18-11:05:01.453 5b2c Compacting 2@0 + 1@1 files
+2020/02/18-11:05:01.517 5b2c Generated table #1339@0: 10535 keys, 2426445 bytes
+2020/02/18-11:05:01.523 5b2c Generated table #1340@0: 268 keys, 12647 bytes
+2020/02/18-11:05:01.523 5b2c Compacted 2@0 + 1@1 files => 2439092 bytes
+2020/02/18-11:05:01.526 5b2c compacted to: files[ 0 2 2 0 0 0 0 ]
+2020/02/18-11:05:01.527 5b2c Delete type=2 #1334
+2020/02/18-11:05:01.527 5b2c Delete type=2 #1336
+2020/02/18-11:05:01.527 5b2c Delete type=2 #1338
+2020/02/18-11:05:04.098 5b2c Level-0 table #1342: started
+2020/02/18-11:05:04.145 5b2c Level-0 table #1342: 3915747 bytes OK
+2020/02/18-11:05:04.149 5b2c Delete type=0 #1337
+2020/02/18-11:05:29.322 5b2c Compacting 1@0 + 2@1 files
+2020/02/18-11:05:29.393 5b2c Generated table #1343@0: 10792 keys, 2478757 bytes
+2020/02/18-11:05:29.400 5b2c Generated table #1344@0: 276 keys, 12638 bytes
+2020/02/18-11:05:29.400 5b2c Compacted 1@0 + 2@1 files => 2491395 bytes
+2020/02/18-11:05:29.402 5b2c compacted to: files[ 0 2 2 0 0 0 0 ]
+2020/02/18-11:05:29.403 5b2c Delete type=2 #1339
+2020/02/18-11:05:29.403 5b2c Delete type=2 #1340
+2020/02/18-11:05:29.403 5b2c Delete type=2 #1342
+2020/02/18-11:05:31.992 5b2c Level-0 table #1346: started
+2020/02/18-11:05:32.035 5b2c Level-0 table #1346: 4164009 bytes OK
+2020/02/18-11:05:32.039 5b2c Delete type=0 #1341
+2020/02/18-11:05:40.415 5b2c Level-0 table #1348: started
+2020/02/18-11:05:40.460 5b2c Level-0 table #1348: 3887819 bytes OK
+2020/02/18-11:05:40.464 5b2c Delete type=0 #1345
