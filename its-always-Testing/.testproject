@@ -7,6 +7,98 @@
   <sourcePath>src</sourcePath>
   <secureStoragePath>.secrets</secureStoragePath>
   <browserDebugPort>0</browserDebugPort>
+  <variables>
+    <testVariable name="OneYr_StartDate">
+      <valueType class="textType">
+        <constraints>
+          <valueConstraint name="minLength">0</valueConstraint>
+          <valueConstraint name="maxLength">9999</valueConstraint>
+          <valueConstraint name="regex"/>
+        </constraints>
+      </valueType>
+      <summary>Start Date for a 1 Year Suspended Person in 2020</summary>
+      <values>
+        <testVariableValue>
+          <value class="value" valueClass="string">01/01/2019</value>
+        </testVariableValue>
+      </values>
+    </testVariable>
+    <testVariable name="OneYr_EndDate">
+      <valueType class="textType">
+        <constraints>
+          <valueConstraint name="minLength">0</valueConstraint>
+          <valueConstraint name="maxLength">9999</valueConstraint>
+          <valueConstraint name="regex"/>
+        </constraints>
+      </valueType>
+      <summary>End Date for a 1 Year Suspended Person in 2020</summary>
+      <values>
+        <testVariableValue>
+          <value class="value" valueClass="string">12/31/2019</value>
+        </testVariableValue>
+      </values>
+    </testVariable>
+    <testVariable name="OneYr_GPEDate">
+      <valueType class="textType">
+        <constraints>
+          <valueConstraint name="minLength">0</valueConstraint>
+          <valueConstraint name="maxLength">9999</valueConstraint>
+          <valueConstraint name="regex"/>
+        </constraints>
+      </valueType>
+      <summary>Grace Period End Date for a 1 Year Suspended Person in 2020</summary>
+      <values>
+        <testVariableValue>
+          <value class="value" valueClass="string">01/30/2020</value>
+        </testVariableValue>
+      </values>
+    </testVariable>
+    <testVariable name="TwoYr_StartDate">
+      <valueType class="textType">
+        <constraints>
+          <valueConstraint name="minLength">0</valueConstraint>
+          <valueConstraint name="maxLength">9999</valueConstraint>
+          <valueConstraint name="regex"/>
+        </constraints>
+      </valueType>
+      <summary>Start Date for a 2 Year Suspended Person in 2020</summary>
+      <values>
+        <testVariableValue>
+          <value class="value" valueClass="string">01/01/2018</value>
+        </testVariableValue>
+      </values>
+    </testVariable>
+    <testVariable name="TwoYr_EndDate">
+      <valueType class="textType">
+        <constraints>
+          <valueConstraint name="minLength">0</valueConstraint>
+          <valueConstraint name="maxLength">9999</valueConstraint>
+          <valueConstraint name="regex"/>
+        </constraints>
+      </valueType>
+      <summary>End Date for a 2 Year Suspended Person in 2020</summary>
+      <values>
+        <testVariableValue>
+          <value class="value" valueClass="string">12/31/2018</value>
+        </testVariableValue>
+      </values>
+    </testVariable>
+    <testVariable name="TwoYr_GPEDate">
+      <valueType class="textType">
+        <constraints>
+          <valueConstraint name="minLength">0</valueConstraint>
+          <valueConstraint name="maxLength">9999</valueConstraint>
+          <valueConstraint name="regex"/>
+        </constraints>
+      </valueType>
+      <summary>Grace Period End Date for a 2 Year Suspended Person in 2020</summary>
+      <values>
+        <testVariableValue>
+          <value class="value" valueClass="string">01/30/2019</value>
+        </testVariableValue>
+      </values>
+    </testVariable>
+  </variables>
   <connectionClasses>
     <connectionClass name="sf">
       <connections>

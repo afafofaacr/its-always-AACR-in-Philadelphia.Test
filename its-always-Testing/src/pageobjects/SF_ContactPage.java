@@ -26,7 +26,14 @@ public class SF_ContactPage {
 	public int strToNum(int num){
 		return num;
 	}
+	//Link to the Contact when you are on the Badges List page
 	@LinkType()
 	@FindBy(xpath = "(//a[contains(@class,'forceBreadCrumbItem')])[2]")
-	public WebElement ContactOnTheBadges;		
+	public WebElement ContactOnTheBadges;
+	@LinkType()
+	@FindBy(xpath = "//a[normalize-space(.)='Edit']")
+	public WebElement edit;
+	@ButtonType()
+	@FindBy(xpath = "//button[normalize-space(.)='Change Record Type']")
+	public WebElement ContactRecordTypeButton;		
 }
