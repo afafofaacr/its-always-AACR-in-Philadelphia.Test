@@ -53,8 +53,18 @@ public class SF_BAMContainer {
 	@FindBy(xpath = "//iframe[contains(@src,'CreditCardPayment')]")
 	public Frame frame;
 	@BooleanType()
-	@FindBy(xpath = "//label/span[normalize-space(.)='2020']")
+	@FindBy(xpath = "(//span[@class='slds-radio_faux'])[1]")
+	//@FindBy(xpath = "//label/span[normalize-space(.)='2020']")
 	public WebElement RenewThrough2020Toggle;
+	@TextType()
+	@FindBy(xpath = "//label[normalize-space(.)='Item Quick Add']/following-sibling::div//input")
+	public WebElement itemQuickAdd;
+	@TextType()
+	@FindBy(xpath = "//span[@id='listbox-option-unique-id-01']")
+	public WebElement itemQuickAddDropdown;
+	@ButtonType()
+	@FindByLabel(label = "Add to Order")
+	public WebElement addToOrder;
 	
 	
 	//@TextType()

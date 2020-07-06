@@ -1,14 +1,54 @@
-2020/01/16-14:08:58.025 3ce0 Reusing MANIFEST C:\Users\laura.perry\OneDrive - American Association for Cancer Res\Documents\GitHub\its-always-AACR-in-Philadelphia.Test\.chromeProfiles\profile1\Default\IndexedDB\https_aacr--uat.lightning.force.com_0.indexeddb.leveldb/MANIFEST-000001
-2020/01/16-14:08:59.636 30d0 Level-0 table #5: started
-2020/01/16-14:08:59.642 30d0 Level-0 table #5: 285634 bytes OK
-2020/01/16-14:08:59.648 30d0 Delete type=0 #3
-2020/01/16-14:08:59.648 30d0 Manual compaction at level-0 from '\x00\x07\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x08\x00\x00\x00' @ 0 : 0; will stop at (end)
-2020/01/16-14:09:09.866 30d0 Level-0 table #7: started
-2020/01/16-14:09:09.927 30d0 Level-0 table #7: 3802797 bytes OK
-2020/01/16-14:09:09.937 30d0 Delete type=0 #4
-2020/01/16-14:09:48.534 30d0 Level-0 table #9: started
-2020/01/16-14:09:48.578 30d0 Level-0 table #9: 4256399 bytes OK
-2020/01/16-14:09:48.585 30d0 Delete type=0 #6
-2020/01/16-14:10:15.875 30d0 Level-0 table #11: started
-2020/01/16-14:10:15.934 30d0 Level-0 table #11: 4256714 bytes OK
-2020/01/16-14:10:15.944 30d0 Delete type=0 #8
+2020/02/20-12:10:03.042 4d04 Reusing MANIFEST C:\Users\laura.perry\OneDrive - American Association for Cancer Res\Documents\GitHub\its-always-AACR-in-Philadelphia.Test\.chromeProfiles\profile1\Default\IndexedDB\https_aacr--uat.lightning.force.com_0.indexeddb.leveldb/MANIFEST-000001
+2020/02/20-12:10:03.043 4d04 Recovering log #227
+2020/02/20-12:10:03.052 4d04 Reusing old log C:\Users\laura.perry\OneDrive - American Association for Cancer Res\Documents\GitHub\its-always-AACR-in-Philadelphia.Test\.chromeProfiles\profile1\Default\IndexedDB\https_aacr--uat.lightning.force.com_0.indexeddb.leveldb/000227.log 
+2020/02/20-12:10:05.506 501c Compacting 1@1 + 1@2 files
+2020/02/20-12:10:05.544 501c Generated table #232@1: 852 keys, 1633230 bytes
+2020/02/20-12:10:05.544 501c Compacted 1@1 + 1@2 files => 1633230 bytes
+2020/02/20-12:10:05.548 501c compacted to: files[ 0 0 1 0 0 0 0 ]
+2020/02/20-12:10:09.286 501c Level-0 table #234: started
+2020/02/20-12:10:09.327 501c Level-0 table #234: 3781827 bytes OK
+2020/02/20-12:10:09.330 501c Delete type=2 #178
+2020/02/20-12:10:09.330 501c Delete type=0 #227
+2020/02/20-12:10:09.331 501c Delete type=2 #230
+2020/02/20-12:10:21.186 501c Level-0 table #236: started
+2020/02/20-12:10:21.231 501c Level-0 table #236: 4544095 bytes OK
+2020/02/20-12:10:21.237 501c Delete type=0 #233
+2020/02/20-12:10:33.177 501c Level-0 table #238: started
+2020/02/20-12:10:33.217 501c Level-0 table #238: 4155391 bytes OK
+2020/02/20-12:10:33.228 501c Delete type=0 #235
+2020/02/20-12:10:50.508 501c Level-0 table #240: started
+2020/02/20-12:10:50.551 501c Level-0 table #240: 4344968 bytes OK
+2020/02/20-12:10:50.555 501c Delete type=0 #237
+2020/02/20-12:11:05.474 501c Compacting 3@0 + 1@1 files
+2020/02/20-12:11:05.511 501c Generated table #241@0: 753 keys, 2223872 bytes
+2020/02/20-12:11:05.541 501c Generated table #242@0: 858 keys, 1250357 bytes
+2020/02/20-12:11:05.541 501c Compacted 3@0 + 1@1 files => 3474229 bytes
+2020/02/20-12:11:05.543 501c compacted to: files[ 0 2 1 0 0 0 0 ]
+2020/02/20-12:11:05.544 501c Delete type=2 #234
+2020/02/20-12:11:05.544 501c Delete type=2 #236
+2020/02/20-12:11:05.544 501c Delete type=2 #238
+2020/02/20-12:11:05.544 501c Delete type=2 #240
+2020/02/20-12:11:09.824 501c Level-0 table #244: started
+2020/02/20-12:11:09.862 501c Level-0 table #244: 4119938 bytes OK
+2020/02/20-12:11:09.867 501c Delete type=0 #239
+2020/02/20-12:11:47.297 501c Level-0 table #246: started
+2020/02/20-12:11:47.337 501c Level-0 table #246: 4158933 bytes OK
+2020/02/20-12:11:47.341 501c Delete type=0 #243
+2020/02/20-12:15:45.893 501c Level-0 table #248: started
+2020/02/20-12:15:45.937 501c Level-0 table #248: 4174316 bytes OK
+2020/02/20-12:15:45.941 501c Delete type=0 #245
+2020/02/20-12:22:28.925 501c Level-0 table #250: started
+2020/02/20-12:22:28.966 501c Level-0 table #250: 4409657 bytes OK
+2020/02/20-12:22:28.971 501c Delete type=0 #247
+2020/02/20-12:22:28.972 501c Compacting 4@0 + 2@1 files
+2020/02/20-12:22:29.022 501c Generated table #251@0: 1471 keys, 2113761 bytes
+2020/02/20-12:22:29.062 501c Generated table #252@0: 490 keys, 2355598 bytes
+2020/02/20-12:22:29.069 501c Generated table #253@0: 581 keys, 17812 bytes
+2020/02/20-12:22:29.069 501c Compacted 4@0 + 2@1 files => 4487171 bytes
+2020/02/20-12:22:29.072 501c compacted to: files[ 0 3 1 0 0 0 0 ]
+2020/02/20-12:22:29.072 501c Delete type=2 #241
+2020/02/20-12:22:29.072 501c Delete type=2 #242
+2020/02/20-12:22:29.072 501c Delete type=2 #244
+2020/02/20-12:22:29.073 501c Delete type=2 #246
+2020/02/20-12:22:29.073 501c Delete type=2 #248
+2020/02/20-12:22:29.073 501c Delete type=2 #250

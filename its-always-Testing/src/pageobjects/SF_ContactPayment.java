@@ -80,4 +80,8 @@ this.driver=driver;
 	@ButtonType()
 	@FindByLabel(label = "Cancel Order")
 	public WebElement cancelOrder;
+	//Process Order appears if there is no cost for the purchase
+	@ButtonType()
+	@FindByLabel(label = "Process Order")
+	public WebElement processOrder;
 }

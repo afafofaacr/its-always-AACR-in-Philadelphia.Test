@@ -1,20 +1,29 @@
-2020/02/04-11:22:20.257 4628 Reusing MANIFEST C:\Users\laura.perry\OneDrive - American Association for Cancer Res\Documents\GitHub\its-always-AACR-in-Philadelphia.Test\.chromeProfiles\profile0\Default\IndexedDB\https_aacr--uat.lightning.force.com_0.indexeddb.leveldb/MANIFEST-000001
-2020/02/04-11:22:20.258 4628 Recovering log #259
-2020/02/04-11:22:20.261 4628 Reusing old log C:\Users\laura.perry\OneDrive - American Association for Cancer Res\Documents\GitHub\its-always-AACR-in-Philadelphia.Test\.chromeProfiles\profile0\Default\IndexedDB\https_aacr--uat.lightning.force.com_0.indexeddb.leveldb/000259.log 
-2020/02/04-11:22:21.981 3e44 Compacting 3@0 + 1@1 files
-2020/02/04-11:22:22.012 3e44 Generated table #262@0: 974 keys, 1427171 bytes
-2020/02/04-11:22:22.012 3e44 Compacted 3@0 + 1@1 files => 1427171 bytes
-2020/02/04-11:22:22.015 3e44 compacted to: files[ 0 1 1 0 0 0 0 ]
-2020/02/04-11:22:22.015 3e44 Delete type=2 #254
-2020/02/04-11:22:22.015 3e44 Delete type=2 #256
-2020/02/04-11:22:22.016 3e44 Delete type=2 #258
-2020/02/04-11:22:22.016 3e44 Delete type=2 #260
-2020/02/04-11:22:25.293 3e44 Level-0 table #264: started
-2020/02/04-11:22:25.360 3e44 Level-0 table #264: 4337755 bytes OK
-2020/02/04-11:22:25.368 3e44 Delete type=0 #259
-2020/02/04-11:22:33.387 3e44 Level-0 table #266: started
-2020/02/04-11:22:33.430 3e44 Level-0 table #266: 4273613 bytes OK
-2020/02/04-11:22:33.433 3e44 Delete type=0 #263
-2020/02/04-11:22:59.710 3e44 Level-0 table #268: started
-2020/02/04-11:22:59.756 3e44 Level-0 table #268: 3812138 bytes OK
-2020/02/04-11:22:59.764 3e44 Delete type=0 #265
+2020/05/15-13:51:16.429 49d4 Reusing MANIFEST C:\Users\laura.perry\OneDrive - American Association for Cancer Res\Documents\GitHub\its-always-AACR-in-Philadelphia.Test\.chromeProfiles\profile0\Default\IndexedDB\https_aacr--uat.lightning.force.com_0.indexeddb.leveldb/MANIFEST-000001
+2020/05/15-13:51:16.430 49d4 Recovering log #12
+2020/05/15-13:51:16.430 49d4 Reusing old log C:\Users\laura.perry\OneDrive - American Association for Cancer Res\Documents\GitHub\its-always-AACR-in-Philadelphia.Test\.chromeProfiles\profile0\Default\IndexedDB\https_aacr--uat.lightning.force.com_0.indexeddb.leveldb/000012.log 
+2020/05/15-13:51:23.378 200c Level-0 table #18: started
+2020/05/15-13:51:23.420 200c Level-0 table #18: 3884972 bytes OK
+2020/05/15-13:51:23.426 200c Delete type=0 #12
+2020/05/15-13:51:38.079 200c Level-0 table #20: started
+2020/05/15-13:51:38.121 200c Level-0 table #20: 4335256 bytes OK
+2020/05/15-13:51:38.127 200c Delete type=0 #17
+2020/05/15-14:01:38.002 200c Level-0 table #22: started
+2020/05/15-14:01:38.033 200c Level-0 table #22: 2319585 bytes OK
+2020/05/15-14:01:38.040 200c Delete type=0 #19
+2020/05/15-14:01:38.041 200c Manual compaction at level-0 from (begin) .. (end); will stop at '\x00\x06\x01\x1f\x03\x00\xe0\x86\xbf+\wB\x00\x01:\x000\x000\x00D\x002\x00a\x000\x000\x000\x000\x000\x000\x00D\x00R\x00Y\x00N\x000\x000\x000\x000\x000\x000\x000\x000\x000\x000\x000\x000\x000\x000\x000\x000\x000\x005\x001\x00I\x000\x000\x000\x000\x000\x004\x00c\x00s\x00D\x00c\x004\x008\x00.\x000\x00:\x00_\x00r\x00e\x00c\x00o\x00r\x00d\x00s' @ 3734 : 1
+2020/05/15-14:01:38.041 200c Compacting 2@0 + 1@1 files
+2020/05/15-14:01:38.079 200c Generated table #23@0: 604 keys, 948182 bytes
+2020/05/15-14:01:38.079 200c Compacted 2@0 + 1@1 files => 948182 bytes
+2020/05/15-14:01:38.084 200c compacted to: files[ 0 1 1 0 0 0 0 ]
+2020/05/15-14:01:38.085 200c Delete type=2 #18
+2020/05/15-14:01:38.085 200c Delete type=2 #20
+2020/05/15-14:01:38.085 200c Delete type=2 #22
+2020/05/15-14:01:38.089 200c Manual compaction at level-0 from '\x00\x06\x01\x1f\x03\x00\xe0\x86\xbf+\wB\x00\x01:\x000\x000\x00D\x002\x00a\x000\x000\x000\x000\x000\x000\x00D\x00R\x00Y\x00N\x000\x000\x000\x000\x000\x000\x000\x000\x000\x000\x000\x000\x000\x000\x000\x000\x000\x005\x001\x00I\x000\x000\x000\x000\x000\x004\x00c\x00s\x00D\x00c\x004\x008\x00.\x000\x00:\x00_\x00r\x00e\x00c\x00o\x00r\x00d\x00s' @ 3734 : 1 .. (end); will stop at (end)
+2020/05/15-14:01:38.089 200c Manual compaction at level-1 from (begin) .. (end); will stop at '\x00\x08\x01\x1f\x03\x00@P\xedT\wB\x00\x01\x0d\x00c\x00r\x00y\x00p\x00t\x00o\x00a\x00d\x00a\x00p\x00t\x00e\x00r' @ 2922 : 1
+2020/05/15-14:01:38.089 200c Compacting 1@1 + 1@2 files
+2020/05/15-14:01:38.125 200c Generated table #24@1: 502 keys, 1867772 bytes
+2020/05/15-14:01:38.126 200c Compacted 1@1 + 1@2 files => 1867772 bytes
+2020/05/15-14:01:38.131 200c compacted to: files[ 0 0 1 0 0 0 0 ]
+2020/05/15-14:01:38.132 200c Delete type=2 #15
+2020/05/15-14:01:38.132 200c Delete type=2 #23
+2020/05/15-14:01:38.134 200c Manual compaction at level-1 from '\x00\x08\x01\x1f\x03\x00@P\xedT\wB\x00\x01\x0d\x00c\x00r\x00y\x00p\x00t\x00o\x00a\x00d\x00a\x00p\x00t\x00e\x00r' @ 2922 : 1 .. (end); will stop at (end)
