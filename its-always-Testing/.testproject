@@ -98,6 +98,21 @@
         </testVariableValue>
       </values>
     </testVariable>
+    <testVariable name="CurYear_PTD">
+      <valueType class="textType">
+        <constraints>
+          <valueConstraint name="minLength">0</valueConstraint>
+          <valueConstraint name="maxLength">9999</valueConstraint>
+          <valueConstraint name="regex"/>
+        </constraints>
+      </valueType>
+      <summary>Current Year Paid Through Date</summary>
+      <values>
+        <testVariableValue>
+          <value class="value" valueClass="string">12/31/2020</value>
+        </testVariableValue>
+      </values>
+    </testVariable>
   </variables>
   <connectionClasses>
     <connectionClass name="sf">

@@ -35,5 +35,11 @@ public class SF_ContactPage {
 	public WebElement edit;
 	@ButtonType()
 	@FindBy(xpath = "//button[normalize-space(.)='Change Record Type']")
-	public WebElement ContactRecordTypeButton;		
+	public WebElement ContactRecordTypeButton;
+	@ButtonType()
+	@FindByLabel(label = "Approve")
+	public WebElement approve;
+	@ButtonType()
+	@FindByLabel(label = "Mark As Deceased")
+	public WebElement markAsDeceased;		
 }
