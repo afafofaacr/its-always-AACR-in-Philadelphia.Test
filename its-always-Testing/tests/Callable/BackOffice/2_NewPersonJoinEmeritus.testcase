@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<testCase id="6" visibility="Internal">
-  <summary>&lt;p&gt;&lt;font face="Segoe UI" size="2"&gt;If renewals are on, picks to renew to the current year.&lt;br&gt;&lt;/font&gt;&lt;/p&gt;&lt;p&gt;&lt;font face="Segoe UI" size="2"&gt;Chooses a Buy Up Journal.&lt;br&gt;&lt;/font&gt;&lt;/p&gt;&lt;p&gt;&lt;/p&gt;&lt;p&gt;&lt;/p&gt;&lt;p&gt;&lt;/p&gt;&lt;p&gt;&lt;font face="Segoe UI" size="2"&gt;Joins TME.&lt;/font&gt;&lt;/p&gt;</summary>
+<testCase id="11" visibility="Internal">
+  <summary>&lt;p&gt;&lt;font face="Segoe UI" size="2"&gt;**If renewals are on, picks to renew to the current year.**&lt;/font&gt;&lt;/p&gt;&lt;p&gt;&lt;font face="Segoe UI" size="2"&gt;1. Calls 1_NewPersonCreation (creates a new person via Salesforce New Contact)&lt;/font&gt;&lt;/p&gt;&lt;p&gt;&lt;font face="Segoe UI" size="2"&gt;2. Navigate to the Contact page of the newly created Contact.&lt;/font&gt;&lt;/p&gt;&lt;p&gt;&lt;font face="Segoe UI" size="2"&gt;3. Use New Application to add the following:&lt;/font&gt;&lt;/p&gt;&lt;p&gt;&lt;font face="Segoe UI" size="2"&gt;- Emeritus Membership&lt;/font&gt;&lt;/p&gt;&lt;p&gt;&lt;font face="Segoe UI" size="2"&gt;- (Blood Cancer Journal gets added with the membership)&lt;/font&gt;&lt;/p&gt;&lt;p&gt;&lt;font face="Segoe UI" size="2"&gt;- Tumor Microenvironment (TME)&lt;/font&gt;&lt;/p&gt;&lt;p&gt;&lt;font face="Segoe UI" size="2"&gt;- Buy up: Clinical Cancer Research Journal - Print&lt;/font&gt;&lt;/p&gt;&lt;p&gt;&lt;font face="Segoe UI" size="2"&gt;4. Pay&lt;/font&gt;&lt;/p&gt;</summary>
   <steps>
     <caseCall testCaseId="e6630216-edfb-4617-b4f8-df99ac2800f5" testCasePath="tests/Callable/BackOffice/1_NewPersonCreation.testcase" testItemId="25">
       <outputArguments>
@@ -663,7 +663,7 @@
                   <value class="uiWait" uri="default"/>
                 </argument>
                 <argument id="afterWait">
-                  <value class="uiWait" uri="default"/>
+                  <value class="uiWait" uri="ui:wait:auraBusy?timeout=60"/>
                 </argument>
                 <argument id="interactionDescription">
                   <value class="value" valueClass="string">Click the Add To Order button</value>
@@ -993,7 +993,7 @@
                   <value class="uiWait" uri="default"/>
                 </argument>
                 <argument id="afterWait">
-                  <value class="uiWait" uri="ui:wait:timed?seconds=5"/>
+                  <value class="uiWait" uri="ui:wait:auraBusy?timeout=60"/>
                 </argument>
                 <argument id="interactionDescription">
                   <value class="value" valueClass="string">Click the Add To Order button</value>
@@ -1041,7 +1041,7 @@
                   <value class="value" valueClass="string">false</value>
                 </argument>
                 <argument id="beforeWait">
-                  <value class="uiWait" uri="default"/>
+                  <value class="uiWait" uri="ui:wait:timed?seconds=4"/>
                 </argument>
                 <argument id="afterWait">
                   <value class="uiWait" uri="default"/>
@@ -1123,10 +1123,10 @@
                   <value class="value" valueClass="string">Call the waitFrame method</value>
                 </argument>
                 <argument id="beforeWait">
-                  <value class="uiWait" uri="ui:wait:timed?seconds=2"/>
+                  <value class="uiWait" uri="ui:wait:timed?seconds=3"/>
                 </argument>
                 <argument id="afterWait">
-                  <value class="uiWait" uri="ui:wait:timed?seconds=2"/>
+                  <value class="uiWait" uri="ui:wait:timed?seconds=3"/>
                 </argument>
                 <argument id="autoRetry"/>
                 <argument id="captureBefore">

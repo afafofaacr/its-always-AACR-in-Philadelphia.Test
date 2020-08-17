@@ -1,11 +1,9 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<testCase id="1" visibility="Internal">
+<testCase id="0" visibility="Internal">
   <summary/>
   <steps>
     <caseCall testCaseId="93a53ecb-3917-4b27-adad-d1d71f3714cc" testCasePath="tests/Callable/Portal/2.NewUserJoinActive.testcase" testItemId="134">
-      <tags>
-        <string>disabled</string>
-      </tags>
+      <tags/>
       <outputArguments>
         <outputArgument id="FirstName">
           <name class="value" valueClass="string">FirstName</name>
@@ -22,9 +20,7 @@
       </outputArguments>
     </caseCall>
     <apiCall apiId="com.provar.plugins.bundled.apis.control.SetValues" isTitleUpdated="true" name="SetValues" testItemId="139" title="Set Values: Login Credentials">
-      <tags>
-        <string>disabled</string>
-      </tags>
+      <tags/>
       <arguments>
         <argument id="values">
           <value class="valueList" mutable="Mutable">
@@ -78,6 +74,9 @@
       </arguments>
     </apiCall>
     <apiCall apiId="com.provar.plugins.bundled.apis.control.SetValues" name="SetValues" testItemId="140" title="Set Values: FullName">
+      <tags>
+        <string>disabled</string>
+      </tags>
       <arguments>
         <argument id="values">
           <value class="valueList" mutable="Mutable">

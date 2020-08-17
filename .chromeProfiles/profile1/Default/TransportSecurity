@@ -1,9 +1,9 @@
 {
    "+ccWXqaoHJ9hfuXbleKV6FQUrBlyXAJ31BdqjNQJpHs=": {
-      "expiry": 1621094633.489739,
+      "expiry": 1625683946.024488,
       "mode": "force-https",
       "sts_include_subdomains": false,
-      "sts_observed": 1589558633.489743
+      "sts_observed": 1594147946.024491
    },
    "+e5w7eDQJBxMxqXVZgFsRMm/h0o5Ed7Vfs9sFaDeOX8=": {
       "expiry": 1613754598.95583,
@@ -32,8 +32,8 @@
    "AwzQkapxgy1cna95JJLIbjYWCWPOV/JrWlQ7mIKez6Y=": {
       "expect_ct": {
          "expect_ct_enforce": false,
-         "expect_ct_expiry": 1589655072.743221,
-         "expect_ct_observed": 1589568672.743221,
+         "expect_ct_expiry": 1594234354.830655,
+         "expect_ct_observed": 1594147954.830655,
          "expect_ct_report_uri": "https://a.forcesslreports.com/Expect-CT-report/00D2a000000DRYNm"
       },
       "expiry": 0.0,
@@ -56,14 +56,14 @@
    "E10e7Gwg5+phsYD4E8qNYFsQySXnIHPAfo4zloUPESc=": {
       "expect_ct": {
          "expect_ct_enforce": false,
-         "expect_ct_expiry": 1590173470.816053,
-         "expect_ct_observed": 1589568670.816053,
+         "expect_ct_expiry": 1594752752.612248,
+         "expect_ct_observed": 1594147952.612248,
          "expect_ct_report_uri": "https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
       },
-      "expiry": 1605348670.816033,
+      "expiry": 1609927952.612233,
       "mode": "force-https",
       "sts_include_subdomains": true,
-      "sts_observed": 1589568670.816037
+      "sts_observed": 1594147952.612238
    },
    "M4bfUnCmQAi4PNb3B8aI/2+SVJhHKsMfMMT7fzi6ij4=": {
       "expiry": 1614872857.250261,
@@ -126,10 +126,10 @@
       "sts_observed": 1581011177.743402
    },
    "nAuqgR4iEWti7SOdT3UHPl6rmZU/DeaIm38P2O2OkgA=": {
-      "expiry": 1621094720.576166,
+      "expiry": 1625683945.690424,
       "mode": "force-https",
       "sts_include_subdomains": false,
-      "sts_observed": 1589558720.576168
+      "sts_observed": 1594147945.690427
    },
    "oX2nVzO2pQGi5ID6lzl386jmEI15v6op1/dLAwteFl4=": {
       "expiry": 1613754599.305887,
