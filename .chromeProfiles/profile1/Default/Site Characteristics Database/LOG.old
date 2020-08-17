@@ -1,3 +1,5 @@
-2020/05/15-12:04:55.788 3c9c Reusing MANIFEST C:\Users\laura.perry\OneDrive - American Association for Cancer Res\Documents\GitHub\its-always-AACR-in-Philadelphia.Test\.chromeProfiles\profile1\Default\Site Characteristics Database/MANIFEST-000001
-2020/05/15-12:04:55.789 3c9c Recovering log #3
-2020/05/15-12:04:55.790 3c9c Reusing old log C:\Users\laura.perry\OneDrive - American Association for Cancer Res\Documents\GitHub\its-always-AACR-in-Philadelphia.Test\.chromeProfiles\profile1\Default\Site Characteristics Database/000003.log 
+2020/07/07-14:52:24.422 1b78 Log #3: 29 ops saved to Table #4 OK
+2020/07/07-14:52:24.424 1b78 Archiving C:\Users\laura\Documents\GitHub\its-always-AACR-in-Philadelphia.Test\.chromeProfiles\profile1\Default\Site Characteristics Database/000003.log: OK
+2020/07/07-14:52:24.424 1b78 Table #4: 29 entries OK
+2020/07/07-14:52:24.425 1b78 Archiving C:\Users\laura\Documents\GitHub\its-always-AACR-in-Philadelphia.Test\.chromeProfiles\profile1\Default\Site Characteristics Database/MANIFEST-000001: OK
+2020/07/07-14:52:24.433 1b78 **** Repaired leveldb C:\Users\laura\Documents\GitHub\its-always-AACR-in-Philadelphia.Test\.chromeProfiles\profile1\Default\Site Characteristics Database; recovered 1 files; 712 bytes. Some data may have been lost. ****

@@ -157,6 +157,16 @@
         </connection>
       </connections>
     </connectionClass>
+    <connectionClass name="google">
+      <connections>
+        <connection id="bb77fd09-9d58-4579-b5fb-345e9b6ae330" name="Gmail">
+          <summary/>
+          <connectionUrls>
+            <connectionUrl secureStorageNodeId="566d38ed-80c5-4d36-baa8-f7a432bc5daf" url="google:user=testthisstuffnow@gmail.com;accessToken={accessToken};refreshToken={refreshToken};expiry=1597263843565"/>
+          </connectionUrls>
+        </connection>
+      </connections>
+    </connectionClass>
   </connectionClasses>
   <browserConfigurations>
     <browserConfiguration adjustBrowserWidthForChromeIde="true" browserHeight="0" browserWidth="0" name="Full Screen">

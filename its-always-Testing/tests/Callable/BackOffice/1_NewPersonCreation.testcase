@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<testCase id="8" registryId="e6630216-edfb-4617-b4f8-df99ac2800f5" visibility="Internal">
-  <summary/>
+<testCase id="2" registryId="e6630216-edfb-4617-b4f8-df99ac2800f5" visibility="Internal">
+  <summary>&lt;p&gt;&lt;font face="Segoe UI" size="2"&gt;Create a person via Salesforce New Contact (Nonmember)&lt;/font&gt;&lt;/p&gt;&lt;p&gt;&lt;font face="Segoe UI" size="2"&gt;Randomly generates a name, and creates an associated email address along with an Afghanistan address with a zip code (in order to create a Known Address)&lt;/font&gt;&lt;/p&gt;</summary>
   <steps>
     <apiCall apiId="com.provar.plugins.forcedotcom.core.testapis.ApexConnect" name="ApexConnect" testItemId="1" title="Salesforce Connect: LP_UAT (Test)">
       <arguments>
@@ -583,7 +583,7 @@
                 </clause>
               </clauses>
             </apiCall>
-            <apiCall apiId="com.provar.plugins.forcedotcom.core.ui.UiDoAction" name="UiDoAction" testItemId="20" title="Set the Work Email field to c{LastName}@yopmail.com">
+            <apiCall apiId="com.provar.plugins.forcedotcom.core.ui.UiDoAction" name="UiDoAction" testItemId="20" title="Set the Work Email field to b{LastName}@yopmail.com">
               <arguments>
                 <argument id="locator">
                   <value class="uiLocator" uri="ui:locator?name=OrderApi__Work_Email__c&amp;binding=sf%3Aui%3Abinding%3Aobject%3Fobject%3DContact%26field%3DOrderApi__Work_Email__c"/>
@@ -594,7 +594,7 @@
                 <argument id="value">
                   <value class="compound">
                     <parts>
-                      <value valueClass="string">c</value>
+                      <value valueClass="string">b</value>
                       <variable>
                         <path element="LastName"/>
                       </variable>
@@ -621,7 +621,7 @@
                   <value class="uiWait" uri="default"/>
                 </argument>
                 <argument id="interactionDescription">
-                  <value class="value" valueClass="string">Set the Work Email field to c{LastName}@yopmail.com</value>
+                  <value class="value" valueClass="string">Set the Work Email field to b{LastName}@yopmail.com</value>
                 </argument>
                 <argument id="autoRetry"/>
               </arguments>
