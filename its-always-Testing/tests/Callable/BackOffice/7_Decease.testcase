@@ -1,21 +1,9 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<testCase id="23" registryId="818f928f-8374-4f31-9c6d-f777dde9ae75" visibility="Internal">
+<testCase id="3" registryId="818f928f-8374-4f31-9c6d-f777dde9ae75" visibility="Internal">
   <summary>&lt;br&gt;</summary>
   <steps>
-    <caseCall testCaseId="e6630216-edfb-4617-b4f8-df99ac2800f5" testCasePath="tests/Callable/BackOffice/1_NewPersonCreation.testcase" testItemId="72">
-      <tags>
-        <string>disabled</string>
-      </tags>
-      <outputArguments>
-        <outputArgument id="FirstName">
-          <name class="value" valueClass="string">FirstName</name>
-        </outputArgument>
-        <outputArgument id="LastName">
-          <name class="value" valueClass="string">LastName</name>
-        </outputArgument>
-      </outputArguments>
-    </caseCall>
     <caseCall testCaseId="260a1fb9-0774-42c0-beb7-c27c260692d2" testCasePath="tests/Callable/BackOffice/2_NewPersonJoinActive.testcase" testItemId="83">
+      <tags/>
       <outputArguments>
         <outputArgument id="FirstName">
           <name class="value" valueClass="string">FirstName</name>
@@ -376,12 +364,26 @@
                   <value class="value" valueClass="string">Click the Mark As Deceased</value>
                 </argument>
                 <argument id="autoRetry"/>
+                <argument id="ieClickMethod">
+                  <value class="value" valueClass="string">Default</value>
+                </argument>
               </arguments>
               <generatedParameters>
-                <apiParam group="value" name="hover" title="Hover before Clicking">
+                <apiParam group="value" name="hover" seq="10000" title="Hover before Clicking">
                   <summary>Whether the mouse should hover over the field before it is clicked.</summary>
                   <type>
                     <booleanType/>
+                  </type>
+                </apiParam>
+                <apiParam group="value" name="ieClickMethod" seq="10001" title="IE Click Method">
+                  <summary>How the click should be executed for Internet Explorer.</summary>
+                  <type>
+                    <choiceType>
+                      <constraints>
+                        <valueConstraint name="valuesSource">com.provar.core.model.base.java.EnumChoiceListValuesSource</valueConstraint>
+                        <valueConstraint name="valuesSourceDependencies">com.provar.core.model.ui.api.ClickMethod</valueConstraint>
+                      </constraints>
+                    </choiceType>
                   </type>
                 </apiParam>
               </generatedParameters>
@@ -403,7 +405,7 @@
           <value class="value" valueClass="string">LP_UAT</value>
         </argument>
         <argument id="target">
-          <value class="uiTarget" uri="sf:ui:target?lightningComponent=RecordUtilities&amp;pageObject=pageobjects.SF_ContactPageModal"/>
+          <value class="uiTarget" uri="sf:ui:target?auraComponent=RecordUtilities&amp;pageObject=pageobjects.SF_ContactPageModal"/>
         </argument>
         <argument id="navigate">
           <value class="value" valueClass="string">Dont</value>
@@ -434,7 +436,7 @@
                   <value class="value" valueClass="string">LP_UAT</value>
                 </argument>
                 <argument id="target">
-                  <value class="uiTarget" uri="sf:ui:target?lightningComponent=MakeDeceased&amp;pageObject=pageobjects.MakeDeceased"/>
+                  <value class="uiTarget" uri="sf:ui:target?auraComponent=MakeDeceased&amp;pageObject=pageobjects.MakeDeceased"/>
                 </argument>
                 <argument id="navigate">
                   <value class="value" valueClass="string">Embedded</value>
@@ -494,19 +496,23 @@
                         <argument id="autoRetry"/>
                       </arguments>
                       <generatedParameters>
-                        <apiParam group="value" name="value" title="Value">
+                        <apiParam group="value" name="value" seq="10000" title="Value">
                           <summary>The value to be populated.</summary>
                           <type>
-                            <textType/>
+                            <textType>
+                              <constraints>
+                                <valueConstraint name="mimeType">text/plain</valueConstraint>
+                              </constraints>
+                            </textType>
                           </type>
                         </apiParam>
-                        <apiParam group="value" name="blur" title="Tab off field">
+                        <apiParam group="value" name="blur" seq="10001" title="Tab off field">
                           <summary>Whether the tab key should be pressed after the value is populated.</summary>
                           <type>
                             <booleanType/>
                           </type>
                         </apiParam>
-                        <apiParam group="value" name="pressEnter" title="Press Enter">
+                        <apiParam group="value" name="pressEnter" seq="10002" title="Press Enter">
                           <summary>Whether the Enter key should be pressed after the value is populated.</summary>
                           <type>
                             <booleanType/>
@@ -568,10 +574,12 @@
                   </steps>
                 </clause>
               </clauses>
+              <generatedParameters/>
             </apiCall>
           </steps>
         </clause>
       </clauses>
+      <generatedParameters/>
     </apiCall>
   </steps>
   <outputParams>

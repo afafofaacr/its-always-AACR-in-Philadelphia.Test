@@ -41,5 +41,8 @@ public class SF_ContactPage {
 	public WebElement approve;
 	@ButtonType()
 	@FindByLabel(label = "Mark As Deceased")
-	public WebElement markAsDeceased;		
+	public WebElement markAsDeceased;	
+	@ButtonType()
+	@FindBy(xpath = "//*[@id='brandBand_2']/div/div/div[2]/div/one-record-home-flexipage2/forcegenerated-adgrollup_component___forcegenerated__flexipage_recordpage___lightning_membership_contact_view___contact___view/forcegenerated-flexipage_lightning_membership_contact_view_contact__view_js/record_flexipage-record-page-decorator/div/slot/flexipage-record-home-with-subheader-template-desktop2/div/div[3]/div[1]/slot/slot/flexipage-component2[1]/slot/flexipage-aura-wrapper/div/div/ul/li[2]/section/div/footer/button[2]")
+	public WebElement approveConfirmed;	
 }

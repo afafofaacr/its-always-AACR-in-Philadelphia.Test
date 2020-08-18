@@ -47,7 +47,7 @@ public class AACR_PersonalInformationPage {
 	@FindBy(xpath = "//label[normalize-space(.)='*State']/following-sibling::div//select")
 	public WebElement state;
 	@TextType()
-	@FindBy(xpath = "//label[normalize-space(.)='Zip']/following-sibling::div//input[@id='input-35']")
+	@FindBy(xpath = "//label[normalize-space(.)='Zip']/following-sibling::div//input[@id='input-38']")
 	public WebElement zip;
 	@ButtonType()
 	@FindByLabel(label = "Next")

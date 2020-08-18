@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<testCase id="0" registryId="93a53ecb-3917-4b27-adad-d1d71f3714cc" visibility="Internal">
+<testCase id="15" registryId="93a53ecb-3917-4b27-adad-d1d71f3714cc" visibility="Internal">
   <summary/>
   <steps>
-    <caseCall testCaseId="ec193e98-950e-4666-96f9-ac29fec5145a" testCasePath="tests/Callable/Portal/1.NewUserRegistration.testcase" testItemId="132">
+    <caseCall testCaseId="9d2199f7-488c-4b07-a1a3-89b79330aef5" testCasePath="tests/Callable/Portal/1.NewUserRegistration.testcase" testItemId="222">
       <outputArguments>
         <outputArgument id="FirstName">
           <name class="value" valueClass="string">FirstName</name>
@@ -696,7 +696,7 @@
                   <value class="value" valueClass="string">false</value>
                 </argument>
                 <argument id="beforeWait">
-                  <value class="uiWait" uri="default"/>
+                  <value class="uiWait" uri="ui:wait:pageload?timeout=60"/>
                 </argument>
                 <argument id="afterWait">
                   <value class="uiWait" uri="default"/>
@@ -704,7 +704,9 @@
                 <argument id="interactionDescription">
                   <value class="value" valueClass="string">Set the Major Focus Drop Down to Advocacy</value>
                 </argument>
-                <argument id="autoRetry"/>
+                <argument id="autoRetry">
+                  <value class="uiWait" uri="ui:wait:autoRetry:timeout=30"/>
+                </argument>
               </arguments>
               <generatedParameters>
                 <apiParam group="value" name="value" seq="10000" title="Value">
@@ -843,7 +845,7 @@
                   <value class="value" valueClass="string">false</value>
                 </argument>
                 <argument id="beforeWait">
-                  <value class="uiWait" uri="default"/>
+                  <value class="uiWait" uri="ui:wait:pageload?timeout=30"/>
                 </argument>
                 <argument id="afterWait">
                   <value class="uiWait" uri="default"/>
@@ -1543,7 +1545,7 @@
                   <value class="value" valueClass="string">false</value>
                 </argument>
                 <argument id="beforeWait">
-                  <value class="uiWait" uri="default"/>
+                  <value class="uiWait" uri="ui:wait:pageload?timeout=60"/>
                 </argument>
                 <argument id="afterWait">
                   <value class="uiWait" uri="ui:wait:timed?seconds=5"/>
@@ -1637,7 +1639,7 @@
                   <value class="value" valueClass="string">false</value>
                 </argument>
                 <argument id="beforeWait">
-                  <value class="uiWait" uri="default"/>
+                  <value class="uiWait" uri="ui:wait:pageload?timeout=60"/>
                 </argument>
                 <argument id="afterWait">
                   <value class="uiWait" uri="default"/>
@@ -1646,12 +1648,26 @@
                   <value class="value" valueClass="string">Click the Next Button</value>
                 </argument>
                 <argument id="autoRetry"/>
+                <argument id="ieClickMethod">
+                  <value class="value" valueClass="string">Default</value>
+                </argument>
               </arguments>
               <generatedParameters>
-                <apiParam group="value" name="hover" title="Hover before Clicking">
+                <apiParam group="value" name="hover" seq="10000" title="Hover before Clicking">
                   <summary>Whether the mouse should hover over the field before it is clicked.</summary>
                   <type>
                     <booleanType/>
+                  </type>
+                </apiParam>
+                <apiParam group="value" name="ieClickMethod" seq="10001" title="IE Click Method">
+                  <summary>How the click should be executed for Internet Explorer.</summary>
+                  <type>
+                    <choiceType>
+                      <constraints>
+                        <valueConstraint name="valuesSource">com.provar.core.model.base.java.EnumChoiceListValuesSource</valueConstraint>
+                        <valueConstraint name="valuesSourceDependencies">com.provar.core.model.ui.api.ClickMethod</valueConstraint>
+                      </constraints>
+                    </choiceType>
                   </type>
                 </apiParam>
               </generatedParameters>
@@ -1717,7 +1733,7 @@
                   <value class="value" valueClass="string">false</value>
                 </argument>
                 <argument id="beforeWait">
-                  <value class="uiWait" uri="ui:wait:timed?seconds=10"/>
+                  <value class="uiWait" uri="ui:wait:pageload?timeout=30"/>
                 </argument>
                 <argument id="afterWait">
                   <value class="uiWait" uri="ui:wait:timed?seconds=5"/>
@@ -1725,7 +1741,9 @@
                 <argument id="interactionDescription">
                   <value class="value" valueClass="string">Click the Next Button</value>
                 </argument>
-                <argument id="autoRetry"/>
+                <argument id="autoRetry">
+                  <value class="uiWait" uri="ui:wait:autoRetry:timeout=30"/>
+                </argument>
                 <argument id="ieClickMethod">
                   <value class="value" valueClass="string">Default</value>
                 </argument>
