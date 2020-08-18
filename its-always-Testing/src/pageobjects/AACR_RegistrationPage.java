@@ -32,8 +32,10 @@ public class AACR_RegistrationPage {
 	@ButtonType()
 	@FindBy(xpath = "//label[normalize-space(.)='*Password']/parent::lightning-input/following-sibling::div//button")
 	public WebElement createAccount;
+	@FindBy(id = "57:0")
 	@TextType()
-	@FindBy(id = "58:0")
 	public WebElement Affiliation;
-			
+	@TextType()
+	@FindBy(xpath = "//span[@title='Provar Bot']")
+	public WebElement provarAffiliationSelection;		
 }
