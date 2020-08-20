@@ -2,7 +2,7 @@
 <testCase id="5" visibility="Internal">
   <summary>&lt;br&gt;</summary>
   <steps>
-    <caseCall testCaseId="260a1fb9-0774-42c0-beb7-c27c260692d2" testCasePath="tests/Callable/BackOffice/2_NewPersonJoinActive.testcase" testItemId="83">
+    <caseCall testCaseId="260a1fb9-0774-42c0-beb7-c27c260692d2" testCasePath="tests/Callable/PortalCreate_BOwithWAIVEPurchase/2_NewPersonJoinActiveWithWaive.testcase" testItemId="83">
       <tags/>
       <outputArguments>
         <outputArgument id="FirstName">

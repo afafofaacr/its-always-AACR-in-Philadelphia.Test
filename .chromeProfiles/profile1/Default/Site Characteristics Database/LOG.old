@@ -1,5 +1,3 @@
-2020/07/07-14:52:24.422 1b78 Log #3: 29 ops saved to Table #4 OK
-2020/07/07-14:52:24.424 1b78 Archiving C:\Users\laura\Documents\GitHub\its-always-AACR-in-Philadelphia.Test\.chromeProfiles\profile1\Default\Site Characteristics Database/000003.log: OK
-2020/07/07-14:52:24.424 1b78 Table #4: 29 entries OK
-2020/07/07-14:52:24.425 1b78 Archiving C:\Users\laura\Documents\GitHub\its-always-AACR-in-Philadelphia.Test\.chromeProfiles\profile1\Default\Site Characteristics Database/MANIFEST-000001: OK
-2020/07/07-14:52:24.433 1b78 **** Repaired leveldb C:\Users\laura\Documents\GitHub\its-always-AACR-in-Philadelphia.Test\.chromeProfiles\profile1\Default\Site Characteristics Database; recovered 1 files; 712 bytes. Some data may have been lost. ****
+2020/08/19-14:47:33.616 49c0 Reusing MANIFEST C:\Users\laura\Documents\GitHub\its-always-AACR-in-Philadelphia.Test\.chromeProfiles\profile1\Default\Site Characteristics Database/MANIFEST-000001
+2020/08/19-14:47:33.617 49c0 Recovering log #6
+2020/08/19-14:47:33.617 49c0 Reusing old log C:\Users\laura\Documents\GitHub\its-always-AACR-in-Philadelphia.Test\.chromeProfiles\profile1\Default\Site Characteristics Database/000006.log 

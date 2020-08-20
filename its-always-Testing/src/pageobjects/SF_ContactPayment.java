@@ -36,6 +36,13 @@ this.driver=driver;
 	@ButtonType()
 	@FindByLabel(label = "Process Payment")
 	public WebElement processPayment;
+	@TextType()
+	@FindBy(xpath = "//input[@id='input-741']")
+		//@FindBy(xpath = "//input[@placeholder='Discount Code']")
+	public WebElement waiveCode;
+	@ButtonType()
+	@FindByLabel(label = "Apply")
+	public WebElement apply;
 
 	@PageFrame()
 	public static class OuterFrame{
