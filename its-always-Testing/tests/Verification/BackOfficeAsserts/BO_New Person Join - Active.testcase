@@ -2,7 +2,7 @@
 <testCase id="21">
   <summary>&lt;p&gt;&lt;font face="Segoe UI" size="2"&gt;Verify the New Person join through the BO works.&lt;/font&gt;&lt;/p&gt;&lt;p&gt;&lt;font face="Segoe UI" size="2"&gt;Verification is done by logging into SF and checking the Contact record.&lt;/font&gt;&lt;/p&gt;</summary>
   <steps>
-    <caseCall testCaseId="260a1fb9-0774-42c0-beb7-c27c260692d2" testCasePath="tests/Callable/BackOffice/2_NewPersonJoinActive.testcase" testItemId="65">
+    <caseCall testCaseId="260a1fb9-0774-42c0-beb7-c27c260692d2" testCasePath="tests/Callable/PortalCreate_BOwithWAIVEPurchase/2_NewPersonJoinActiveWithWaive.testcase" testItemId="65">
       <outputArguments>
         <outputArgument id="FirstName">
           <name class="value" valueClass="string">FirstName</name>

@@ -1,0 +1,33 @@
+2020/08/20-14:47:08.838 4bf0 Reusing MANIFEST C:\Users\laura\Documents\GitHub\its-always-AACR-in-Philadelphia.Test\.chromeProfiles\profile0\Default\IndexedDB\https_aacr.lightning.force.com_0.indexeddb.leveldb/MANIFEST-000001
+2020/08/20-14:47:08.838 4bf0 Recovering log #19
+2020/08/20-14:47:08.839 4bf0 Reusing old log C:\Users\laura\Documents\GitHub\its-always-AACR-in-Philadelphia.Test\.chromeProfiles\profile0\Default\IndexedDB\https_aacr.lightning.force.com_0.indexeddb.leveldb/000019.log 
+2020/08/20-14:48:15.387 2070 Level-0 table #24: started
+2020/08/20-14:48:15.421 2070 Level-0 table #24: 2668307 bytes OK
+2020/08/20-14:48:15.424 2070 Delete type=0 #19
+2020/08/20-14:48:49.673 2070 Compacting 1@1 + 1@2 files
+2020/08/20-14:48:49.696 2070 Generated table #25@1: 912 keys, 1327444 bytes
+2020/08/20-14:48:49.696 2070 Compacted 1@1 + 1@2 files => 1327444 bytes
+2020/08/20-14:48:49.698 2070 compacted to: files[ 0 0 1 0 0 0 0 ]
+2020/08/20-14:48:49.698 2070 Delete type=2 #21
+2020/08/20-14:48:49.698 2070 Delete type=2 #24
+2020/08/20-14:51:41.375 2070 Level-0 table #27: started
+2020/08/20-14:51:41.406 2070 Level-0 table #27: 3585671 bytes OK
+2020/08/20-14:51:41.408 2070 Delete type=0 #23
+2020/08/20-14:51:41.897 2070 Compacting 1@1 + 1@2 files
+2020/08/20-14:51:41.920 2070 Generated table #28@1: 1216 keys, 1891511 bytes
+2020/08/20-14:51:41.920 2070 Compacted 1@1 + 1@2 files => 1891511 bytes
+2020/08/20-14:51:41.924 2070 compacted to: files[ 0 0 1 0 0 0 0 ]
+2020/08/20-14:51:41.925 2070 Delete type=2 #25
+2020/08/20-14:51:41.925 2070 Delete type=2 #27
+2020/08/20-14:52:26.586 2070 Level-0 table #30: started
+2020/08/20-14:52:26.597 2070 Level-0 table #30: 752821 bytes OK
+2020/08/20-14:52:26.599 2070 Delete type=0 #26
+2020/08/20-14:52:26.600 2070 Manual compaction at level-0 from (begin) .. (end); will stop at (end)
+2020/08/20-14:52:26.600 2070 Manual compaction at level-1 from (begin) .. (end); will stop at '\x00\x05\x01\x1f\x03\x00\xd0$\xbdg{wB\x00\x01:\x000\x000\x00D\x001\x00I\x000\x000\x000\x000\x000\x001\x00f\x00y\x00r\x00P\x000\x000\x000\x000\x000\x000\x000\x000\x000\x000\x000\x000\x000\x000\x000\x000\x000\x005\x001\x00I\x000\x000\x000\x000\x000\x004\x00c\x00s\x00D\x00c\x004\x009\x00.\x000\x00:\x00_\x00r\x00e\x00c\x00o\x00r\x00d\x00s' @ 30574 : 1
+2020/08/20-14:52:26.600 2070 Compacting 1@1 + 1@2 files
+2020/08/20-14:52:26.620 2070 Generated table #31@1: 1124 keys, 1311447 bytes
+2020/08/20-14:52:26.620 2070 Compacted 1@1 + 1@2 files => 1311447 bytes
+2020/08/20-14:52:26.621 2070 compacted to: files[ 0 0 1 0 0 0 0 ]
+2020/08/20-14:52:26.622 2070 Delete type=2 #28
+2020/08/20-14:52:26.622 2070 Delete type=2 #30
+2020/08/20-14:52:26.623 2070 Manual compaction at level-1 from '\x00\x05\x01\x1f\x03\x00\xd0$\xbdg{wB\x00\x01:\x000\x000\x00D\x001\x00I\x000\x000\x000\x000\x000\x001\x00f\x00y\x00r\x00P\x000\x000\x000\x000\x000\x000\x000\x000\x000\x000\x000\x000\x000\x000\x000\x000\x000\x005\x001\x00I\x000\x000\x000\x000\x000\x004\x00c\x00s\x00D\x00c\x004\x009\x00.\x000\x00:\x00_\x00r\x00e\x00c\x00o\x00r\x00d\x00s' @ 30574 : 1 .. (end); will stop at (end)

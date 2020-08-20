@@ -7,6 +7,14 @@
   <sourcePath>src</sourcePath>
   <secureStoragePath>.secrets</secureStoragePath>
   <browserDebugPort>0</browserDebugPort>
+  <environments>
+    <environment name="UAT">
+      <summary>Test Environment</summary>
+    </environment>
+    <environment name="PROD">
+      <summary>Production Environment</summary>
+    </environment>
+  </environments>
   <variables>
     <testVariable name="OneYr_StartDate">
       <valueType class="textType">
@@ -129,6 +137,12 @@
             <connectionUrl secureStorageNodeId="0eb32d11-f931-4994-ac13-ef4059b1b7d4" url="sf:user=laura.perry@aacr.org.qa;password={password};securityToken={securityToken};environment=SANDBOX;userLoginUrl=https://aacr--qa.my.salesforce.com;lightningMode=true"/>
           </connectionUrls>
         </connection>
+        <connection id="8ebd2f3c-9c0c-4d6e-b566-94e829749132" name="LP_PROD">
+          <summary/>
+          <connectionUrls>
+            <connectionUrl secureStorageNodeId="19b842f0-fa11-418b-8a25-6ad1b9b49036" url="sf:user=laura.perry@aacr.org;password={password};securityToken={securityToken};environment=PROD_DEV;lightningMode=true"/>
+          </connectionUrls>
+        </connection>
       </connections>
     </connectionClass>
     <connectionClass name="webservice">
@@ -153,6 +167,12 @@
           <summary>UAT Portal for Members</summary>
           <connectionUrls>
             <connectionUrl url="se:baseUrl=https://uat-aacr.cs47.force.com"/>
+          </connectionUrls>
+        </connection>
+        <connection id="de6ef4bf-3710-4d18-992e-c870179100d1" name="MyAACR_PROD">
+          <summary>PROD Portal for Members</summary>
+          <connectionUrls>
+            <connectionUrl url="se:baseUrl=https://myaacr.aacr.org/dw_aacr_custom_login?site=a0d1I0000011T3OQAU"/>
           </connectionUrls>
         </connection>
       </connections>
