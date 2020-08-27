@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<testCase id="4" visibility="Internal">
-  <summary>&lt;p&gt;&lt;font face="Segoe UI" size="2"&gt;**If renewals are on, picks to renew to the current year.**&lt;/font&gt;&lt;/p&gt;&lt;p&gt;&lt;font face="Segoe UI" size="2"&gt;1. Calls 1_NewPersonCreation (creates a new person via Salesforce New Contact)&lt;/font&gt;&lt;/p&gt;&lt;p&gt;&lt;font face="Segoe UI" size="2"&gt;2. Navigate to the Contact page of the newly created Contact.&lt;/font&gt;&lt;/p&gt;&lt;p&gt;&lt;font face="Segoe UI" size="2"&gt;3. Use New Application to add the following:&lt;/font&gt;&lt;/p&gt;&lt;p&gt;&lt;font face="Segoe UI" size="2"&gt;- Associate Membership&lt;/font&gt;&lt;/p&gt;&lt;p&gt;&lt;font face="Segoe UI" size="2"&gt;- (Blood Cancer Journal gets added with the membership)&lt;/font&gt;&lt;/p&gt;&lt;p&gt;&lt;font face="Segoe UI" size="2"&gt;- Tumor Microenvironment (TME)&lt;/font&gt;&lt;/p&gt;&lt;p&gt;&lt;font face="Segoe UI" size="2"&gt;- Buy up: Clinical Cancer Research Journal - Print&lt;/font&gt;&lt;/p&gt;&lt;p&gt;&lt;font face="Segoe UI" size="2"&gt;4. Pay&lt;/font&gt;&lt;/p&gt;</summary>
+<testCase id="7" visibility="Internal">
+  <summary/>
   <steps>
-    <caseCall testCaseId="9d2199f7-488c-4b07-a1a3-89b79330aef5" testCasePath="tests/Callable/Portal/1.NewUserRegistration.testcase" testItemId="93">
+    <caseCall testCaseId="9d2199f7-488c-4b07-a1a3-89b79330aef5" testCasePath="tests/Callable/Portal/1.NewUserRegistration.testcase" testItemId="268">
       <outputArguments>
         <outputArgument id="FirstName">
           <name class="value" valueClass="string">FirstName</name>
@@ -18,7 +18,7 @@
         </outputArgument>
       </outputArguments>
     </caseCall>
-    <apiCall apiId="com.provar.plugins.bundled.apis.control.SetValues" name="SetValues" testItemId="30" title="Set Values: SearchName">
+    <apiCall apiId="com.provar.plugins.bundled.apis.control.SetValues" name="SetValues" testItemId="269" title="Set Values: SearchName">
       <arguments>
         <argument id="values">
           <value class="valueList" mutable="Mutable">
@@ -47,7 +47,7 @@
         </argument>
       </arguments>
     </apiCall>
-    <apiCall apiId="com.provar.plugins.forcedotcom.core.testapis.ApexConnect" name="ApexConnect" testItemId="26" title="Salesforce Connect: LP_UAT (Test)">
+    <apiCall apiId="com.provar.plugins.forcedotcom.core.testapis.ApexConnect" name="ApexConnect" testItemId="270" title="Salesforce Connect: LP_UAT (Test)">
       <arguments>
         <argument id="connectionName">
           <value class="value" valueClass="string">LP_UAT</value>
@@ -88,7 +88,7 @@
         <argument id="webBrowser"/>
       </arguments>
     </apiCall>
-    <apiCall apiId="com.provar.plugins.forcedotcom.core.ui.UiWithScreen" name="UiWithScreen" testItemId="27" title="On SF Global Search">
+    <apiCall apiId="com.provar.plugins.forcedotcom.core.ui.UiWithScreen" name="UiWithScreen" testItemId="271" title="On SF Global Search">
       <arguments>
         <argument id="uiConnectionName">
           <value class="value" valueClass="string">LP_UAT</value>
@@ -184,7 +184,7 @@
         </clause>
       </clauses>
     </apiCall>
-    <apiCall apiId="com.provar.plugins.forcedotcom.core.ui.UiWithScreen" name="UiWithScreen" testItemId="28" title="On SF Contact Search screen">
+    <apiCall apiId="com.provar.plugins.forcedotcom.core.ui.UiWithScreen" name="UiWithScreen" testItemId="272" title="On SF Contact Search screen">
       <arguments>
         <argument id="uiConnectionName">
           <value class="value" valueClass="string">LP_UAT</value>
@@ -309,7 +309,7 @@
         </clause>
       </clauses>
     </apiCall>
-    <apiCall apiId="com.provar.plugins.forcedotcom.core.ui.UiWithScreen" name="UiWithScreen" testItemId="31" title="On SF_ContactPage page">
+    <apiCall apiId="com.provar.plugins.forcedotcom.core.ui.UiWithScreen" name="UiWithScreen" testItemId="273" title="On SF_ContactPage page">
       <arguments>
         <argument id="uiConnectionName">
           <value class="value" valueClass="string">LP_UAT</value>
@@ -403,13 +403,13 @@
         </apiParam>
       </generatedParameters>
     </apiCall>
-    <apiCall apiId="com.provar.plugins.forcedotcom.core.ui.UiWithScreen" name="UiWithScreen" testItemId="38" title="On SF BAMContainer Aura component">
+    <apiCall apiId="com.provar.plugins.forcedotcom.core.ui.UiWithScreen" name="UiWithScreen" testItemId="274" title="On SF BAMContainer Aura component">
       <arguments>
         <argument id="uiConnectionName">
           <value class="value" valueClass="string">LP_UAT</value>
         </argument>
         <argument id="target">
-          <value class="uiTarget" uri="sf:ui:target?pageObject=pageobjects.SF_BAMContainer&amp;auraComponent=BAMContainer"/>
+          <value class="uiTarget" uri="sf:ui:target?lightningComponent=BAMContainer&amp;pageObject=pageobjects.SF_BAMContainer"/>
         </argument>
         <argument id="navigate">
           <value class="value" valueClass="string">Dont</value>
@@ -534,7 +534,7 @@
                 </clause>
               </clauses>
             </apiCall>
-            <apiCall apiId="com.provar.plugins.forcedotcom.core.ui.UiDoAction" name="UiDoAction" testItemId="49" title="Set the Item Quick Add field to Associate Membership">
+            <apiCall apiId="com.provar.plugins.forcedotcom.core.ui.UiDoAction" name="UiDoAction" testItemId="49" title="Set the Item Quick Add field to Student Membership">
               <arguments>
                 <argument id="locator">
                   <value class="uiLocator" uri="ui:locator?name=itemQuickAdd"/>
@@ -543,7 +543,7 @@
                   <value class="uiInteraction" uri="ui:interaction?name=set"/>
                 </argument>
                 <argument id="value">
-                  <value class="value" valueClass="string">Associate Membership</value>
+                  <value class="value" valueClass="string">Student Membership</value>
                 </argument>
                 <argument id="blur">
                   <value class="value" valueClass="boolean">false</value>
@@ -564,7 +564,7 @@
                   <value class="uiWait" uri="default"/>
                 </argument>
                 <argument id="interactionDescription">
-                  <value class="value" valueClass="string">Set the Item Quick Add field to Associate Membership</value>
+                  <value class="value" valueClass="string">Set the Item Quick Add field to Student Membership</value>
                 </argument>
                 <argument id="autoRetry"/>
               </arguments>
@@ -834,7 +834,7 @@
                   <value class="uiWait" uri="default"/>
                 </argument>
                 <argument id="afterWait">
-                  <value class="uiWait" uri="ui:wait:auraBusy?timeout=60"/>
+                  <value class="uiWait" uri="ui:wait:timed?seconds=5"/>
                 </argument>
                 <argument id="interactionDescription">
                   <value class="value" valueClass="string">Click the Add To Order button</value>
@@ -885,7 +885,7 @@
                   <value class="uiWait" uri="ui:wait:timed?seconds=4"/>
                 </argument>
                 <argument id="afterWait">
-                  <value class="uiWait" uri="ui:wait:timed?seconds=4"/>
+                  <value class="uiWait" uri="default"/>
                 </argument>
                 <argument id="interactionDescription">
                   <value class="value" valueClass="string">Click the Next button</value>
@@ -918,9 +918,8 @@
           </steps>
         </clause>
       </clauses>
-      <generatedParameters/>
     </apiCall>
-    <apiCall apiId="com.provar.plugins.forcedotcom.core.ui.UiWithScreen" name="UiWithScreen" testItemId="79" title="On SF_ContactPayment page">
+    <apiCall apiId="com.provar.plugins.forcedotcom.core.ui.UiWithScreen" name="UiWithScreen" testItemId="275" title="On SF_ContactPayment page">
       <arguments>
         <argument id="uiConnectionName">
           <value class="value" valueClass="string">LP_UAT</value>
@@ -952,7 +951,7 @@
       <clauses>
         <clause name="substeps" testItemId="80">
           <steps>
-            <apiCall apiId="com.provar.plugins.forcedotcom.core.ui.UiDoAction" name="UiDoAction" testItemId="92" title="Click the Process Order">
+            <apiCall apiId="com.provar.plugins.forcedotcom.core.ui.UiDoAction" name="UiDoAction" testItemId="86" title="Click the Process Order">
               <arguments>
                 <argument id="locator">
                   <value class="uiLocator" uri="ui:pageobject:field?field=processOrder&amp;pageId=pageobjects.SF_ContactPayment"/>
@@ -1046,6 +1045,42 @@
         <path element="LastName"/>
       </sourceValue>
     </param>
+    <param name="Email" title="Email from LastName">
+      <summary>The name of the value to be set.  May contain sub-values, e.g. 'Value1.SubValue1'.</summary>
+      <type>
+        <textType>
+          <constraints>
+            <valueConstraint name="minLength">0</valueConstraint>
+            <valueConstraint name="maxLength">9999</valueConstraint>
+            <valueConstraint name="regex"/>
+          </constraints>
+        </textType>
+      </type>
+      <sourceValue class="compound">
+        <parts>
+          <value valueClass="string">c</value>
+          <variable>
+            <path element="LastName"/>
+          </variable>
+          <value valueClass="string">@yopmail.com</value>
+        </parts>
+      </sourceValue>
+    </param>
+    <param name="FakePassword" title="FakePassword">
+      <summary>The name of the value to be set.  May contain sub-values, e.g. 'Value1.SubValue1'.</summary>
+      <type>
+        <textType>
+          <constraints>
+            <valueConstraint name="minLength">0</valueConstraint>
+            <valueConstraint name="maxLength">9999</valueConstraint>
+            <valueConstraint name="regex"/>
+          </constraints>
+        </textType>
+      </type>
+      <sourceValue class="variable">
+        <path element="FakePassword"/>
+      </sourceValue>
+    </param>
   </outputParams>
   <outputArgs>
     <outputArgument id="FirstName">
@@ -1053,6 +1088,12 @@
     </outputArgument>
     <outputArgument id="LastName">
       <name class="value" valueClass="string">LastName</name>
+    </outputArgument>
+    <outputArgument id="Email">
+      <name class="value" valueClass="string">Email</name>
+    </outputArgument>
+    <outputArgument id="FakePassword">
+      <name class="value" valueClass="string">FakePassword</name>
     </outputArgument>
   </outputArgs>
 </testCase>

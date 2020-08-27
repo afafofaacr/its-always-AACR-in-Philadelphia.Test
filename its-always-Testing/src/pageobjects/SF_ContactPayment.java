@@ -37,8 +37,7 @@ this.driver=driver;
 	@FindByLabel(label = "Process Payment")
 	public WebElement processPayment;
 	@TextType()
-	@FindBy(xpath = "//input[@id='input-741']")
-		//@FindBy(xpath = "//input[@placeholder='Discount Code']")
+	@FindBy(xpath = "(//input)[21]")
 	public WebElement waiveCode;
 	@ButtonType()
 	@FindByLabel(label = "Apply")

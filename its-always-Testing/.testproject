@@ -166,7 +166,7 @@
         <connection name="MyAACR_UAT">
           <summary>UAT Portal for Members</summary>
           <connectionUrls>
-            <connectionUrl url="se:baseUrl=https://uat-aacr.cs47.force.com"/>
+            <connectionUrl url="se:baseUrl=https://uat-aacr.cs195.force.com/"/>
           </connectionUrls>
         </connection>
         <connection id="de6ef4bf-3710-4d18-992e-c870179100d1" name="MyAACR_PROD">

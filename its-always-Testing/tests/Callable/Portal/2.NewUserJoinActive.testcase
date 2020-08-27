@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<testCase id="6" registryId="93a53ecb-3917-4b27-adad-d1d71f3714cc" visibility="Internal">
+<testCase id="10" registryId="93a53ecb-3917-4b27-adad-d1d71f3714cc" visibility="Internal">
   <summary/>
   <steps>
     <caseCall testCaseId="9d2199f7-488c-4b07-a1a3-89b79330aef5" testCasePath="tests/Callable/Portal/1.NewUserRegistration.testcase" testItemId="222">
@@ -707,7 +707,7 @@
                   <value class="value" valueClass="string">Set the Major Focus Drop Down to Advocacy</value>
                 </argument>
                 <argument id="autoRetry">
-                  <value class="uiWait" uri="ui:wait:autoRetry:timeout=40"/>
+                  <value class="uiWait" uri="ui:wait:autoRetry:timeout=50"/>
                 </argument>
               </arguments>
               <generatedParameters>
@@ -1643,7 +1643,7 @@
                   <value class="value" valueClass="string">false</value>
                 </argument>
                 <argument id="beforeWait">
-                  <value class="uiWait" uri="ui:wait:pageload?timeout=60"/>
+                  <value class="uiWait" uri="ui:wait:timed?seconds=7"/>
                 </argument>
                 <argument id="afterWait">
                   <value class="uiWait" uri="ui:wait:timed?seconds=5"/>

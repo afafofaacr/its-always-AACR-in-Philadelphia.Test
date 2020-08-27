@@ -20,9 +20,6 @@ public class AACR_RegistrationPage {
 	@TextType()
 	@FindBy(xpath = "//label[normalize-space(.)='*Last Name']/following-sibling::div//input")
 	public WebElement lastName;
-	//@ChoiceListType(values = { @ChoiceListValue(value = "Provar Bot") })
-	//@FindBy(id = "58:0")
-	//public WebElement Affiliation;
 	@TextType()
 	@FindBy(xpath = "//label[normalize-space(.)='*Email']/following-sibling::div//input")
 	public WebElement email;
@@ -32,7 +29,8 @@ public class AACR_RegistrationPage {
 	@ButtonType()
 	@FindBy(xpath = "//label[normalize-space(.)='*Password']/parent::lightning-input/following-sibling::div//button")
 	public WebElement createAccount;
-	@FindBy(id = "57:0")
+	//this id number generally changes on refresh
+	@FindBy(id = "56:0")
 	@TextType()
 	public WebElement Affiliation;
 	@TextType()
