@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<testCase id="28" visibility="Internal">
+<testCase id="4" visibility="Internal">
   <summary/>
   <steps>
-    <apiCall apiId="com.provar.plugins.bundled.apis.control.SetValues" name="SetValues" testItemId="140" title="Set Values: FullName">
+    <apiCall apiId="com.provar.plugins.bundled.apis.control.SetValues" name="SetValues" testItemId="140" title="Set Values: NumOfTerms">
       <arguments>
         <argument id="values">
           <value class="valueList" mutable="Mutable">
@@ -11,7 +11,29 @@
                 <value class="value" valueClass="string">FullName</value>
               </namedValue>
               <namedValue name="value">
-                <value class="value" valueClass="string">AbbyXV082 TesterXV08D</value>
+                <value class="value" valueClass="string">AbbyNW7N7 TesterNW7NR</value>
+              </namedValue>
+              <namedValue name="valueScope">
+                <value class="value" valueClass="string">Test</value>
+              </namedValue>
+            </namedValues>
+            <namedValues mutable="Mutable">
+              <namedValue name="valuePath">
+                <value class="value" valueClass="string">Subs</value>
+              </namedValue>
+              <namedValue name="value">
+                <value class="value" valueClass="string">4</value>
+              </namedValue>
+              <namedValue name="valueScope">
+                <value class="value" valueClass="string">Test</value>
+              </namedValue>
+            </namedValues>
+            <namedValues mutable="Mutable">
+              <namedValue name="valuePath">
+                <value class="value" valueClass="string">NumOfTerms</value>
+              </namedValue>
+              <namedValue name="value">
+                <value class="value" valueClass="string">1</value>
               </namedValue>
               <namedValue name="valueScope">
                 <value class="value" valueClass="string">Test</value>
@@ -318,6 +340,9 @@
         <clause name="substeps" testItemId="145">
           <steps>
             <apiCall apiId="com.provar.plugins.forcedotcom.core.ui.UiAssert" isTitleUpdated="true" name="UiAssert" testItemId="146" title="UI Assert - Read in Number of Subs">
+              <tags>
+                <string>disabled</string>
+              </tags>
               <arguments>
                 <argument id="resultName">
                   <value class="value" valueClass="string">Subs</value>
@@ -673,6 +698,9 @@
                                 <clause name="substeps" testItemId="227">
                                   <steps>
                                     <apiCall apiId="com.provar.plugins.forcedotcom.core.ui.UiAssert" isTitleUpdated="true" name="UiAssert" testItemId="162" title="UI Assert - Read in Number of Terms">
+                                      <tags>
+                                        <string>disabled</string>
+                                      </tags>
                                       <arguments>
                                         <argument id="resultName">
                                           <value class="value" valueClass="string">NumOfTerms</value>
