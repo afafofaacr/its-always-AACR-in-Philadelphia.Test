@@ -7,15 +7,15 @@ import org.openqa.selenium.support.FindBy;
 
 import com.provar.core.testapi.annotations.*;
 
-@SalesforcePage( title="lst__relatedListAuraAppEventListener"                                
+@SalesforcePage( title="OLDlst__relatedListAuraAppEventListener"                                
                , summary=""
                , connection="LP_UAT"
                , object=""
      )             
-public class lst__relatedListAuraAppEventListener {
+public class OLDlst__relatedListAuraAppEventListener {
 
-	@LinkType()
-	@FindBy(xpath = "(//a[contains(normalize-space(.),'Subscriptions')])[1]")
-	public WebElement Subs;
+	//@LinkType()
+	//@FindBy(xpath = "(//a[contains(normalize-space(.),'Subscriptions'))[0]")
+	//public WebElement subscriptions;
 	
 }
